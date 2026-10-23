@@ -7,7 +7,7 @@
   --line: #3f3f42;
   --red: #ff2d2d;
   --amber: #ffc53d;
-  --link: #9fd4ff;
+  --link: #d7d0c4;
   --focus: #ffe08a;
 }
 
@@ -27,8 +27,17 @@ body {
   font: 16px/1.5 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
-a { color: var(--link); }
-a:hover { color: #fff; }
+a,
+a:link,
+a:visited {
+  color: var(--link);
+  text-decoration-color: #6f6a63;
+  text-underline-offset: 0.16em;
+}
+a:hover {
+  color: #f4efe6;
+  text-decoration-color: #b5653b;
+}
 
 .mast { padding-top: 1.15rem; }
 
@@ -152,7 +161,10 @@ main h2,
   gap: 0.75rem;
 }
 
-.week-card {
+.week-card,
+.week-card:link,
+.week-card:visited,
+.week-card:hover {
   display: grid;
   gap: 0.15rem;
   padding: 0.9rem 1rem;
@@ -162,7 +174,7 @@ main h2,
   color: var(--ink);
   text-decoration: none;
 }
-.week-card:hover { border-color: var(--amber); color: var(--ink); }
+.week-card:hover { border-color: var(--amber); }
 .week-card .kind {
   color: var(--red);
   font-size: 0.75rem;
@@ -226,13 +238,18 @@ main h2,
 
 .empty { color: var(--amber); font-weight: 700; }
 
-.hit .jump {
-  color: var(--red);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+.hit .jump,
+.hit .jump:link,
+.hit .jump:visited,
+.hit .jump:hover {
+  color: #8d8880;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-decoration: none;
 }
+.hit .jump:hover { color: #c8c2b6; }
 
 a:focus-visible,
 .week-card:focus-visible,
