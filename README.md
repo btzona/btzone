@@ -4,7 +4,7 @@ A public, week-over-week archive of Bryan Timmins's extreme metal release digest
 
 **Public site:** https://btzona.github.io/btzone/
 
-The index lists weeks newest first. The top bar filters by genre (Black, Death, Grind / Crust, Sludge / Doom, Experimental). On a week page it shows that style and scrolls to the first matching `>> GENRE <<` section. On the index it keeps the weeks that include the genre and lists those releases across weeks. A week page groups releases under `>> GENRE <<` headings. Each line reads:
+The index lists weeks newest first. Under the title, genre labels filter the page (Black, Death, Grind · Crust, Sludge · Doom, Experimental). On a week page it shows that style and scrolls to the first matching `>> GENRE <<` section. On the index it keeps the weeks that include the genre and lists those releases across weeks. A week page groups releases under `>> GENRE <<` headings. Each line reads:
 
 `Band - Album - MM/DD - genre - Country`
 

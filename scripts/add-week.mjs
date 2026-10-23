@@ -230,8 +230,8 @@ function kindLabel(kind) {
 const FAMILIES = [
   { id: "black", label: "Black", test: /black/i },
   { id: "death", label: "Death", test: /death|slam/i },
-  { id: "grind", label: "Grind / Crust", test: /grind|crust/i },
-  { id: "sludge", label: "Sludge / Doom", test: /sludge|doom|funeral|stoner/i },
+  { id: "grind", label: "Grind · Crust", test: /grind|crust/i },
+  { id: "sludge", label: "Sludge · Doom", test: /sludge|doom|funeral|stoner/i },
   { id: "experimental", label: "Experimental", test: /experimental|noise|industrial|avant|post-punk|post-rock|drone/i },
 ];
 
@@ -291,8 +291,7 @@ function renderRelease(release) {
   return `<li class="rel" data-families="${escapeHtml(families)}" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
 }
 
-function pageShell({ title, description, depth, body, selfPath, families }) {
-  const prefix = depth ? "../" : "";
+function genreNav(selfPath, families) {
   const links = [
     `<a data-genre="" href="${escapeHtml(selfPath)}">All</a>`,
     ...families.map(
@@ -300,6 +299,13 @@ function pageShell({ title, description, depth, body, selfPath, families }) {
         `<a data-genre="${escapeHtml(family.id)}" href="${escapeHtml(selfPath)}?genre=${escapeHtml(family.id)}">${escapeHtml(family.label)}</a>`
     ),
   ].join("\n    ");
+  return `<nav class="genre-nav" aria-label="Genres">
+    ${links}
+  </nav>`;
+}
+
+function pageShell({ title, description, depth, body }) {
+  const prefix = depth ? "../" : "";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -314,12 +320,6 @@ function pageShell({ title, description, depth, body, selfPath, families }) {
 </head>
 <body>
 <a class="skip" href="#content">Skip to the releases</a>
-<header class="site-nav">
-  <a class="brand" href="${prefix}index.html">BT's Report</a>
-  <nav class="genre-nav" aria-label="Genres">
-    ${links}
-  </nav>
-</header>
 ${body}
 <script src="${prefix}js/site.js"></script>
 </body>
@@ -369,10 +369,10 @@ function renderIndex(weeks, families) {
     .join("\n");
 
   const body = `<header class="mast">
-  <p class="kicker">Public archive</p>
   <h1>BT's Extreme Metal Release Report</h1>
-  <p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page. Use Genres to browse one style across weeks.</p>
 </header>
+${genreNav("index.html", families)}
+<p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page.</p>
 <figure class="banner">
   <img src="img/schammasch-eindhoven-2016.jpg" alt="Schammasch performing under red and blue stage lights at Eindhoven Metal Meeting, 2016" width="1280" height="1920">
   <figcaption><a href="#attributions">Photo: Schammasch @ EMM 2016</a></figcaption>
@@ -398,8 +398,6 @@ ${attributions("Reports compiled by Bryan Timmins. This page is a reading copy o
     description:
       "Week-over-week extreme metal release digests: black, death, grind, crust, sludge, and doom.",
     depth: 0,
-    selfPath: "index.html",
-    families,
     body,
   });
 }
@@ -436,8 +434,9 @@ ${items}
   const body = `<header class="mast">
   <p class="kicker">${escapeHtml(kindLabel(week.kind))}</p>
   <h1>${escapeHtml(week.title)}</h1>
-  <p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so. Pick a genre above to show only that style.</p>
 </header>
+${genreNav(`${week.slug}.html`, families)}
+<p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so.</p>
 <main id="content">
   ${nav}
   <form class="finder" role="search">
@@ -455,8 +454,6 @@ ${attributions(`<a href="../index.html">All weeks</a>`)}`;
     title: `${week.title} · BT's Extreme Metal Release Report`,
     description: `${week.title}. ${count} extreme metal releases.`,
     depth: 1,
-    selfPath: `${week.slug}.html`,
-    families,
     body,
   });
 }
