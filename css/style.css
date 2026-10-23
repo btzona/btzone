@@ -124,7 +124,17 @@ footer,
   font-size: 0.85rem;
 }
 
-.banner figcaption a { font-weight: 700; }
+.banner figcaption a,
+.banner figcaption a:link,
+.banner figcaption a:visited,
+.banner figcaption a:active {
+  color: #c5c1b8;
+  font-weight: 700;
+  text-decoration-color: #8e8a84;
+}
+.banner figcaption a:hover {
+  color: #e6e2da;
+}
 
 main h2,
 .genre h2 {
