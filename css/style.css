@@ -29,17 +29,89 @@ body {
 
 a,
 a:link,
-a:visited {
-  color: var(--link);
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #d7d0c4;
+  text-decoration-line: underline;
   text-decoration-color: #6f6a63;
   text-underline-offset: 0.16em;
 }
-a:hover {
+a:hover,
+a:active,
+a:focus {
   color: #f4efe6;
   text-decoration-color: #b5653b;
 }
 
 .mast { padding-top: 1.15rem; }
+
+.wordmark,
+.wordmark:link,
+.wordmark:visited,
+.wordmark:hover,
+.wordmark:active,
+.wordmark:focus {
+  color: #f4f1ea;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.wordmark:hover,
+.wordmark:focus {
+  color: var(--amber);
+}
+.mast h1 .wordmark,
+.mast h1 .wordmark:link,
+.mast h1 .wordmark:visited,
+.mast h1 .wordmark:active {
+  font-size: inherit;
+  color: inherit;
+}
+.mast h1 .wordmark:hover,
+.mast h1 .wordmark:focus {
+  color: var(--amber);
+}
+
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  margin: 0 0 0.85rem;
+}
+.home-row .wordmark,
+.home-row .wordmark:link,
+.home-row .wordmark:visited {
+  font-size: clamp(1.35rem, 3.4vw, 1.85rem);
+  color: #f4f1ea;
+}
+.back,
+.back:link,
+.back:visited,
+.back:hover,
+.back:active,
+.back:focus {
+  color: #cbbba4;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #b5653b;
+  padding-bottom: 0.05rem;
+}
+.back:hover,
+.back:focus {
+  color: #f4efe6;
+  border-bottom-color: var(--amber);
+}
 
 .genre-nav {
   position: sticky;
@@ -56,7 +128,10 @@ a:hover {
 
 .genre-nav a,
 .genre-nav a:link,
-.genre-nav a:visited {
+.genre-nav a:visited,
+.genre-nav a:hover,
+.genre-nav a:active,
+.genre-nav a:focus {
   color: #cbbba4;
   background: transparent;
   text-decoration: none;
@@ -71,7 +146,9 @@ a:hover {
   border-bottom: 3px solid transparent;
 }
 
-.genre-nav a:hover {
+.genre-nav a:hover,
+.genre-nav a:active,
+.genre-nav a:focus {
   color: #f4efe6;
   border-bottom-color: #b5653b;
 }
@@ -79,7 +156,9 @@ a:hover {
 .genre-nav a[aria-current="page"],
 .genre-nav a[aria-current="page"]:link,
 .genre-nav a[aria-current="page"]:visited,
-.genre-nav a[aria-current="page"]:hover {
+.genre-nav a[aria-current="page"]:hover,
+.genre-nav a[aria-current="page"]:active,
+.genre-nav a[aria-current="page"]:focus {
   color: var(--amber);
   border-bottom-color: var(--red);
   text-shadow: 0 0 14px rgba(255, 45, 45, 0.55);
@@ -136,12 +215,15 @@ footer,
 .banner figcaption a,
 .banner figcaption a:link,
 .banner figcaption a:visited,
-.banner figcaption a:active {
+.banner figcaption a:hover,
+.banner figcaption a:active,
+.banner figcaption a:focus {
   color: #c5c1b8;
   font-weight: 700;
   text-decoration-color: #8e8a84;
 }
-.banner figcaption a:hover {
+.banner figcaption a:hover,
+.banner figcaption a:focus {
   color: #e6e2da;
 }
 
@@ -164,7 +246,9 @@ main h2,
 .week-card,
 .week-card:link,
 .week-card:visited,
-.week-card:hover {
+.week-card:hover,
+.week-card:active,
+.week-card:focus {
   display: grid;
   gap: 0.15rem;
   padding: 0.9rem 1rem;
@@ -174,7 +258,8 @@ main h2,
   color: var(--ink);
   text-decoration: none;
 }
-.week-card:hover { border-color: var(--amber); }
+.week-card:hover,
+.week-card:focus { border-color: var(--amber); }
 .week-card .kind {
   color: var(--red);
   font-size: 0.75rem;
@@ -241,7 +326,9 @@ main h2,
 .hit .jump,
 .hit .jump:link,
 .hit .jump:visited,
-.hit .jump:hover {
+.hit .jump:hover,
+.hit .jump:active,
+.hit .jump:focus {
   color: #8d8880;
   font-size: 0.75rem;
   font-weight: 500;
@@ -249,7 +336,8 @@ main h2,
   text-transform: uppercase;
   text-decoration: none;
 }
-.hit .jump:hover { color: #c8c2b6; }
+.hit .jump:hover,
+.hit .jump:focus { color: #c8c2b6; }
 
 a:focus-visible,
 .week-card:focus-visible,
