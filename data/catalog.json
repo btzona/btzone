@@ -1028,59 +1028,12 @@
       ]
     },
     {
-      "slug": "2026-10-10",
-      "title": "Saturday catch-up · Oct 9–10, 2026",
-      "kind": "saturday",
-      "sort": "2026-10-10",
-      "blurb": "4 releases · death metal",
-      "sources": "Metal War Weekly War 9/10 (posted after Friday's scan), Heavy Music HQ release calendar, Cutting Edge Metal (Oct 9), Heavy Blog Is Heavy, Angry Metal Guy, VM-Underground, releaseMetal, label/band pages. Checked and skipped as out of window: Azaghal (out 5/29), Static Abyss (8/28), The Bleeding (digital 9/18), Spirit Possession and Eshtadur (10/2). Skipped as off-genre: Avrak, Cultus Sanguine, Left To Suffer, stoner/trad doom/heavy releases. To The Teeth tracklist not scrapeable.",
-      "sections": [
-        {
-          "genre": "DEATH METAL",
-          "releases": [
-            {
-              "band": "Acerbated",
-              "album": "Lurking Deep Within",
-              "date": "10/10",
-              "genre": "technical brutal death metal",
-              "place": "Spain/Colombia",
-              "url": "https://pathologicallyexplicit.bandcamp.com/album/acerbated-lurking-deep-within"
-            },
-            {
-              "band": "Ares",
-              "album": "Memento Mori, Memento Vivere",
-              "date": "10/10",
-              "genre": "melodic death metal",
-              "place": "Japan",
-              "url": null
-            },
-            {
-              "band": "Diablerie",
-              "album": "The Catalyst Vol. II: Alternate",
-              "date": "10/09",
-              "genre": "melodic death / industrial metal",
-              "place": "Finland",
-              "url": "https://diablerie.fi/"
-            },
-            {
-              "band": "Selenoplexia",
-              "album": "Beneath the Lunar Tyrant",
-              "date": "10/09",
-              "genre": "blackened death metal",
-              "place": "USA",
-              "url": "https://selenoplexia.bandcamp.com/music"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "2026-10-09",
-      "title": "Week of Oct 4–9, 2026",
+      "title": "Week of Oct 4–10, 2026",
       "kind": "friday",
       "sort": "2026-10-09",
-      "blurb": "42 releases · black metal, crust punk, death metal, experimental / noise, sludge / doom",
-      "sources": "Heavy Blog Is Heavy (10/9 roundup), Metal Injection (Weekly Injection 10.9), Metal Collision (Week 41), Nine Circles Initial Descent (Oct 5–11), Heavy Music HQ release calendar, VM-Underground (this week's reviews were mostly older releases; only Mutation in window), Toilet ov Hell (This Toilet Tuesday 10/6), Metal Connect, The Razor's Edge, Ghost Cult, Angry Metal Guy, Metal Archives. Metal War Weekly War 10/9 issue not yet posted; To The Teeth tracklist not scrapeable. Dates/countries via Metal Archives, Bandcamp and label pages. Excluded: Acerbated (out 10/10), Carceral (digital out in Aug), trad/heavy/stoner/power releases.",
+      "blurb": "46 releases · black metal, crust punk, death metal, experimental / noise, sludge / doom",
+      "sources": "Heavy Blog Is Heavy (10/9 roundup), Metal Injection (Weekly Injection 10.9), Metal Collision (Week 41), Nine Circles Initial Descent (Oct 5–11), Heavy Music HQ release calendar, VM-Underground (this week's reviews were mostly older releases; only Mutation in window), Toilet ov Hell (This Toilet Tuesday 10/6), Metal Connect, The Razor's Edge, Ghost Cult, Angry Metal Guy, Metal Archives. Metal War Weekly War 10/9 issue not yet posted; To The Teeth tracklist not scrapeable. Dates/countries via Metal Archives, Bandcamp and label pages. Excluded: Acerbated (out 10/10), Carceral (digital out in Aug), trad/heavy/stoner/power releases. Metal War Weekly War 9/10 (posted after Friday's scan), Heavy Music HQ release calendar, Cutting Edge Metal (Oct 9), Heavy Blog Is Heavy, Angry Metal Guy, VM-Underground, releaseMetal, label/band pages. Checked and skipped as out of window: Azaghal (out 5/29), Static Abyss (8/28), The Bleeding (digital 9/18), Spirit Possession and Eshtadur (10/2). Skipped as off-genre: Avrak, Cultus Sanguine, Left To Suffer, stoner/trad doom/heavy releases. To The Teeth tracklist not scrapeable.",
       "sections": [
         {
           "genre": "BLACK METAL",
@@ -1398,6 +1351,38 @@
               "genre": "melodic death metal",
               "place": "Netherlands",
               "url": null
+            },
+            {
+              "band": "Acerbated",
+              "album": "Lurking Deep Within",
+              "date": "10/10",
+              "genre": "technical brutal death metal",
+              "place": "Spain/Colombia",
+              "url": "https://pathologicallyexplicit.bandcamp.com/album/acerbated-lurking-deep-within"
+            },
+            {
+              "band": "Ares",
+              "album": "Memento Mori, Memento Vivere",
+              "date": "10/10",
+              "genre": "melodic death metal",
+              "place": "Japan",
+              "url": null
+            },
+            {
+              "band": "Diablerie",
+              "album": "The Catalyst Vol. II: Alternate",
+              "date": "10/09",
+              "genre": "melodic death / industrial metal",
+              "place": "Finland",
+              "url": "https://diablerie.fi/"
+            },
+            {
+              "band": "Selenoplexia",
+              "album": "Beneath the Lunar Tyrant",
+              "date": "10/09",
+              "genre": "blackened death metal",
+              "place": "USA",
+              "url": "https://selenoplexia.bandcamp.com/music"
             }
           ]
         },
@@ -1446,10 +1431,10 @@
       ]
     },
     {
-      "slug": "2026-10-03",
-      "title": "Saturday catch-up · Oct 2–3, 2026",
-      "kind": "saturday",
-      "sort": "2026-10-03",
+      "slug": "2026-10-02",
+      "title": "Week of Oct 2–3, 2026",
+      "kind": "friday",
+      "sort": "2026-10-02",
       "blurb": "2 releases · black metal, sludge / sludge-doom",
       "sources": "Heavy Music HQ, Heavy Blog Is Heavy, Metal Injection, Nine Circles, Metal Collision, Metal War, VM-Underground. To The Teeth skipped (tracklist not scrapeable).",
       "sections": [
@@ -1482,56 +1467,12 @@
       ]
     },
     {
-      "slug": "2026-09-26",
-      "title": "Saturday catch-up · Sep 23–26, 2026",
-      "kind": "saturday",
-      "sort": "2026-09-26",
-      "blurb": "3 releases · black metal, death metal",
-      "sources": "Heavy Blog Is Heavy, Metal Collision, Metal Connect, Heavy Music HQ, Nine Circles, Metal War. To The Teeth skipped (tracklist not scrapeable).",
-      "sections": [
-        {
-          "genre": "BLACK METAL",
-          "releases": [
-            {
-              "band": "Hail Conjurer",
-              "album": "Abyss & Ekstasis",
-              "date": "09/23",
-              "genre": "black metal",
-              "place": "Spotify no",
-              "url": "https://hailconjurer.bandcamp.com/album/abyss-ekstasis"
-            },
-            {
-              "band": "Ice Thunder",
-              "album": "Angrboda",
-              "date": "09/23",
-              "genre": "pagan black metal",
-              "place": "Spotify no",
-              "url": "https://satanath.bandcamp.com/album/sat428-ice-thunder-angrboda-2026"
-            }
-          ]
-        },
-        {
-          "genre": "DEATH METAL",
-          "releases": [
-            {
-              "band": "Aetherfrost",
-              "album": "The Sorrow and The Stillness (Ad Infinitum In Solitudine)",
-              "date": "09/26",
-              "genre": "symphonic melodeath",
-              "place": "Spotify no",
-              "url": "https://aetherfrost.bandcamp.com/album/the-sorrow-and-the-stillness-ad-infinitum-in-solitudine-2"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "2026-09-24",
-      "title": "Sep 19–24, 2026",
+      "title": "Sep 19–26, 2026",
       "kind": "midweek",
       "sort": "2026-09-24",
-      "blurb": "Mid-week window between the Sep 18 and Sep 25 waves, covering Sep 21–24",
-      "sources": "Mid-week window 09/19–09/24/2026, seven matches. Friday 9/18 and Friday 9/25 waves were excluded from this note. The last field on these lines is Spotify availability, which is what that digest recorded.",
+      "blurb": "9 releases · atmospheric black / folk, black metal, blackened death, blackened death / war metal, brutal death, death/thrash, grindcore / death metal, death metal",
+      "sources": "Mid-week window 09/19–09/24/2026, seven matches. Friday 9/18 and Friday 9/25 waves were excluded from this note. The last field on these lines is Spotify availability, which is what that digest recorded. Heavy Blog Is Heavy, Metal Collision, Metal Connect, Heavy Music HQ, Nine Circles, Metal War. To The Teeth skipped (tracklist not scrapeable).",
       "sections": [
         {
           "genre": "ATMOSPHERIC BLACK / FOLK",
@@ -1556,6 +1497,14 @@
               "genre": "black metal",
               "place": "Spotify no",
               "url": "https://hailconjurer.bandcamp.com/album/abyss-ekstasis"
+            },
+            {
+              "band": "Ice Thunder",
+              "album": "Angrboda",
+              "date": "09/23",
+              "genre": "pagan black metal",
+              "place": "Spotify no",
+              "url": "https://satanath.bandcamp.com/album/sat428-ice-thunder-angrboda-2026"
             }
           ]
         },
@@ -1621,6 +1570,19 @@
               "genre": "grindcore / death metal",
               "place": "Spotify no",
               "url": "https://goatest.bandcamp.com/album/goatest"
+            }
+          ]
+        },
+        {
+          "genre": "DEATH METAL",
+          "releases": [
+            {
+              "band": "Aetherfrost",
+              "album": "The Sorrow and The Stillness (Ad Infinitum In Solitudine)",
+              "date": "09/26",
+              "genre": "symphonic melodeath",
+              "place": "Spotify no",
+              "url": "https://aetherfrost.bandcamp.com/album/the-sorrow-and-the-stillness-ad-infinitum-in-solitudine-2"
             }
           ]
         }
