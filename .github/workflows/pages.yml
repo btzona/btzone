@@ -44,15 +44,27 @@ jobs:
           cp -a css js img weeks _site/
 
       - name: Configure GitHub Pages
+        id: pages
+        continue-on-error: true
         uses: actions/configure-pages@v6
         with:
           enablement: true
 
       - name: Upload Pages artifact
+        if: steps.pages.outcome == 'success'
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.pages.outcome == 'success'
         uses: actions/deploy-pages@v5
+
+      - name: Pages still needs to be turned on
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo "GitHub refused to create the Pages site with this token."
+          echo "Turn it on once: Settings → Pages → Deploy from a branch → main → / (root)."
+          echo "Or set the source to GitHub Actions and re-run this workflow."
+          echo "The HTML is already on main. The public URL will be https://btzona.github.io/btzone/"
