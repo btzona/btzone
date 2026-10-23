@@ -4,11 +4,11 @@ A public, week-over-week archive of Bryan Timmins's extreme metal release digest
 
 **Public site:** https://btzona.github.io/btzone/
 
-The index lists weeks newest first. A week page groups releases under `>> GENRE <<` headings. Each line reads:
+The index lists weeks newest first. The top bar filters by genre (Black, Death, Grind / Crust, Sludge / Doom, Experimental). On a week page it shows that style and scrolls to the first matching `>> GENRE <<` section. On the index it keeps the weeks that include the genre and lists those releases across weeks. A week page groups releases under `>> GENRE <<` headings. Each line reads:
 
 `Band - Album - MM/DD - genre - Country`
 
-Saturday catch-up pages are included. The Sep 11–18 and Sep 19–24 notes recorded Spotify availability in the last field instead of a country; those lines say `Spotify: yes` or `Spotify: no`.
+Each row is one week. A Saturday catch-up is not its own card or page: those releases are folded into that week's list, and a band/album already on the week is kept once. The Sep 11–18 and Sep 19–26 notes recorded Spotify availability in the last field instead of a country; those lines say `Spotify: yes` or `Spotify: no`.
 
 ## Pages
 
@@ -31,7 +31,17 @@ node scripts/add-week.mjs digests/2026-10-23.txt \
   --kind friday
 ```
 
-`--kind` is `friday`, `saturday`, or `midweek`. Optional `--blurb` and `--sort` (defaults to the slug, which is how the index orders weeks, newest first).
+A Saturday digest uses the same slug as the week it extends. It does not create a sibling page. `--retire` removes an older slug left over from when catch-ups were separate:
+
+```bash
+node scripts/add-week.mjs digests/2026-10-10.txt \
+  --slug 2026-10-09 \
+  --title "Week of Oct 4–10, 2026" \
+  --kind saturday \
+  --retire 2026-10-10
+```
+
+`--kind` is `friday`, `saturday`, or `midweek`. `saturday` merges into `--slug` and drops a release that is already on that week (same band and album). If that slug does not exist yet, the command creates it as the week page. Optional `--blurb` and `--sort` (defaults to the slug, which is how the index orders weeks, newest first). Run the Friday digest first, then the Saturday fold-in. `scripts/seed.sh` does that for the weeks already in the repo.
 
 Digest format:
 
@@ -55,7 +65,7 @@ node scripts/add-week.mjs --rebuild
 
 ## Picture
 
-The header photograph is Schammasch at Eindhoven Metal Meeting, 2016, by Grywnn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg). The site code is MIT. The photograph remains CC BY-SA 4.0.
+The index photograph is Schammasch at Eindhoven Metal Meeting, 2016, by Grywnn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg). The page shows a short “Photo: Schammasch @ EMM 2016” caption. The full credit appears once, in the footer under Attributions. The site code is MIT. The photograph remains CC BY-SA 4.0.
 
 ## License
 

@@ -7,7 +7,16 @@
  *     --title "Week of Oct 18–23, 2026" \
  *     --kind friday
  *
+ *   node scripts/add-week.mjs digests/2026-10-10.txt \
+ *     --slug 2026-10-09 \
+ *     --title "Week of Oct 4–10, 2026" \
+ *     --kind saturday
+ *
  *   node scripts/add-week.mjs --rebuild
+ *
+ * `--kind saturday` folds that digest into the Friday (or mid-week) slug in
+ * `--slug`. It does not create a Saturday page. Repeat releases already on
+ * that week are dropped. `--retire 2026-10-10` deletes an old sibling slug.
  *
  * Digest format: genre stamps on their own line (`>> BLACK METAL <<`),
  * then one release per line:
@@ -20,7 +29,7 @@
  * `--kind` is `friday`, `saturday`, or `midweek`.
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -157,10 +166,118 @@ function countReleases(week) {
   return week.sections.reduce((sum, section) => sum + section.releases.length, 0);
 }
 
+function releaseKey(release) {
+  return `${release.band} ${release.album}`.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function mergeSections(baseSections, incomingSections) {
+  const sections = baseSections.map((section) => ({
+    genre: section.genre,
+    releases: section.releases.map((release) => ({ ...release })),
+  }));
+  const seen = new Set();
+  for (const section of sections) {
+    for (const release of section.releases) seen.add(releaseKey(release));
+  }
+  let added = 0;
+  let dupes = 0;
+  for (const incoming of incomingSections) {
+    let target = sections.find((section) => section.genre.toLowerCase() === incoming.genre.toLowerCase());
+    if (!target) {
+      target = { genre: incoming.genre, releases: [] };
+      sections.push(target);
+    }
+    for (const release of incoming.releases) {
+      const key = releaseKey(release);
+      if (seen.has(key)) {
+        dupes += 1;
+        continue;
+      }
+      seen.add(key);
+      target.releases.push({ ...release });
+      added += 1;
+    }
+  }
+  return {
+    sections: sections.filter((section) => section.releases.length),
+    added,
+    dupes,
+  };
+}
+
+function autoBlurb(week) {
+  const count = countReleases(week);
+  return `${count} releases · ${week.sections.map((section) => section.genre.toLowerCase()).join(", ")}`;
+}
+
+function retireSlugs(catalog) {
+  if (!flags.retire) return;
+  const drop = new Set(
+    String(flags.retire)
+      .split(",")
+      .map((slug) => slug.trim())
+      .filter(Boolean)
+  );
+  catalog.weeks = catalog.weeks.filter((week) => !drop.has(week.slug));
+}
+
 function kindLabel(kind) {
   if (kind === "saturday") return "Saturday catch-up";
   if (kind === "midweek") return "Mid-week";
   return "Friday";
+}
+
+const FAMILIES = [
+  { id: "black", label: "Black", test: /black/i },
+  { id: "death", label: "Death", test: /death|slam/i },
+  { id: "grind", label: "Grind / Crust", test: /grind|crust/i },
+  { id: "sludge", label: "Sludge / Doom", test: /sludge|doom|funeral|stoner/i },
+  { id: "experimental", label: "Experimental", test: /experimental|noise|industrial|avant|post-punk|post-rock|drone/i },
+];
+
+function familiesFor(...parts) {
+  const text = parts.filter(Boolean).join(" ");
+  const ids = FAMILIES.filter((family) => family.test.test(text)).map((family) => family.id);
+  return ids.length ? ids : ["other"];
+}
+
+function unique(values) {
+  return [...new Set(values)];
+}
+
+function sectionId(genre) {
+  const slug = genre
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  return `g-${slug || "releases"}`;
+}
+
+function annotateWeek(week) {
+  const sections = week.sections.map((section) => {
+    const releases = section.releases.map((release) => ({
+      ...release,
+      families: familiesFor(section.genre, release.genre),
+    }));
+    return {
+      ...section,
+      id: sectionId(section.genre),
+      families: unique(releases.flatMap((release) => release.families)),
+      releases,
+    };
+  });
+  return {
+    ...week,
+    families: unique(sections.flatMap((section) => section.families)),
+    sections,
+  };
+}
+
+function familiesIn(weeks) {
+  const used = new Set(weeks.flatMap((week) => week.families));
+  const present = FAMILIES.filter((family) => used.has(family.id));
+  if (used.has("other")) present.push({ id: "other", label: "Other" });
+  return present;
 }
 
 function renderRelease(release) {
@@ -170,11 +287,19 @@ function renderRelease(release) {
   const text = [release.band, release.album, release.date, release.genre, release.place]
     .join(" ")
     .toLowerCase();
-  return `<li class="rel" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
+  const families = (release.families || []).join(" ");
+  return `<li class="rel" data-families="${escapeHtml(families)}" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
 }
 
-function pageShell({ title, description, depth, body }) {
+function pageShell({ title, description, depth, body, selfPath, families }) {
   const prefix = depth ? "../" : "";
+  const links = [
+    `<a data-genre="" href="${escapeHtml(selfPath)}">All</a>`,
+    ...families.map(
+      (family) =>
+        `<a data-genre="${escapeHtml(family.id)}" href="${escapeHtml(selfPath)}?genre=${escapeHtml(family.id)}">${escapeHtml(family.label)}</a>`
+    ),
+  ].join("\n    ");
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,6 +314,12 @@ function pageShell({ title, description, depth, body }) {
 </head>
 <body>
 <a class="skip" href="#content">Skip to the releases</a>
+<header class="site-nav">
+  <a class="brand" href="${prefix}index.html">BT's Report</a>
+  <nav class="genre-nav" aria-label="Genres">
+    ${links}
+  </nav>
+</header>
 ${body}
 <script src="${prefix}js/site.js"></script>
 </body>
@@ -198,13 +329,22 @@ ${body}
 
 const credit = `Schammasch at Eindhoven Metal Meeting, 2016. Photo by Grywnn, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg">Wikimedia Commons</a>. Site code is MIT. The photograph stays under CC BY-SA 4.0.`;
 
-function renderIndex(weeks) {
+function attributions(lead) {
+  return `<footer id="attributions">
+  <p>${lead}</p>
+  <h2>Attributions</h2>
+  <p>${credit}</p>
+</footer>`;
+}
+
+function renderIndex(weeks, families) {
   const cards = weeks
     .map((week) => {
       const count = countReleases(week);
       const genres = week.sections.map((section) => section.genre).join(" · ");
-      return `<li>
-        <a class="week-card" href="weeks/${escapeHtml(week.slug)}.html">
+      const href = `weeks/${week.slug}.html`;
+      return `<li class="week-item" data-families="${escapeHtml(week.families.join(" "))}">
+        <a class="week-card" data-base="${escapeHtml(href)}" href="${escapeHtml(href)}">
           <span class="kind">${escapeHtml(kindLabel(week.kind))}</span>
           <span class="when">${escapeHtml(week.title)}</span>
           <span class="count">${count} release${count === 1 ? "" : "s"}</span>
@@ -214,36 +354,57 @@ function renderIndex(weeks) {
     })
     .join("\n");
 
+  const hits = weeks
+    .flatMap((week) =>
+      week.sections.flatMap((section) =>
+        section.releases.map((release) => {
+          const album = release.url
+            ? `<a class="album" href="${escapeHtml(release.url)}" rel="noopener">${escapeHtml(release.album)}</a>`
+            : `<span class="album">${escapeHtml(release.album)}</span>`;
+          const base = `weeks/${week.slug}.html#${section.id}`;
+          return `<li class="rel hit" data-families="${escapeHtml(release.families.join(" "))}"><a class="jump" data-base="${escapeHtml(base)}" href="${escapeHtml(base)}">${escapeHtml(week.title)}</a><span class="sep"> · </span><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
+        })
+      )
+    )
+    .join("\n");
+
   const body = `<header class="mast">
   <p class="kicker">Public archive</p>
   <h1>BT's Extreme Metal Release Report</h1>
-  <p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page.</p>
+  <p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page. Use Genres to browse one style across weeks.</p>
 </header>
 <figure class="banner">
   <img src="img/schammasch-eindhoven-2016.jpg" alt="Schammasch performing under red and blue stage lights at Eindhoven Metal Meeting, 2016" width="1280" height="1920">
-  <figcaption>${credit}</figcaption>
+  <figcaption><a href="#attributions">Photo: Schammasch @ EMM 2016</a></figcaption>
 </figure>
 <main id="content">
-  <h2>Weeks</h2>
+  <h2 id="weeks-title">Weeks</h2>
+  <p class="empty weeks-empty" hidden>No weeks in this genre.</p>
   <ol class="weeks">
 ${cards}
   </ol>
+  <section id="browse" hidden>
+    <h2 id="browse-title">Releases</h2>
+    <p class="empty browse-empty" hidden>No releases in this genre.</p>
+    <ul class="releases">
+${hits}
+    </ul>
+  </section>
 </main>
-<footer>
-  <p>Reports compiled by Bryan Timmins. This page is a reading copy of those digests, not a label or a store.</p>
-  <p>${credit}</p>
-</footer>`;
+${attributions("Reports compiled by Bryan Timmins. This page is a reading copy of those digests, not a label or a store.")}`;
 
   return pageShell({
     title: "BT's Extreme Metal Release Report",
     description:
       "Week-over-week extreme metal release digests: black, death, grind, crust, sludge, and doom.",
     depth: 0,
+    selfPath: "index.html",
+    families,
     body,
   });
 }
 
-function renderWeek(week, weeks) {
+function renderWeek(week, weeks, families) {
   const index = weeks.findIndex((item) => item.slug === week.slug);
   const newer = index > 0 ? weeks[index - 1] : null;
   const older = index < weeks.length - 1 ? weeks[index + 1] : null;
@@ -257,7 +418,8 @@ function renderWeek(week, weeks) {
   const sections = week.sections
     .map((section) => {
       const items = section.releases.map(renderRelease).join("\n");
-      return `<section class="genre">
+      const headingFamilies = familiesFor(section.genre).join(" ");
+      return `<section class="genre" id="${escapeHtml(section.id)}" data-families="${escapeHtml(section.families.join(" "))}" data-heading="${escapeHtml(headingFamilies)}">
   <h2>&gt;&gt; ${escapeHtml(section.genre)} &lt;&lt;</h2>
   <p class="section-count">${section.releases.length} release${section.releases.length === 1 ? "" : "s"}</p>
   <ul class="releases">
@@ -274,7 +436,7 @@ ${items}
   const body = `<header class="mast">
   <p class="kicker">${escapeHtml(kindLabel(week.kind))}</p>
   <h1>${escapeHtml(week.title)}</h1>
-  <p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so.</p>
+  <p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so. Pick a genre above to show only that style.</p>
 </header>
 <main id="content">
   ${nav}
@@ -282,34 +444,49 @@ ${items}
     <label for="q">Find a band, album, or genre</label>
     <input id="q" name="q" type="search" placeholder="Casket Dweller, sludge, Finland" autocomplete="off">
   </form>
+  <p class="empty" hidden>No releases in this genre on this page.</p>
   ${sections}
   ${sources}
   ${nav}
 </main>
-<footer>
-  <p><a href="../index.html">All weeks</a></p>
-  <p>${credit}</p>
-</footer>`;
+${attributions(`<a href="../index.html">All weeks</a>`)}`;
 
   return pageShell({
     title: `${week.title} · BT's Extreme Metal Release Report`,
     description: `${week.title}. ${count} extreme metal releases.`,
     depth: 1,
+    selfPath: `${week.slug}.html`,
+    families,
     body,
   });
 }
 
 function renderAll(catalog) {
-  const weeks = [...catalog.weeks].sort((a, b) => {
-    if (a.sort !== b.sort) return a.sort < b.sort ? 1 : -1;
-    return 0;
-  });
+  const weeks = [...catalog.weeks]
+    .sort((a, b) => {
+      if (a.sort !== b.sort) return a.sort < b.sort ? 1 : -1;
+      return 0;
+    })
+    .map(annotateWeek);
+  const families = familiesIn(weeks);
+  const stored = weeks.map(({ families: _families, sections, ...week }) => ({
+    ...week,
+    sections: sections.map(({ id: _id, families: _sectionFamilies, releases, ...section }) => ({
+      ...section,
+      releases: releases.map(({ families: _releaseFamilies, ...release }) => release),
+    })),
+  }));
   mkdirSync(join(root, "weeks"), { recursive: true });
   mkdirSync(join(root, "data"), { recursive: true });
-  writeFileSync(catalogPath, JSON.stringify({ weeks }, null, 2) + "\n");
-  writeFileSync(join(root, "index.html"), renderIndex(weeks));
+  writeFileSync(catalogPath, JSON.stringify({ weeks: stored }, null, 2) + "\n");
+  writeFileSync(join(root, "index.html"), renderIndex(weeks, families));
+  const weeksDir = join(root, "weeks");
+  const keep = new Set(weeks.map((week) => `${week.slug}.html`));
+  for (const name of readdirSync(weeksDir)) {
+    if (name.endsWith(".html") && !keep.has(name)) unlinkSync(join(weeksDir, name));
+  }
   for (const week of weeks) {
-    writeFileSync(join(root, "weeks", `${week.slug}.html`), renderWeek(week, weeks));
+    writeFileSync(join(weeksDir, `${week.slug}.html`), renderWeek(week, weeks, families));
   }
   console.log(
     `Rebuilt ${weeks.length} week pages, ${weeks.reduce((sum, week) => sum + countReleases(week), 0)} releases.`
@@ -322,7 +499,7 @@ if (flags.rebuild) {
   const digestPath = positional[0];
   if (!digestPath || !flags.slug || !flags.title) {
     console.error(
-      "Usage: node scripts/add-week.mjs <digest.txt> --slug 2026-10-23 --title \"Week of Oct 18–23, 2026\" --kind friday [--blurb \"...\"] [--sort 2026-10-23]"
+      "Usage: node scripts/add-week.mjs <digest.txt> --slug 2026-10-23 --title \"Week of Oct 18–23, 2026\" --kind friday|saturday|midweek [--blurb \"...\"] [--sort 2026-10-23] [--retire old-slug]"
     );
     process.exit(1);
   }
@@ -337,25 +514,60 @@ if (flags.rebuild) {
     process.exit(1);
   }
   for (const warning of parsed.warnings) console.error(`Skipped unparsed line: ${warning}`);
-  const count = parsed.sections.reduce((sum, section) => sum + section.releases.length, 0);
-  const blurb =
-    flags.blurb ||
-    `${count} releases · ${parsed.sections.map((section) => section.genre.toLowerCase()).join(", ")}`;
-  const week = {
-    slug: flags.slug,
-    title: flags.title,
-    kind,
-    sort: flags.sort || flags.slug,
-    blurb,
-    sources: parsed.sources,
-    sections: parsed.sections,
-  };
   const catalog = readCatalog();
-  const existing = catalog.weeks.findIndex((item) => item.slug === week.slug);
-  if (existing >= 0) catalog.weeks[existing] = week;
-  else catalog.weeks.push(week);
-  console.log(
-    `${week.slug}: ${count} releases in ${parsed.sections.length} genre${parsed.sections.length === 1 ? "" : "s"}`
-  );
-  renderAll(catalog);
+
+  if (kind === "saturday") {
+    const target = catalog.weeks.find((item) => item.slug === flags.slug);
+    if (!target && !flags.title) {
+      console.error("--title is required when the Friday week does not exist yet");
+      process.exit(1);
+    }
+    const merged = target
+      ? mergeSections(target.sections, parsed.sections)
+      : { sections: parsed.sections, added: parsed.sections.reduce((sum, section) => sum + section.releases.length, 0), dupes: 0 };
+    const week = target || {
+      slug: flags.slug,
+      title: flags.title,
+      kind: "friday",
+      sort: flags.sort || flags.slug,
+      blurb: "",
+      sources: "",
+      sections: [],
+    };
+    if (flags.title) week.title = flags.title;
+    if (flags.sort) week.sort = flags.sort;
+    week.sections = merged.sections;
+    if (parsed.sources && !(week.sources || "").includes(parsed.sources)) {
+      week.sources = [week.sources, parsed.sources].filter(Boolean).join(" ");
+    }
+    week.blurb = flags.blurb || autoBlurb(week);
+    if (!target) catalog.weeks.push(week);
+    retireSlugs(catalog);
+    console.log(
+      `${week.slug}: folded Saturday digest, +${merged.added} release${merged.added === 1 ? "" : "s"}, ${merged.dupes} already listed`
+    );
+    renderAll(catalog);
+  } else {
+    const count = parsed.sections.reduce((sum, section) => sum + section.releases.length, 0);
+    const blurb =
+      flags.blurb ||
+      `${count} releases · ${parsed.sections.map((section) => section.genre.toLowerCase()).join(", ")}`;
+    const week = {
+      slug: flags.slug,
+      title: flags.title,
+      kind,
+      sort: flags.sort || flags.slug,
+      blurb,
+      sources: parsed.sources,
+      sections: parsed.sections,
+    };
+    const existing = catalog.weeks.findIndex((item) => item.slug === week.slug);
+    if (existing >= 0) catalog.weeks[existing] = week;
+    else catalog.weeks.push(week);
+    retireSlugs(catalog);
+    console.log(
+      `${week.slug}: ${count} releases in ${parsed.sections.length} genre${parsed.sections.length === 1 ? "" : "s"}`
+    );
+    renderAll(catalog);
+  }
 }
