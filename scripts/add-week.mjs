@@ -375,6 +375,15 @@ ${attributions("Reports compiled by Bryan Timmins. This page is a reading copy o
   });
 }
 
+function dropFriday(text) {
+  return String(text || "")
+    .replace(/\bFriday\s+list\b/g, "List")
+    .replace(/\bFriday\b/g, "")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\s+([.,;:])/g, "$1")
+    .trim();
+}
+
 function renderWeek(week, weeks, families) {
   const index = weeks.findIndex((item) => item.slug === week.slug);
   const newer = index > 0 ? weeks[index - 1] : null;
@@ -434,6 +443,9 @@ ${attributions(`<a href="../index.html">All weeks</a>`)}`;
 }
 
 function renderAll(catalog) {
+  for (const week of catalog.weeks) {
+    if (week.sources) week.sources = dropFriday(week.sources);
+  }
   const weeks = [...catalog.weeks]
     .sort((a, b) => {
       if (a.sort !== b.sort) return a.sort < b.sort ? 1 : -1;
