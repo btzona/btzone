@@ -22,16 +22,19 @@
  * then one release per line:
  *
  *   Band - Album - MM/DD - genre - Country
- *   Band - Album <https://example.com/album> - MM/DD - genre - Country
- *   Band - Album - MM/DD - genre - Country | https://example.com/album
+ *   Band - Album <https://artist.bandcamp.com/album/name> - MM/DD - genre - Country
+ *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id
  *
- * A line that starts with `Sources:` is kept as the week's source note.
+ * Album titles are plain text. A Spotify album URL and a Bandcamp album URL
+ * are stored separately and rendered as gold labels at the end of the line.
+ * Other URLs are ignored. A line that starts with `Sources:` is the week's note.
  * `--kind` is `friday`, `saturday`, or `midweek`.
  */
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseRelease } from "./release-line.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const catalogPath = join(root, "data", "catalog.json");
@@ -58,47 +61,6 @@ function readCatalog() {
   } catch {
     return { weeks: [] };
   }
-}
-
-function cleanUrl(raw) {
-  if (!raw) return null;
-  let url = raw.trim().replace(/[>,.)]+$/, "");
-  try {
-    const parsed = new URL(url);
-    if (parsed.hostname === "www.google.com" && parsed.pathname === "/url") {
-      const target = parsed.searchParams.get("q");
-      if (target) url = target;
-    }
-  } catch {
-    return null;
-  }
-  if (!/^https?:\/\//i.test(url)) return null;
-  return url;
-}
-
-function parseRelease(line) {
-  let url = null;
-  let work = line.trim();
-  const angle = work.match(/<((?:https?:\/\/)[^>]+)>/);
-  if (angle) {
-    url = cleanUrl(angle[1]);
-    work = work.replace(angle[0], " ").replace(/\s+/g, " ").trim();
-  }
-  const trail = work.match(/\s+\|\s+(https?:\/\/\S+)\s*$/);
-  if (trail) {
-    url = url || cleanUrl(trail[1]);
-    work = work.slice(0, trail.index).trim();
-  }
-  const parts = work.split(" - ");
-  if (parts.length < 4) return null;
-  const place = parts.pop().trim();
-  const genre = parts.pop().trim();
-  const date = parts.pop().trim();
-  if (!/^\d{1,2}\/\d{1,2}/.test(date)) return null;
-  const band = parts.shift().trim();
-  const album = parts.join(" - ").trim();
-  if (!band || !album) return null;
-  return { band, album, date, genre, place, url };
 }
 
 function parseDigest(text) {
@@ -128,6 +90,10 @@ function parseDigest(text) {
     }
     const release = parseRelease(line);
     if (release) {
+      if (release.spotifyConflict) warnings.push(`Conflicting Spotify URLs: ${line.slice(0, 160)}`);
+      if (release.bandcampConflict) warnings.push(`Conflicting Bandcamp URLs: ${line.slice(0, 160)}`);
+      delete release.spotifyConflict;
+      delete release.bandcampConflict;
       if (!current) {
         current = { genre: "RELEASES", releases: [] };
         sections.push(current);
@@ -156,9 +122,7 @@ function escapeHtml(value) {
 }
 
 function placeLabel(place) {
-  if (/^spotify\s+(yes|no)$/i.test(place)) {
-    return `Spotify: ${place.split(/\s+/).pop().toLowerCase()}`;
-  }
+  if (/^spotify\s+(yes|no)$/i.test(place)) return "Unknown";
   return place;
 }
 
@@ -175,9 +139,9 @@ function mergeSections(baseSections, incomingSections) {
     genre: section.genre,
     releases: section.releases.map((release) => ({ ...release })),
   }));
-  const seen = new Set();
+  const seen = new Map();
   for (const section of sections) {
-    for (const release of section.releases) seen.add(releaseKey(release));
+    for (const release of section.releases) seen.set(releaseKey(release), release);
   }
   let added = 0;
   let dupes = 0;
@@ -189,12 +153,16 @@ function mergeSections(baseSections, incomingSections) {
     }
     for (const release of incoming.releases) {
       const key = releaseKey(release);
-      if (seen.has(key)) {
+      const existing = seen.get(key);
+      if (existing) {
         dupes += 1;
+        if (!existing.spotify && release.spotify) existing.spotify = release.spotify;
+        if (!existing.bandcamp && release.bandcamp) existing.bandcamp = release.bandcamp;
         continue;
       }
-      seen.add(key);
-      target.releases.push({ ...release });
+      const copy = { ...release };
+      seen.set(key, copy);
+      target.releases.push(copy);
       added += 1;
     }
   }
@@ -219,12 +187,6 @@ function retireSlugs(catalog) {
       .filter(Boolean)
   );
   catalog.weeks = catalog.weeks.filter((week) => !drop.has(week.slug));
-}
-
-function kindLabel(kind) {
-  if (kind === "saturday") return "Saturday catch-up";
-  if (kind === "midweek") return "Mid-week";
-  return "Friday";
 }
 
 const FAMILIES = [
@@ -280,15 +242,29 @@ function familiesIn(weeks) {
   return present;
 }
 
+function renderOutlinks(release) {
+  const links = [];
+  if (release.spotify) {
+    links.push(
+      `<a class="outlink" href="${escapeHtml(release.spotify)}" rel="noopener">Spotify</a>`
+    );
+  }
+  if (release.bandcamp) {
+    links.push(
+      `<a class="outlink" href="${escapeHtml(release.bandcamp)}" rel="noopener">Bandcamp</a>`
+    );
+  }
+  if (!links.length) return "";
+  return `<span class="outlinks">${links.join("")}</span>`;
+}
+
 function renderRelease(release) {
-  const album = release.url
-    ? `<a class="album" href="${escapeHtml(release.url)}" rel="noopener">${escapeHtml(release.album)}</a>`
-    : `<span class="album">${escapeHtml(release.album)}</span>`;
+  const album = `<span class="album">${escapeHtml(release.album)}</span>`;
   const text = [release.band, release.album, release.date, release.genre, release.place]
     .join(" ")
     .toLowerCase();
   const families = (release.families || []).join(" ");
-  return `<li class="rel" data-families="${escapeHtml(families)}" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
+  return `<li class="rel" data-families="${escapeHtml(families)}" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span>${renderOutlinks(release)}</li>`;
 }
 
 function genreNav(selfPath, families) {
@@ -345,7 +321,6 @@ function renderIndex(weeks, families) {
       const href = `weeks/${week.slug}.html`;
       return `<li class="week-item" data-families="${escapeHtml(week.families.join(" "))}">
         <a class="week-card" data-base="${escapeHtml(href)}" href="${escapeHtml(href)}">
-          <span class="kind">${escapeHtml(kindLabel(week.kind))}</span>
           <span class="when">${escapeHtml(week.title)}</span>
           <span class="count">${count} release${count === 1 ? "" : "s"}</span>
           <span class="genres">${escapeHtml(genres)}</span>
@@ -358,11 +333,9 @@ function renderIndex(weeks, families) {
     .flatMap((week) =>
       week.sections.flatMap((section) =>
         section.releases.map((release) => {
-          const album = release.url
-            ? `<a class="album" href="${escapeHtml(release.url)}" rel="noopener">${escapeHtml(release.album)}</a>`
-            : `<span class="album">${escapeHtml(release.album)}</span>`;
+          const album = `<span class="album">${escapeHtml(release.album)}</span>`;
           const base = `weeks/${week.slug}.html#${section.id}`;
-          return `<li class="rel hit" data-families="${escapeHtml(release.families.join(" "))}"><a class="jump" data-base="${escapeHtml(base)}" href="${escapeHtml(base)}">${escapeHtml(week.title)}</a><span class="sep"> · </span><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span></li>`;
+          return `<li class="rel hit" data-families="${escapeHtml(release.families.join(" "))}"><a class="jump" data-base="${escapeHtml(base)}" href="${escapeHtml(base)}">${escapeHtml(week.title)}</a><span class="sep"> · </span><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span>${renderOutlinks(release)}</li>`;
         })
       )
     )
@@ -372,7 +345,7 @@ function renderIndex(weeks, families) {
   <h1><a class="wordmark" href="index.html">Extreme Metal Release Report</a></h1>
 </header>
 ${genreNav("index.html", families)}
-<p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page.</p>
+<p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Spotify and Bandcamp sit at the end of a line when that album page was found.</p>
 <figure class="banner">
   <img src="img/schammasch-eindhoven-2016.jpg" alt="Schammasch performing under red and blue stage lights at Eindhoven Metal Meeting, 2016" width="1280" height="1920">
   <figcaption><a href="#attributions">Photo: Schammasch @ EMM 2016</a></figcaption>
@@ -435,11 +408,10 @@ ${items}
     <a class="wordmark" href="../index.html">Extreme Metal Release Report</a>
     <a class="back" href="../index.html">← All weeks</a>
   </p>
-  <p class="kicker">${escapeHtml(kindLabel(week.kind))}</p>
   <h1>${escapeHtml(week.title)}</h1>
 </header>
 ${genreNav(`${week.slug}.html`, families)}
-<p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so.</p>
+<p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Spotify and Bandcamp sit at the end when that album page was found.</p>
 <main id="content">
   ${pager}
   <form class="finder" role="search">
@@ -481,12 +453,47 @@ function renderAll(catalog) {
   writeFileSync(catalogPath, JSON.stringify({ weeks: stored }, null, 2) + "\n");
   writeFileSync(join(root, "index.html"), renderIndex(weeks, families));
   const weeksDir = join(root, "weeks");
-  const keep = new Set(weeks.map((week) => `${week.slug}.html`));
+  const redirects = {
+    "2026-09-26": "2026-09-24",
+    "2026-10-03": "2026-10-02",
+    "2026-10-10": "2026-10-09",
+    "2026-10-17": "2026-10-16",
+  };
+  const keep = new Set([
+    ...weeks.map((week) => `${week.slug}.html`),
+    ...Object.keys(redirects).map((slug) => `${slug}.html`),
+  ]);
   for (const name of readdirSync(weeksDir)) {
     if (name.endsWith(".html") && !keep.has(name)) unlinkSync(join(weeksDir, name));
   }
   for (const week of weeks) {
     writeFileSync(join(weeksDir, `${week.slug}.html`), renderWeek(week, weeks, families));
+  }
+  for (const [from, to] of Object.entries(redirects)) {
+    const target = `${to}.html`;
+    writeFileSync(
+      join(weeksDir, `${from}.html`),
+      `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0; url=${target}">
+<link rel="canonical" href="${target}">
+<title>Moved · BT's Extreme Metal Release Report</title>
+<meta name="description" content="This week lives on another page.">
+<style>
+  body { margin: 1.5rem; background: #070708; color: #f4f1ea; font: 16px/1.5 sans-serif; }
+  a, a:link, a:visited, a:hover, a:active, a:focus { color: #d7d0c4; }
+</style>
+<script>location.replace(${JSON.stringify(target)})</script>
+</head>
+<body>
+<p><a href="${target}">This week moved.</a></p>
+</body>
+</html>
+`
+    );
   }
   console.log(
     `Rebuilt ${weeks.length} week pages, ${weeks.reduce((sum, week) => sum + countReleases(week), 0)} releases.`

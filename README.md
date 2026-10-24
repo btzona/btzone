@@ -8,7 +8,18 @@ The index lists weeks newest first. Under the title, genre labels filter the pag
 
 `Band - Album - MM/DD - genre - Country`
 
-Each row is one week. A Saturday catch-up is not its own card or page: those releases are folded into that week's list, and a band/album already on the week is kept once. The Sep 11–18 and Sep 19–26 notes recorded Spotify availability in the last field instead of a country; those lines say `Spotify: yes` or `Spotify: no`.
+The album name is plain text. When a Spotify album page or a Bandcamp album page is known, a small gold Spotify or Bandcamp label sits at the end of the line. A release can have one, both, or neither. Other links are left off.
+
+Each row is one week, Friday through Friday, with no gap between them:
+
+- Week of Sep 12–18, 2026
+- Week of Sep 19–25, 2026 (includes the Sep 24 mid-week note and the Sep 26 catch-up)
+- Week of Sep 26–Oct 2, 2026 (includes the Oct 3 catch-up)
+- Week of Oct 3–9, 2026 (includes the Oct 10 catch-up)
+- Week of Oct 10–16, 2026 (includes the Oct 17 catch-up)
+- Week of Oct 18–23, 2026
+
+A Saturday catch-up is not its own card or page. A band and album already on that week is kept once. Older catch-up addresses redirect to the week page. The last field is the band's country. Where that could not be verified, the line says Unknown. Spotify and Bandcamp labels are separate from that field.
 
 ## Pages
 
@@ -36,24 +47,28 @@ A Saturday digest uses the same slug as the week it extends. It does not create 
 ```bash
 node scripts/add-week.mjs digests/2026-10-10.txt \
   --slug 2026-10-09 \
-  --title "Week of Oct 4–10, 2026" \
+  --title "Week of Oct 3–9, 2026" \
   --kind saturday \
   --retire 2026-10-10
 ```
 
-`--kind` is `friday`, `saturday`, or `midweek`. `saturday` merges into `--slug` and drops a release that is already on that week (same band and album). If that slug does not exist yet, the command creates it as the week page. Optional `--blurb` and `--sort` (defaults to the slug, which is how the index orders weeks, newest first). Run the Friday digest first, then the Saturday fold-in. `scripts/seed.sh` does that for the weeks already in the repo.
+`--kind` is `friday`, `saturday`, or `midweek`. `saturday` merges into `--slug` and drops a release that is already on that week (same band and album). If that slug does not exist yet, the command creates it as the week page. Optional `--blurb` and `--sort` (defaults to the slug, which is how the index orders weeks, newest first). Run the Friday digest first, then the Saturday fold-in.
+
+`scripts/seed.sh` rebuilds the six weeks already in the repo from `scripts/build-weeks.mjs`. That script folds each catch-up into its Friday week, drops a repeated band and album, and reads countries from `data/countries.json`. A null entry there is rendered as Unknown.
 
 Digest format:
 
 ```text
 >> BLACK METAL <<
-Abaser - Esclaves de l'hiver de la tristesse (EP) <https://example.com/album> - 10/20 - atmospheric black metal - Unknown
+Abaser - Esclaves de l'hiver de la tristesse (EP) - 10/20 - atmospheric black metal - Unknown | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id
 
 >> SLUDGE / DOOM <<
-Boss Keloid - Float & Aperture - 10/23 - progressive sludge metal - UK | https://example.com/album
+Boss Keloid - Float & Aperture <https://artist.bandcamp.com/album/name> - 10/23 - progressive sludge metal - UK
 
 Sources: where the week's note came from.
 ```
+
+`spotify` has to be an `https://open.spotify.com/album/...` URL. `bandcamp` has to be an `https://....bandcamp.com/album/...` URL. A bare `<https://...>` or trailing `| https://...` is kept only when the host matches one of those. Artist pages, track pages, Apple Music, and label stores are not shown. Two different URLs for the same service on one line are dropped. Leave a label off when the page is not verified. `scripts/build-weeks.mjs` also fills gaps from `data/links.json`, which stores the same two fields keyed by band and album. A null there means no verified page.
 
 The command rewrites `data/catalog.json`, `index.html`, and `weeks/*.html`. Commit those files. To regenerate without parsing again:
 
