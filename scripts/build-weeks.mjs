@@ -206,9 +206,9 @@ const weeks = [
     title: "Week of Oct 18–23, 2026",
     sort: "2026-10-23",
     primary: "2026-10-23.txt",
-    extra: [],
+    extra: ["2026-10-24.txt"],
     sources:
-      "List for Oct 18–23. Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground. Dates, countries, and links from Metal Archives and Bandcamp.",
+      "List for Oct 18–23. Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground. Dates, countries, and links from Metal Archives and Bandcamp. Saturday catch-up: Metal Archives upcoming (late 10/23–24 adds), Heavy Blog Is Heavy, Metal Injection, Metal War Weekly War 23/10, The Razor's Edge, Cutting Edge Metal, Metal Lair, Heavy Music HQ, Metal Collision, Nine Circles, Angry Metal Guy, Invisible Oranges.",
   },
 ];
 

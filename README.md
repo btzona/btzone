@@ -17,7 +17,7 @@ Each row is one week, Friday through Friday, with no gap between them:
 - Week of Sep 26–Oct 2, 2026 (includes the Oct 3 catch-up)
 - Week of Oct 3–9, 2026 (includes the Oct 10 catch-up)
 - Week of Oct 10–16, 2026 (includes the Oct 17 catch-up)
-- Week of Oct 18–23, 2026
+- Week of Oct 18–23, 2026 (includes the Oct 24 catch-up)
 
 A Saturday catch-up is not its own card or page. A band and album already on that week is kept once. Older catch-up addresses redirect to the week page. The last field is the band's country. Where that could not be verified, the line says Unknown. Spotify and Bandcamp labels are separate from that field.
 
