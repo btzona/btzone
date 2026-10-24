@@ -305,8 +305,16 @@ ${body}
 
 const credit = `Schammasch at Eindhoven Metal Meeting, 2016. Photo by Grywnn, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg">Wikimedia Commons</a>. Site code is MIT. The photograph stays under CC BY-SA 4.0.`;
 
+const playlist = `<section class="listen" id="listen" aria-label="Listen">
+  <h2>Listen</h2>
+  <div class="listen-frame">
+    <iframe src="https://open.spotify.com/embed/playlist/2lZxOHKx38DX9AuY0G2hjI?utm_source=generator&amp;theme=0" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
+  </div>
+</section>`;
+
 function attributions(lead) {
-  return `<footer id="attributions">
+  return `${playlist}
+<footer id="attributions">
   <p>${lead}</p>
   <h2>Attributions</h2>
   <p>${credit}</p>
