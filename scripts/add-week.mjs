@@ -369,7 +369,7 @@ function renderIndex(weeks, families) {
     .join("\n");
 
   const body = `<header class="mast">
-  <h1>BT's Extreme Metal Release Report</h1>
+  <h1><a class="wordmark" href="index.html">Extreme Metal Release Report</a></h1>
 </header>
 ${genreNav("index.html", families)}
 <p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Album titles link out when the digest had a page.</p>
@@ -407,8 +407,7 @@ function renderWeek(week, weeks, families) {
   const newer = index > 0 ? weeks[index - 1] : null;
   const older = index < weeks.length - 1 ? weeks[index + 1] : null;
   const count = countReleases(week);
-  const nav = `<p class="crumb"><a href="../index.html">All weeks</a></p>
-<nav class="pager" aria-label="Other weeks">
+  const pager = `<nav class="pager" aria-label="Other weeks">
   ${newer ? `<a href="${escapeHtml(newer.slug)}.html">Newer · ${escapeHtml(newer.title)}</a>` : "<span></span>"}
   ${older ? `<a href="${escapeHtml(older.slug)}.html">Older · ${escapeHtml(older.title)}</a>` : "<span></span>"}
 </nav>`;
@@ -432,13 +431,17 @@ ${items}
     : "";
 
   const body = `<header class="mast">
+  <p class="home-row">
+    <a class="wordmark" href="../index.html">Extreme Metal Release Report</a>
+    <a class="back" href="../index.html">← All weeks</a>
+  </p>
   <p class="kicker">${escapeHtml(kindLabel(week.kind))}</p>
   <h1>${escapeHtml(week.title)}</h1>
 </header>
 ${genreNav(`${week.slug}.html`, families)}
 <p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Early notes that tracked Spotify instead of a country still say so.</p>
 <main id="content">
-  ${nav}
+  ${pager}
   <form class="finder" role="search">
     <label for="q">Find a band, album, or genre</label>
     <input id="q" name="q" type="search" placeholder="Casket Dweller, sludge, Finland" autocomplete="off">
@@ -446,7 +449,7 @@ ${genreNav(`${week.slug}.html`, families)}
   <p class="empty" hidden>No releases in this genre on this page.</p>
   ${sections}
   ${sources}
-  ${nav}
+  ${pager}
 </main>
 ${attributions(`<a href="../index.html">All weeks</a>`)}`;
 
