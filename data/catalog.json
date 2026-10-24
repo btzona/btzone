@@ -5,8 +5,8 @@
       "title": "Week of Oct 18–23, 2026",
       "kind": "friday",
       "sort": "2026-10-23",
-      "blurb": "124 releases · black metal, death metal, experimental / noise, grindcore / crust, sludge / doom",
-      "sources": "List for Oct 18–23. Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground. Dates, countries, and links from Metal Archives and Bandcamp.",
+      "blurb": "149 releases · black metal, death metal, experimental / noise, grindcore / crust, sludge / doom",
+      "sources": "List for Oct 18–23. Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground. Dates, countries, and links from Metal Archives and Bandcamp. Saturday catch-up: Metal Archives upcoming (late 10/23–24 adds), Heavy Blog Is Heavy, Metal Injection, Metal War Weekly War 23/10, The Razor's Edge, Cutting Edge Metal, Metal Lair, Heavy Music HQ, Metal Collision, Nine Circles, Angry Metal Guy, Invisible Oranges.",
       "sections": [
         {
           "genre": "BLACK METAL",
@@ -667,6 +667,105 @@
               "place": "Japan",
               "spotify": null,
               "bandcamp": null
+            },
+            {
+              "band": "Auratom",
+              "album": "Mara (EP)",
+              "date": "10/24",
+              "genre": "atmospheric black metal",
+              "place": "Ukraine",
+              "spotify": "https://open.spotify.com/album/1l0cN2yzsik4cXW3I19gRA",
+              "bandcamp": "https://auratom.bandcamp.com/album/auratom-mara-ep-2026"
+            },
+            {
+              "band": "Beksvart",
+              "album": "Vandrer Ensomt",
+              "date": "10/23",
+              "genre": "raw black metal",
+              "place": "Norway",
+              "spotify": null,
+              "bandcamp": "https://coleiosis.bandcamp.com/album/vandrer-ensomt"
+            },
+            {
+              "band": "Black Lament",
+              "album": "Witchcraft (EP)",
+              "date": "10/23",
+              "genre": "black/death metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://death13obsessed.bandcamp.com/album/witchcraft"
+            },
+            {
+              "band": "Cisza",
+              "album": "Untrodden Paths of Satan",
+              "date": "10/23",
+              "genre": "post-black metal",
+              "place": "Poland",
+              "spotify": null,
+              "bandcamp": "https://cisza.bandcamp.com/album/untrodden-paths-of-satan"
+            },
+            {
+              "band": "Jarac",
+              "album": "Pogrom sinova Abrahamovih",
+              "date": "10/24",
+              "genre": "raw black metal",
+              "place": "Bosnia and Herzegovina",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Korpituli",
+              "album": "The Forgotten Realms of Korpituli, Chapter 1: The Keys and Gates at the Northern Docks (EP)",
+              "date": "10/24",
+              "genre": "atmospheric black metal / dungeon synth",
+              "place": "Finland",
+              "spotify": null,
+              "bandcamp": "https://korpituli.bandcamp.com/album/the-forgotten-realms-of-korpituli-chapter-1-the-keys-and-gates-at-the-northern-docks"
+            },
+            {
+              "band": "Nocturnal Effigy / Morgrav",
+              "album": "Poisoned Blood of the New Age (split)",
+              "date": "10/23",
+              "genre": "raw black metal / dungeon synth",
+              "place": "USA/Canada",
+              "spotify": null,
+              "bandcamp": "https://nocturnaleffigy.bandcamp.com/album/poisoned-blood-of-the-new-age"
+            },
+            {
+              "band": "Sons of Erebus",
+              "album": "Erebus",
+              "date": "10/24",
+              "genre": "black/death metal",
+              "place": "Australia",
+              "spotify": "https://open.spotify.com/album/27xbmTovlwqGFDx1dToyHW",
+              "bandcamp": null
+            },
+            {
+              "band": "Taithur",
+              "album": "Seasons of MI",
+              "date": "10/23",
+              "genre": "atmospheric black metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://taithur.bandcamp.com/album/seasons-of-mi"
+            },
+            {
+              "band": "Verses of Severance",
+              "album": "Serpents of the North (EP)",
+              "date": "10/23",
+              "genre": "blackened doom metal",
+              "place": "Netherlands",
+              "spotify": "https://open.spotify.com/album/2IbAt48yINqoliLqS3t9su",
+              "bandcamp": "https://versesofseverance.bandcamp.com/album/serpents-of-the-north"
+            },
+            {
+              "band": "Xalvorn",
+              "album": "Eye of the Monolith (EP)",
+              "date": "10/24",
+              "genre": "black metal",
+              "place": "Portugal",
+              "spotify": null,
+              "bandcamp": "https://xalvorn.bandcamp.com/album/eye-of-the-monolith"
             }
           ]
         },
@@ -942,6 +1041,78 @@
               "place": "Russia",
               "spotify": null,
               "bandcamp": "https://tumorfleshrejection.bandcamp.com/album/beneath-the-moor-the-ancient-dwells-lp"
+            },
+            {
+              "band": "Alibi for a Murder",
+              "album": "Dehumanization",
+              "date": "10/23",
+              "genre": "melodic death metal / metalcore",
+              "place": "Germany",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Desolate Plains",
+              "album": "The Inexplicable Truth",
+              "date": "10/23",
+              "genre": "thrash/death/black metal",
+              "place": "Greece",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Garden of Eyes",
+              "album": "Augur of Ebrietas (EP)",
+              "date": "10/24",
+              "genre": "sludgy death metal",
+              "place": "UK",
+              "spotify": null,
+              "bandcamp": "https://gardenofeyes.bandcamp.com/album/augur-of-ebrietas"
+            },
+            {
+              "band": "Maggot Vomit / DxBxAxIxRxHxFx / Pielmorrgaroth",
+              "album": "3 Way Split (split)",
+              "date": "10/24",
+              "genre": "slam / brutal death metal / goregrind",
+              "place": "USA/International",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Static Rites",
+              "album": "The Language of Silence (EP)",
+              "date": "10/23",
+              "genre": "melodic death metal",
+              "place": "Denmark",
+              "spotify": null,
+              "bandcamp": "https://staticrites.bandcamp.com/album/the-language-of-silence"
+            },
+            {
+              "band": "T-800",
+              "album": "Destroying Human Supremacy",
+              "date": "10/24",
+              "genre": "death metal",
+              "place": "Colombia",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Vāmācāra",
+              "album": "Destructress of Tantric Asceticism (EP)",
+              "date": "10/23",
+              "genre": "psychedelic death/doom",
+              "place": "Germany",
+              "spotify": null,
+              "bandcamp": "https://fiadh.bandcamp.com/album/destructress-of-tantric-asceticism"
+            },
+            {
+              "band": "Virology",
+              "album": "Sequential Malformations",
+              "date": "10/23",
+              "genre": "death metal",
+              "place": "UK",
+              "spotify": null,
+              "bandcamp": null
             }
           ]
         },
@@ -974,6 +1145,15 @@
               "place": "Unknown",
               "spotify": null,
               "bandcamp": "https://philipkdiscs.bandcamp.com/album/american-despair"
+            },
+            {
+              "band": "Phyllomedusa",
+              "album": "I Gave the Fiberglass a Secret",
+              "date": "10/24",
+              "genre": "gorenoise / sludgenoise",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://phyllomedusa.bandcamp.com/album/i-gave-the-fiberglass-a-secret"
             }
           ]
         },
@@ -1060,6 +1240,24 @@
               "place": "Italy",
               "spotify": null,
               "bandcamp": null
+            },
+            {
+              "band": "Crevure",
+              "album": "Slow, Harsh and Noisy Hatred (EP)",
+              "date": "10/23",
+              "genre": "blackened grindcore / noise",
+              "place": "France",
+              "spotify": null,
+              "bandcamp": "https://crevure.bandcamp.com/album/slow-harsh-and-noisy-hatred"
+            },
+            {
+              "band": "Genophobic Perversion",
+              "album": "Weed Album (EP)",
+              "date": "10/23",
+              "genre": "goregrind / experimental",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://genophobicperversion.bandcamp.com/album/weed-album"
             }
           ]
         },
@@ -1146,6 +1344,33 @@
               "place": "Canada",
               "spotify": null,
               "bandcamp": "https://marrowkeep.bandcamp.com/album/the-parasite-of-tragedy"
+            },
+            {
+              "band": "Fohatt",
+              "album": "Vernal Quietude",
+              "date": "10/23",
+              "genre": "atmospheric death/doom",
+              "place": "Brazil",
+              "spotify": "https://open.spotify.com/album/5jBvN5E2WNfySS3ogDcdKr",
+              "bandcamp": "https://fohatt.bandcamp.com/album/vernal-quietude"
+            },
+            {
+              "band": "Gull",
+              "album": "Past Lives // Future Selves",
+              "date": "10/23",
+              "genre": "progressive sludge/black metal",
+              "place": "Australia",
+              "spotify": null,
+              "bandcamp": "https://gullmelbourne.bandcamp.com/album/past-lives-future-selves"
+            },
+            {
+              "band": "Worse",
+              "album": "Worse II (EP)",
+              "date": "10/23",
+              "genre": "sludge / noise rock",
+              "place": "Canada",
+              "spotify": null,
+              "bandcamp": "https://worseband.bandcamp.com/album/worse-ii"
             }
           ]
         }
