@@ -164,8 +164,7 @@ const weeks = [
     sort: "2026-09-18",
     primary: "2026-09-19-links.txt",
     extra: [],
-    sources:
-      "List for Sep 11–18, 2026. Spotify and Bandcamp pages restored from the Sep 19 resend of the same list. Country is the band's origin where a single metal-band record matched the name; otherwise Unknown.",
+    sources: "",
   },
   {
     slug: "2026-09-24",
@@ -174,7 +173,7 @@ const weeks = [
     primary: "2026-09-25.txt",
     extra: ["2026-09-24.txt", "2026-09-26.txt"],
     sources:
-      "Releases from the Sep 24 mid-week note, the Sep 25 list, and the Saturday Sep 26 catch-up. A release that appeared more than once is listed once. Roundups: Heavy Blog Is Heavy, Metal Collision, Nine Circles, Heavy Music HQ, VM-Underground, The Razor's Edge, Metal Connect, Toilet ov Hell, Metal War.",
+      "Roundups: Heavy Blog Is Heavy, Metal Collision, Nine Circles, Heavy Music HQ, VM-Underground, The Razor's Edge, Metal Connect, Toilet ov Hell, Metal War.",
   },
   {
     slug: "2026-10-02",
@@ -183,7 +182,7 @@ const weeks = [
     primary: "2026-10-02.txt",
     extra: ["2026-10-03.txt"],
     sources:
-      "List for Sep 28–Oct 2, plus the Saturday Oct 3 catch-up. Roundups: Metal Collision Week 40, Nine Circles Initial Descent (Sep 28–Oct 4), Heavy Music HQ, Heavy Blog Is Heavy, Metal Connect, Ghost Cult, VM-Underground, Metal Injection, Metal War.",
+      "Roundups: Metal Collision Week 40, Nine Circles Initial Descent (Sep 28–Oct 4), Heavy Music HQ, Heavy Blog Is Heavy, Metal Connect, Ghost Cult, VM-Underground, Metal Injection, Metal War.",
   },
   {
     slug: "2026-10-09",
@@ -192,7 +191,7 @@ const weeks = [
     primary: "2026-10-09.txt",
     extra: ["2026-10-10.txt"],
     sources:
-      "List for Oct 4–9, plus the Saturday Oct 10 catch-up. Roundups: Heavy Blog Is Heavy, Metal Injection, Metal Collision Week 41, Nine Circles Initial Descent (Oct 5–11), Heavy Music HQ, VM-Underground, Toilet ov Hell, Metal Connect, The Razor's Edge, Ghost Cult, Angry Metal Guy, Metal Archives, Cutting Edge Metal, Metal War.",
+      "Roundups: Heavy Blog Is Heavy, Metal Injection, Metal Collision Week 41, Nine Circles Initial Descent (Oct 5–11), Heavy Music HQ, VM-Underground, Toilet ov Hell, Metal Connect, The Razor's Edge, Ghost Cult, Angry Metal Guy, Metal Archives, Cutting Edge Metal, Metal War.",
   },
   {
     slug: "2026-10-16",
@@ -202,7 +201,7 @@ const weeks = [
     extra: ["2026-10-17.txt"],
     drop: ["thronehammer slay | kill | erase"],
     sources:
-      "List for Oct 11–16, plus the Saturday Oct 17 catch-up. Thronehammer's Slay | Kill | Erase is already on the Oct 3–9 page. Roundups: Heavy Blog Is Heavy, Metal Injection, Metal Collision Week 42, Nine Circles Initial Descent (Oct 12–18), Metal War, Heavy Music HQ, KaosMetal, The Razor's Edge, Metal Archives, Angry Metal Guy, Cutting Edge Metal.",
+      "Roundups: Heavy Blog Is Heavy, Metal Injection, Metal Collision Week 42, Nine Circles Initial Descent (Oct 12–18), Metal War, Heavy Music HQ, KaosMetal, The Razor's Edge, Metal Archives, Angry Metal Guy, Cutting Edge Metal.",
   },
   {
     slug: "2026-10-23",
@@ -211,7 +210,7 @@ const weeks = [
     primary: "2026-10-23.txt",
     extra: ["2026-10-24.txt"],
     sources:
-      "List for Oct 18–23. Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground. Dates, countries, and links from Metal Archives and Bandcamp. Saturday catch-up: Metal Archives upcoming (late 10/23–24 adds), Heavy Blog Is Heavy, Metal Injection, Metal War Weekly War 23/10, The Razor's Edge, Cutting Edge Metal, Metal Lair, Heavy Music HQ, Metal Collision, Nine Circles, Angry Metal Guy, Invisible Oranges.",
+      "Roundups: Heavy Blog Is Heavy, Metal Injection, Nine Circles Initial Descent (Oct 19–25), Heavy Music HQ, Metal Connect, The Razor's Edge, Metal Collision, Metal Archives, VM-Underground, Metal War, Cutting Edge Metal, Metal Lair, Angry Metal Guy, Invisible Oranges.",
   },
 ];
 
