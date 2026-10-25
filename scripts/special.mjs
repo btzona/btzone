@@ -28,7 +28,7 @@ export const LISTS = [
     file: "special-jrod.json",
     page: "jrod-core.html",
     title: "J-Rod Core",
-    tagline: "Deathcore for J-Rod, with the brakes cut.",
+    tagline: "Deathcore picks for J-Rod.",
     description: "Deathcore for J-Rod: breakdowns, slams, and the heavy stuff.",
   },
   {
