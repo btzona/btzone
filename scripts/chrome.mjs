@@ -90,7 +90,7 @@ export function buddyNav(prefix, current) {
     const here = current === buddy.id ? ` aria-current="page"` : "";
     return `<a href="${escapeHtml(prefix)}${buddy.href}"${here}>${glyphs[buddy.glyph]}<span>${escapeHtml(buddy.label)}</span></a>`;
   }).join("\n    ");
-  return `<nav class="buddy-nav" aria-label="Side lists">
+  return `<nav class="buddy-nav" aria-label="J-Rod and Lenny">
     ${links}
   </nav>`;
 }

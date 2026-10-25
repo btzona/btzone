@@ -28,8 +28,8 @@ export const LISTS = [
     file: "special-jrod.json",
     page: "jrod-core.html",
     title: "J-Rod Core",
-    tagline: "Deathcore set aside for J-Rod. It stays off the weekly lists.",
-    description: "J-Rod Core, a side list of deathcore kept apart from the weekly extreme metal digests.",
+    tagline: "Deathcore for J-Rod, with the brakes cut.",
+    description: "Deathcore for J-Rod: breakdowns, slams, and the heavy stuff.",
   },
   {
     id: "lenny",
@@ -37,8 +37,8 @@ export const LISTS = [
     file: "special-lenny.json",
     page: "lennys-stoner-corner.html",
     title: "Lenny's Stoner Corner",
-    tagline: "Stoner rock, stoner metal, and doom, saved here for Lenny.",
-    description: "Lenny's Stoner Corner, a side list of stoner rock, stoner metal, and doom kept apart from the weekly digests.",
+    tagline: "Thick fuzz, slow riffs, and doom for Lenny.",
+    description: "Stoner rock, stoner metal, and doom for Lenny.",
   },
 ];
 
@@ -69,6 +69,19 @@ export function cleanUrl(url, kind) {
   return undefined;
 }
 
+const sourceNote = /\s*\([^)]*(?:Bandcamp|Metal Injection|\bMA\b|Metal Archives|archive|artist tags|per MA)[^)]*\)/gi;
+
+export function publicGenre(genre) {
+  return String(genre || "")
+    .replace(sourceNote, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([;/])/g, " $1")
+    .replace(/\s{2,}/g, " ")
+    .replace(/^[;/]\s*/, "")
+    .replace(/\s*[;/]\s*$/, "")
+    .trim();
+}
+
 export function normalizeEntry(raw) {
   const band = String(raw.band || "").trim();
   const album = String(raw.album || "").trim();
@@ -79,7 +92,7 @@ export function normalizeEntry(raw) {
     band,
     album,
     date: String(raw.date || "").trim(),
-    genre: String(raw.genre || "").trim(),
+    genre: publicGenre(raw.genre),
     country: String(raw.country || "").trim() || "Unknown",
     spotify: spotify || null,
     bandcamp: bandcamp || null,
@@ -110,7 +123,7 @@ export function writeList(list, data) {
       band: release.band,
       album: release.album,
       date: release.date,
-      genre: release.genre,
+      genre: publicGenre(release.genre),
       country: release.country,
       spotify: release.spotify || null,
       bandcamp: release.bandcamp || null,
@@ -142,7 +155,7 @@ function weekTitle(slug, week, titles) {
 
 function renderEntry(release) {
   const album = `<span class="album">${escapeHtml(release.album)}</span>`;
-  return `<li class="rel"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(release.country)}</span>${renderOutlinks(release)}</li>`;
+  return `<li class="rel"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(publicGenre(release.genre))}</span><span class="sep"> - </span><span class="place">${escapeHtml(release.country)}</span>${renderOutlinks(release)}</li>`;
 }
 
 function renderListPage(list, data, families) {
@@ -155,7 +168,6 @@ function renderListPage(list, data, families) {
       return { slug, title: weekTitle(slug, week, titles), releases };
     })
     .filter((week) => week.releases.length);
-  const total = weeks.reduce((sum, week) => sum + week.releases.length, 0);
   const sections = weeks
     .map((week) => {
       const items = week.releases.map(renderEntry).join("\n");
@@ -168,7 +180,6 @@ ${items}
 </section>`;
     })
     .join("\n");
-  const noun = total === 1 ? "release" : "releases";
   const body = `<header class="mast">
   <p class="home-row">
     <a class="wordmark" href="index.html">Extreme Metal Release Report</a>
@@ -177,11 +188,11 @@ ${items}
   <h1 class="side-title">${escapeHtml(list.title)}</h1>
 </header>
 ${navRow(genreNav("index.html", families), "", list.id)}
-<p class="lede">${escapeHtml(list.tagline)} ${total} ${noun}.</p>
+<p class="lede">${escapeHtml(list.tagline)}</p>
 <main id="content">
   ${sections || `<p class="empty">No releases on this list yet.</p>`}
 </main>
-${attributions(`Side list, kept off the weekly counts. <a href="index.html">All weeks</a>`)}`;
+${attributions(`<a href="index.html">All weeks</a>`)}`;
   return pageShell({
     title: `${list.title} · BT's Extreme Metal Release Report`,
     description: list.description,
