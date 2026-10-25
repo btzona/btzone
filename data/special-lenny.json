@@ -5,7 +5,7 @@
         "band": "Alien Dream",
         "album": "Aldebaran",
         "date": "10/21",
-        "genre": "stoner rock / space rock / instrumental (Bandcamp tags)",
+        "genre": "stoner rock / space rock / instrumental",
         "country": "Australia",
         "spotify": null,
         "bandcamp": "https://aliendream.bandcamp.com/album/aldebaran"
@@ -14,7 +14,7 @@
         "band": "Authari",
         "album": "Echoes Down the Aisle",
         "date": "10/17",
-        "genre": "progressive rock / stoner rock (Bandcamp tags)",
+        "genre": "progressive rock / stoner rock",
         "country": "Germany",
         "spotify": null,
         "bandcamp": "https://authari.bandcamp.com/album/echoes-down-the-aisle"
@@ -23,7 +23,7 @@
         "band": "Bongfuneral",
         "album": "Arise, Wizard, Arise!",
         "date": "10/23",
-        "genre": "stoner rock / sludge / doom (Bandcamp tags)",
+        "genre": "stoner rock / sludge / doom",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://midnightmatsuri.bandcamp.com/album/arise-wizard-arise"
@@ -32,7 +32,7 @@
         "band": "Compra Y Venta",
         "album": "God Sends His Funniest Battles to His Silliest Clowns",
         "date": "10/22",
-        "genre": "desert rock / stoner doom / psych rock (Bandcamp tags)",
+        "genre": "desert rock / stoner doom / psych rock",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://comprayventa.bandcamp.com/album/god-sends-his-funniest-battles-to-his-silliest-clowns"
@@ -41,7 +41,7 @@
         "band": "Corruption",
         "album": "Pussyworld (Remastered 2026)",
         "date": "10/23",
-        "genre": "death'n'roll / stoner metal (Bandcamp tags)",
+        "genre": "death'n'roll / stoner metal",
         "country": "Poland",
         "spotify": null,
         "bandcamp": "https://corruptionpoland.bandcamp.com/album/pussyworld-remastered-2026"
@@ -50,7 +50,7 @@
         "band": "Deploy the Sentinels Immediately",
         "album": "Deploy the Sentinels Immediately (EP)",
         "date": "10/23",
-        "genre": "stoner rock / grunge / hard rock (Bandcamp tags)",
+        "genre": "stoner rock / grunge / hard rock",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://deploythesentinelsimmediately.bandcamp.com/album/deploy-the-sentinels-immediately"
@@ -113,7 +113,7 @@
         "band": "Godzilla in the Kitchen",
         "album": "Termination Sequence",
         "date": "10/23",
-        "genre": "psychedelic/progressive metal (Metal Injection) / stoner metal (Bandcamp tag)",
+        "genre": "psychedelic/progressive metal / stoner metal",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/0dyRjWDqUJpnsWEsbAXR0E",
         "bandcamp": "https://godzillainthekitchen.bandcamp.com/album/termination-sequence"
@@ -131,7 +131,7 @@
         "band": "Guns and Speed",
         "album": "Goat Blood",
         "date": "10/18",
-        "genre": "stoner doom / crust / thrash punk (Bandcamp tags)",
+        "genre": "stoner doom / crust / thrash punk",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://gunsandspeed.bandcamp.com/album/goat-blood"
@@ -140,7 +140,7 @@
         "band": "Hempire",
         "album": "Sealed by the Sea (EP)",
         "date": "10/23",
-        "genre": "stoner rock / heavy rock (Bandcamp tags)",
+        "genre": "stoner rock / heavy rock",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://hempirerocks.bandcamp.com/album/sealed-by-the-sea"
@@ -176,7 +176,7 @@
         "band": "Kev Byker",
         "album": "Recovered. (EP)",
         "date": "10/22",
-        "genre": "stoner rock / psychedelic rock / pagan folk metal (Bandcamp tags)",
+        "genre": "stoner rock / psychedelic rock / pagan folk metal",
         "country": "UK",
         "spotify": null,
         "bandcamp": "https://kevbyker.bandcamp.com/album/recovered"
@@ -194,7 +194,7 @@
         "band": "Mass Delusion",
         "album": "Origins ov the Damned (EP)",
         "date": "10/19",
-        "genre": "stoner metal / doom / thrash (Bandcamp tags)",
+        "genre": "stoner metal / doom / thrash",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://massdelusion4.bandcamp.com/album/origins-ov-the-damned"
@@ -203,7 +203,7 @@
         "band": "Mighty Mothra",
         "album": "Always Low Never Zero",
         "date": "10/24",
-        "genre": "stoner rock / doom rock / fuzz (Bandcamp tags)",
+        "genre": "stoner rock / doom rock / fuzz",
         "country": "Germany",
         "spotify": null,
         "bandcamp": "https://mightymothra.bandcamp.com/album/always-low-never-zero"
@@ -212,7 +212,7 @@
         "band": "Nácar",
         "album": "The Fools",
         "date": "10/24",
-        "genre": "stoner rock / alternative / hard rock (Bandcamp tags)",
+        "genre": "stoner rock / alternative / hard rock",
         "country": "Spain",
         "spotify": null,
         "bandcamp": "https://nacar.bandcamp.com/album/the-fools"
@@ -221,7 +221,7 @@
         "band": "OMENS",
         "album": "II: Burn It Down",
         "date": "10/23",
-        "genre": "hard rock / grunge / stoner rock (Bandcamp tags)",
+        "genre": "hard rock / grunge / stoner rock",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://omensrocks.bandcamp.com/album/ii-burn-it-down"
@@ -230,7 +230,7 @@
         "band": "Orgov",
         "album": "Orgov",
         "date": "10/17",
-        "genre": "stoner doom / stoner metal / stoner rock (Bandcamp tags)",
+        "genre": "stoner doom / stoner metal / stoner rock",
         "country": "Germany",
         "spotify": null,
         "bandcamp": "https://orgov.bandcamp.com/album/orgov"
@@ -239,7 +239,7 @@
         "band": "perdido perdido perdido",
         "album": "homenajes despedidas",
         "date": "10/23",
-        "genre": "stoner rock / desert rock / doomgaze (Bandcamp tags)",
+        "genre": "stoner rock / desert rock / doomgaze",
         "country": "Argentina",
         "spotify": null,
         "bandcamp": "https://perdidoperdidoperdido.bandcamp.com/album/homenajes-despedidas"
@@ -248,7 +248,7 @@
         "band": "PEUL",
         "album": "Mud (EP)",
         "date": "10/23",
-        "genre": "stoner doom / stoner rock / space rock (Bandcamp tags)",
+        "genre": "stoner doom / stoner rock / space rock",
         "country": "Netherlands",
         "spotify": null,
         "bandcamp": "https://peul-music.bandcamp.com/album/mud"
@@ -257,7 +257,7 @@
         "band": "Phe",
         "album": "Closer to the Sun",
         "date": "10/23",
-        "genre": "stoner rock / fuzz / desert (Bandcamp tags)",
+        "genre": "stoner rock / fuzz / desert",
         "country": "Netherlands",
         "spotify": null,
         "bandcamp": "https://phemusic2.bandcamp.com/album/closer-to-the-sun"
@@ -266,7 +266,7 @@
         "band": "Plastic Woods",
         "album": "Mirrors",
         "date": "10/22",
-        "genre": "doom / sludge / stoner / heavy psych (Bandcamp tags)",
+        "genre": "doom / sludge / stoner / heavy psych",
         "country": "Spain",
         "spotify": null,
         "bandcamp": "https://discosmacarras.bandcamp.com/album/mirrors"
@@ -275,7 +275,7 @@
         "band": "PRATSJ",
         "album": "Rotte Nès",
         "date": "10/23",
-        "genre": "sludge punk / stoner / noise rock (Bandcamp tags)",
+        "genre": "sludge punk / stoner / noise rock",
         "country": "Belgium",
         "spotify": null,
         "bandcamp": "https://pratsj.bandcamp.com/album/rotte-n-s"
@@ -284,7 +284,7 @@
         "band": "Primordial Happenstance",
         "album": "No Time to Explain",
         "date": "10/24",
-        "genre": "stoner rock / heavy psych rock (Bandcamp tags)",
+        "genre": "stoner rock / heavy psych rock",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://primordialhappenstance.bandcamp.com/album/no-time-to-explain"
@@ -293,7 +293,7 @@
         "band": "Product of Conception",
         "album": "10",
         "date": "10/24",
-        "genre": "stoner rock / hard rock / punk rock (Bandcamp tags)",
+        "genre": "stoner rock / hard rock / punk rock",
         "country": "UK",
         "spotify": null,
         "bandcamp": "https://productofconception.bandcamp.com/album/10"
@@ -302,7 +302,7 @@
         "band": "Rickshaw Billie's Burger Patrol",
         "album": "Ca$h Grab",
         "date": "10/23",
-        "genre": "stoner rock / groove metal / party metal (Bandcamp tags)",
+        "genre": "stoner rock / groove metal / party metal",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://rickshawbilliesburgerpatrol.bandcamp.com/album/ca-h-grab"
@@ -311,7 +311,7 @@
         "band": "Routelaws",
         "album": "Kicking Line (EP)",
         "date": "10/19",
-        "genre": "stoner rock / heavy psych / hard rock (Bandcamp tags)",
+        "genre": "stoner rock / heavy psych / hard rock",
         "country": "Unknown",
         "spotify": null,
         "bandcamp": "https://routelaws.bandcamp.com/album/kicking-line"
@@ -329,7 +329,7 @@
         "band": "Snake Mountain Revival",
         "album": "The Divide",
         "date": "10/23",
-        "genre": "stoner rock / heavy psych (Bandcamp tags)",
+        "genre": "stoner rock / heavy psych",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://snakemountainrevival.bandcamp.com/album/the-divide"
@@ -347,7 +347,7 @@
         "band": "Stoned Century",
         "album": "Snow White and the Seven Riffs",
         "date": "10/24",
-        "genre": "stoner rock / psychedelic rock (Bandcamp tags)",
+        "genre": "stoner rock / psychedelic rock",
         "country": "Unknown",
         "spotify": null,
         "bandcamp": "https://stonedcentury.bandcamp.com/album/snow-white-and-the-seven-riffs"
@@ -356,7 +356,7 @@
         "band": "Sun Voyager",
         "album": "Vandromeda (EP)",
         "date": "10/23",
-        "genre": "desert rock / stoner rock / heavy psych (Bandcamp tags)",
+        "genre": "desert rock / stoner rock / heavy psych",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5jD18w4AgCIJolI1cM0F5y",
         "bandcamp": "https://sun-voyager.bandcamp.com/album/vandromeda"
@@ -365,7 +365,7 @@
         "band": "The Rainbow Forest",
         "album": "Meu Próprio Mundo (EP)",
         "date": "10/24",
-        "genre": "stoner metal / stoner rock / occult rock (Bandcamp tags)",
+        "genre": "stoner metal / stoner rock / occult rock",
         "country": "Brazil",
         "spotify": null,
         "bandcamp": "https://therainbowforest.bandcamp.com/album/meu-pr-prio-mundo"
@@ -374,7 +374,7 @@
         "band": "The Refuge",
         "album": "Love, Death, Prophecy",
         "date": "10/21",
-        "genre": "hard rock / grunge / stoner rock (Bandcamp tags)",
+        "genre": "hard rock / grunge / stoner rock",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/6QmSZvF49YJSpSz0v4fN3Q",
         "bandcamp": "https://therefugeband.bandcamp.com/album/love-death-prophecy"
@@ -383,7 +383,7 @@
         "band": "Tombstone Eyes",
         "album": "Trick or Treat or Die (EP)",
         "date": "10/24",
-        "genre": "stoner metal / heavy psych (Bandcamp tags)",
+        "genre": "stoner metal / heavy psych",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://tombstoneeyes.bandcamp.com/album/trick-or-treat-or-die"
@@ -392,7 +392,7 @@
         "band": "Tumeaine",
         "album": "Kõik või mitte midagi",
         "date": "10/23",
-        "genre": "stoner metal / stoner rock / doom (Bandcamp tags)",
+        "genre": "stoner metal / stoner rock / doom",
         "country": "Estonia",
         "spotify": null,
         "bandcamp": "https://tumeaine.bandcamp.com/album/k-ik-v-i-mitte-midagi"
@@ -401,7 +401,7 @@
         "band": "Vāmācāra",
         "album": "Destructress of Tantric Asceticism (EP)",
         "date": "10/23",
-        "genre": "psychedelic death/doom (archive) / stoner doom / stoner metal (Bandcamp tags)",
+        "genre": "psychedelic death/doom / stoner doom / stoner metal",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/6W7YrAGoCGWxAFP3amOMbE",
         "bandcamp": "https://vamacara.bandcamp.com/album/destructress-of-tantric-asceticism"
@@ -419,7 +419,7 @@
         "band": "Worse",
         "album": "Worse II (EP)",
         "date": "10/23",
-        "genre": "sludge / noise rock / stoner (Bandcamp tags)",
+        "genre": "sludge / noise rock / stoner",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://worseband.bandcamp.com/album/worse-ii"
@@ -428,7 +428,7 @@
         "band": "Zinc Vacuum",
         "album": "Zonk III",
         "date": "10/23",
-        "genre": "stoner rock / psychedelic / krautrock (Bandcamp tags)",
+        "genre": "stoner rock / psychedelic / krautrock",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://zincvacuum.bandcamp.com/album/zonk-iii"
@@ -441,7 +441,7 @@
         "band": "Astral Ritual",
         "album": "Sailing to Utopia",
         "date": "10/14",
-        "genre": "stoner rock / psychedelic metal / space rock (Bandcamp tags)",
+        "genre": "stoner rock / psychedelic metal / space rock",
         "country": "Australia",
         "spotify": null,
         "bandcamp": "https://astralritual.bandcamp.com/album/sailing-to-utopia"
@@ -450,7 +450,7 @@
         "band": "Buzzard",
         "album": "Hush Now",
         "date": "10/16",
-        "genre": "doom folk / stoner rock (Bandcamp tags)",
+        "genre": "doom folk / stoner rock",
         "country": "USA",
         "spotify": null,
         "bandcamp": "https://buzzarddoomfolk.bandcamp.com/album/hush-now"
@@ -459,7 +459,7 @@
         "band": "Chronomancer",
         "album": "Codex Infernalis",
         "date": "10/12",
-        "genre": "stoner metal / doom / groove (Bandcamp tags)",
+        "genre": "stoner metal / doom / groove",
         "country": "Australia",
         "spotify": null,
         "bandcamp": "https://chronomancer-music.bandcamp.com/album/codex-infernalis"
@@ -468,7 +468,7 @@
         "band": "Deadloss Superstar",
         "album": "(Everything's a) Shit Show (Now)",
         "date": "10/13",
-        "genre": "stoner rock / hard rock / alt rock (Bandcamp tags)",
+        "genre": "stoner rock / hard rock / alt rock",
         "country": "UK",
         "spotify": null,
         "bandcamp": "https://deadlosssuperstar.bandcamp.com/album/everythings-a-shit-show-now"
@@ -486,7 +486,7 @@
         "band": "Drunk Wizard",
         "album": "I Cast: Drunk Wizard",
         "date": "10/14",
-        "genre": "stoner / doom / punk / psychedelic (Bandcamp tags)",
+        "genre": "stoner / doom / punk / psychedelic",
         "country": "South Africa",
         "spotify": null,
         "bandcamp": "https://drunkwizard.bandcamp.com/album/i-cast-drunk-wizard"
@@ -495,7 +495,7 @@
         "band": "Elder Colossus",
         "album": "Black Kiss of the Crow",
         "date": "10/16",
-        "genre": "Death/Sludge Metal (archive) / stoner doom (Bandcamp tag)",
+        "genre": "Death/Sludge Metal / stoner doom",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://eldercolossus.bandcamp.com/album/black-kiss-of-the-crow"
@@ -522,7 +522,7 @@
         "band": "Jagannatha",
         "album": "Purushartha",
         "date": "10/16",
-        "genre": "psychedelic rock / stoner rock (Bandcamp tags)",
+        "genre": "psychedelic rock / stoner rock",
         "country": "France",
         "spotify": null,
         "bandcamp": "https://jagannatha.bandcamp.com/album/purushartha"
@@ -531,7 +531,7 @@
         "band": "Kanaan",
         "album": "Kanaan",
         "date": "10/16",
-        "genre": "psychedelic rock / stoner rock / jam (Bandcamp tags)",
+        "genre": "psychedelic rock / stoner rock / jam",
         "country": "Norway",
         "spotify": null,
         "bandcamp": "https://kanaanband.bandcamp.com/album/kanaan"
@@ -540,7 +540,7 @@
         "band": "KUMARU",
         "album": "Morbus Doominatrix",
         "date": "10/15",
-        "genre": "stoner doom / stoner metal (Bandcamp tags)",
+        "genre": "stoner doom / stoner metal",
         "country": "Argentina",
         "spotify": null,
         "bandcamp": "https://kumaru9.bandcamp.com/album/morbus-doominatrix"
@@ -549,7 +549,7 @@
         "band": "Mild / Pothole",
         "album": "Mild / Pothole (split)",
         "date": "10/15",
-        "genre": "Sludge/Stoner/Doom Metal (Mild per MA); stoner doom / powerviolence (Bandcamp)",
+        "genre": "Sludge/Stoner/Doom Metal; stoner doom / powerviolence",
         "country": "UK / Unknown",
         "spotify": null,
         "bandcamp": "https://mildlincolnsludge.bandcamp.com/album/mild-pothole-split"
@@ -585,7 +585,7 @@
         "band": "Robot God",
         "album": "Curse of the Driven",
         "date": "10/16",
-        "genre": "heavy psych / stoner rock (Bandcamp tags)",
+        "genre": "heavy psych / stoner rock",
         "country": "Australia",
         "spotify": null,
         "bandcamp": "https://robotgodband.bandcamp.com/album/curse-of-the-driven"
@@ -594,7 +594,7 @@
         "band": "Selvagem",
         "album": "Realidade Fictícia (EP)",
         "date": "10/15",
-        "genre": "stoner doom / stoner metal (Bandcamp tags)",
+        "genre": "stoner doom / stoner metal",
         "country": "Brazil",
         "spotify": null,
         "bandcamp": "https://selvagem.bandcamp.com/album/realidade-fict-cia"
@@ -612,7 +612,7 @@
         "band": "Spatola.",
         "album": "Round 1",
         "date": "10/13",
-        "genre": "desert rock / stoner rock (Bandcamp tags)",
+        "genre": "desert rock / stoner rock",
         "country": "Argentina",
         "spotify": null,
         "bandcamp": "https://spatola1.bandcamp.com/album/round-1"
@@ -648,7 +648,7 @@
         "band": "The Fuzzed & Doomed",
         "album": "Void",
         "date": "10/14",
-        "genre": "stoner doom / drone doom (Bandcamp tags)",
+        "genre": "stoner doom / drone doom",
         "country": "Canada",
         "spotify": null,
         "bandcamp": "https://fuzzdoom1.bandcamp.com/album/void"
@@ -657,7 +657,7 @@
         "band": "Wizards Sleeves",
         "album": "You Shall Not Ass",
         "date": "10/16",
-        "genre": "Sludge/Doom (archive) / stoner metal (Bandcamp artist tags)",
+        "genre": "Sludge/Doom / stoner metal",
         "country": "Finland",
         "spotify": null,
         "bandcamp": null
@@ -666,7 +666,7 @@
         "band": "Zapoï",
         "album": "Zapoï (EP)",
         "date": "10/16",
-        "genre": "garage / stoner / punk (Bandcamp tags)",
+        "genre": "garage / stoner / punk",
         "country": "France",
         "spotify": null,
         "bandcamp": "https://zapoix2.bandcamp.com/album/zapo-ep"

@@ -259,7 +259,7 @@ function renderIndex(weeks, families) {
   <h1><a class="wordmark" href="index.html">Extreme Metal Release Report</a></h1>
 </header>
 ${navRow(genreNav("index.html", families), "", null)}
-<p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Spotify and Bandcamp sit at the end of a line when that album page was found.</p>
+<p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom.</p>
 <figure class="banner">
   <img src="img/schammasch-eindhoven-2016.jpg" alt="Schammasch performing under red and blue stage lights at Eindhoven Metal Meeting, 2016" width="1280" height="1920">
   <figcaption><a href="#attributions">Photo: Schammasch @ EMM 2016</a></figcaption>
@@ -278,7 +278,7 @@ ${hits}
     </ul>
   </section>
 </main>
-${attributions("Reports compiled by Bryan Timmins. This page is a reading copy of those digests, not a label or a store.")}`;
+${attributions("Reports compiled by Bryan Timmins.")}`;
 
   return pageShell({
     title: "BT's Extreme Metal Release Report",
@@ -297,6 +297,18 @@ function dropFriday(text) {
     .replace(/[ \t]{2,}/g, " ")
     .replace(/\s+([.,;:])/g, "$1")
     .trim();
+}
+
+function publicSourceText(text) {
+  const cleaned = dropFriday(text);
+  if (!cleaned) return "";
+  const internal =
+    /catch-up|mid-week|already on the|listed once|restored from|band's origin|single metal-band|dates, countries|not scrapeable|\bblocked\b|\bskipped\b|\bexcluded\b|bot[- ]|cloudflare|\bresend\b|spotify availability|out of window|off-genre|tracklist|not yet posted|not usefully|cross-checked|retrospectives|checked and skipped/i;
+  const kept = cleaned
+    .split(/(?<=\.)\s+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence && !internal.test(sentence) && !/^list for\b/i.test(sentence) && !/^releases from\b/i.test(sentence));
+  return kept.join(" ").replace(/\s+/g, " ").trim();
 }
 
 function renderWeek(week, weeks, families) {
@@ -335,7 +347,7 @@ ${items}
   <h1>${escapeHtml(week.title)}</h1>
 </header>
 ${navRow(genreNav(`${week.slug}.html`, families), "../", null)}
-<p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Spotify and Bandcamp sit at the end when that album page was found.</p>
+<p class="lede">${count} releases.</p>
 <main id="content">
   ${pager}
   <form class="finder" role="search">
@@ -360,7 +372,7 @@ ${attributions(`<a href="../index.html">All weeks</a>`)}`;
 
 function renderAll(catalog) {
   for (const week of catalog.weeks) {
-    if (week.sources) week.sources = dropFriday(week.sources);
+    if (week.sources) week.sources = publicSourceText(week.sources);
   }
   const weeks = [...catalog.weeks]
     .sort((a, b) => {
@@ -473,8 +485,11 @@ if (flags.rebuild) {
     if (flags.title) week.title = flags.title;
     if (flags.sort) week.sort = flags.sort;
     week.sections = merged.sections;
-    if (parsed.sources && !(week.sources || "").includes(parsed.sources)) {
-      week.sources = [week.sources, parsed.sources].filter(Boolean).join(" ");
+    if (parsed.sources) {
+      const incoming = publicSourceText(parsed.sources);
+      if (incoming && !(week.sources || "").includes(incoming)) {
+        week.sources = publicSourceText([week.sources, incoming].filter(Boolean).join(" "));
+      }
     }
     week.blurb = flags.blurb || autoBlurb(week);
     if (!target) catalog.weeks.push(week);
@@ -494,7 +509,7 @@ if (flags.rebuild) {
       kind,
       sort: flags.sort || flags.slug,
       blurb,
-      sources: parsed.sources,
+      sources: publicSourceText(parsed.sources),
       sections: parsed.sections,
     };
     const existing = catalog.weeks.findIndex((item) => item.slug === week.slug);
