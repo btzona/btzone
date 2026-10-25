@@ -8,6 +8,9 @@
  * as null, is shown as Unknown.
  *
  *   node scripts/build-weeks.mjs
+ *
+ * The rebuild writes the weekly pages and then the side lists
+ * (J-Rod Core and Lenny's Stoner Corner) from their own data files.
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
@@ -240,3 +243,9 @@ const rebuilt = spawnSync(process.execPath, ["scripts/add-week.mjs", "--rebuild"
   stdio: "inherit",
 });
 if (rebuilt.status !== 0) process.exit(rebuilt.status || 1);
+
+const special = spawnSync(process.execPath, ["scripts/build-special.mjs"], {
+  cwd: root,
+  stdio: "inherit",
+});
+if (special.status !== 0) process.exit(special.status || 1);

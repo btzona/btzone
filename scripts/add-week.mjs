@@ -14,6 +14,10 @@
  *
  *   node scripts/add-week.mjs --rebuild
  *
+ * `--rebuild` rewrites the index, every week page, and the side lists
+ * (J-Rod Core and Lenny's Stoner Corner). The side lists are not part of
+ * data/catalog.json. Their header cluster is the same one used here.
+ *
  * `--kind saturday` folds that digest into the Friday (or mid-week) slug in
  * `--slug`. It does not create a Saturday page. Repeat releases already on
  * that week are dropped. `--retire 2026-10-10` deletes an old sibling slug.
@@ -35,6 +39,19 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from 
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseRelease } from "./release-line.mjs";
+import {
+  attributions,
+  escapeHtml,
+  familiesFor,
+  familiesIn,
+  genreNav,
+  navRow,
+  pageShell,
+  renderOutlinks,
+  sectionId,
+  unique,
+} from "./chrome.mjs";
+import { writeSpecialPages } from "./special.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const catalogPath = join(root, "data", "catalog.json");
@@ -113,14 +130,6 @@ function parseDigest(text) {
   };
 }
 
-function escapeHtml(value) {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
 function placeLabel(place) {
   if (/^spotify\s+(yes|no)$/i.test(place)) return "Unknown";
   return place;
@@ -189,32 +198,6 @@ function retireSlugs(catalog) {
   catalog.weeks = catalog.weeks.filter((week) => !drop.has(week.slug));
 }
 
-const FAMILIES = [
-  { id: "black", label: "Black", test: /black/i },
-  { id: "death", label: "Death", test: /death|slam/i },
-  { id: "grind", label: "Grind · Crust", test: /grind|crust/i },
-  { id: "sludge", label: "Sludge · Doom", test: /sludge|doom|funeral|stoner/i },
-  { id: "experimental", label: "Experimental", test: /experimental|noise|industrial|avant|post-punk|post-rock|drone/i },
-];
-
-function familiesFor(...parts) {
-  const text = parts.filter(Boolean).join(" ");
-  const ids = FAMILIES.filter((family) => family.test.test(text)).map((family) => family.id);
-  return ids.length ? ids : ["other"];
-}
-
-function unique(values) {
-  return [...new Set(values)];
-}
-
-function sectionId(genre) {
-  const slug = genre
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-  return `g-${slug || "releases"}`;
-}
-
 function annotateWeek(week) {
   const sections = week.sections.map((section) => {
     const releases = section.releases.map((release) => ({
@@ -235,29 +218,6 @@ function annotateWeek(week) {
   };
 }
 
-function familiesIn(weeks) {
-  const used = new Set(weeks.flatMap((week) => week.families));
-  const present = FAMILIES.filter((family) => used.has(family.id));
-  if (used.has("other")) present.push({ id: "other", label: "Other" });
-  return present;
-}
-
-function renderOutlinks(release) {
-  const links = [];
-  if (release.spotify) {
-    links.push(
-      `<a class="outlink" href="${escapeHtml(release.spotify)}" rel="noopener">Spotify</a>`
-    );
-  }
-  if (release.bandcamp) {
-    links.push(
-      `<a class="outlink" href="${escapeHtml(release.bandcamp)}" rel="noopener">Bandcamp</a>`
-    );
-  }
-  if (!links.length) return "";
-  return `<span class="outlinks">${links.join("")}</span>`;
-}
-
 function renderRelease(release) {
   const album = `<span class="album">${escapeHtml(release.album)}</span>`;
   const text = [release.band, release.album, release.date, release.genre, release.place]
@@ -265,60 +225,6 @@ function renderRelease(release) {
     .toLowerCase();
   const families = (release.families || []).join(" ");
   return `<li class="rel" data-families="${escapeHtml(families)}" data-text="${escapeHtml(text)}"><span class="band">${escapeHtml(release.band)}</span><span class="sep"> - </span>${album}<span class="sep"> - </span><span class="date">${escapeHtml(release.date)}</span><span class="sep"> - </span><span class="style">${escapeHtml(release.genre)}</span><span class="sep"> - </span><span class="place">${escapeHtml(placeLabel(release.place))}</span>${renderOutlinks(release)}</li>`;
-}
-
-function genreNav(selfPath, families) {
-  const links = [
-    `<a data-genre="" href="${escapeHtml(selfPath)}">All</a>`,
-    ...families.map(
-      (family) =>
-        `<a data-genre="${escapeHtml(family.id)}" href="${escapeHtml(selfPath)}?genre=${escapeHtml(family.id)}">${escapeHtml(family.label)}</a>`
-    ),
-  ].join("\n    ");
-  return `<nav class="genre-nav" aria-label="Genres">
-    ${links}
-  </nav>`;
-}
-
-function pageShell({ title, description, depth, body }) {
-  const prefix = depth ? "../" : "";
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#070708">
-<title>${escapeHtml(title)}</title>
-<meta name="description" content="${escapeHtml(description)}">
-<link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="${prefix}css/style.css">
-</head>
-<body>
-<a class="skip" href="#content">Skip to the releases</a>
-${body}
-<script src="${prefix}js/site.js"></script>
-</body>
-</html>
-`;
-}
-
-const credit = `Schammasch at Eindhoven Metal Meeting, 2016. Photo by Grywnn, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg">Wikimedia Commons</a>. Site code is MIT. The photograph stays under CC BY-SA 4.0.`;
-
-const playlist = `<section class="listen" id="listen" aria-label="Listen">
-  <h2>Listen</h2>
-  <div class="listen-frame">
-    <iframe src="https://open.spotify.com/embed/playlist/2lZxOHKx38DX9AuY0G2hjI?utm_source=generator&amp;theme=0" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
-  </div>
-</section>`;
-
-function attributions(lead) {
-  return `${playlist}
-<footer id="attributions">
-  <p>${lead}</p>
-  <h2>Attributions</h2>
-  <p>${credit}</p>
-</footer>`;
 }
 
 function renderIndex(weeks, families) {
@@ -352,7 +258,7 @@ function renderIndex(weeks, families) {
   const body = `<header class="mast">
   <h1><a class="wordmark" href="index.html">Extreme Metal Release Report</a></h1>
 </header>
-${genreNav("index.html", families)}
+${navRow(genreNav("index.html", families), "", null)}
 <p class="lede">Week-over-week digests of black metal, death metal, grind, crust, sludge, and doom. Newest week first. Spotify and Bandcamp sit at the end of a line when that album page was found.</p>
 <figure class="banner">
   <img src="img/schammasch-eindhoven-2016.jpg" alt="Schammasch performing under red and blue stage lights at Eindhoven Metal Meeting, 2016" width="1280" height="1920">
@@ -379,6 +285,7 @@ ${attributions("Reports compiled by Bryan Timmins. This page is a reading copy o
     description:
       "Week-over-week extreme metal release digests: black, death, grind, crust, sludge, and doom.",
     depth: 0,
+    catalog: true,
     body,
   });
 }
@@ -427,7 +334,7 @@ ${items}
   </p>
   <h1>${escapeHtml(week.title)}</h1>
 </header>
-${genreNav(`${week.slug}.html`, families)}
+${navRow(genreNav(`${week.slug}.html`, families), "../", null)}
 <p class="lede">${count} releases. Each line is Band - Album - date - genre - country. Spotify and Bandcamp sit at the end when that album page was found.</p>
 <main id="content">
   ${pager}
@@ -446,6 +353,7 @@ ${attributions(`<a href="../index.html">All weeks</a>`)}`;
     title: `${week.title} · BT's Extreme Metal Release Report`,
     description: `${week.title}. ${count} extreme metal releases.`,
     depth: 1,
+    catalog: true,
     body,
   });
 }
@@ -515,6 +423,7 @@ function renderAll(catalog) {
 `
     );
   }
+  writeSpecialPages();
   console.log(
     `Rebuilt ${weeks.length} week pages, ${weeks.reduce((sum, week) => sum + countReleases(week), 0)} releases.`
   );

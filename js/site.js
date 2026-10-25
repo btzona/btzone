@@ -1,10 +1,12 @@
 const params = new URLSearchParams(location.search);
 const genre = (params.get("genre") || "").trim().toLowerCase();
 
-for (const link of document.querySelectorAll(".genre-nav a")) {
-  const id = (link.dataset.genre || "").toLowerCase();
-  if (id === genre) link.setAttribute("aria-current", "page");
-  else link.removeAttribute("aria-current");
+if (document.body.dataset.catalog === "true") {
+  for (const link of document.querySelectorAll(".genre-nav a")) {
+    const id = (link.dataset.genre || "").toLowerCase();
+    if (id === genre) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  }
 }
 
 function hasFamily(node) {

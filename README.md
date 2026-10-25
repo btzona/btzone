@@ -78,6 +78,24 @@ node scripts/add-week.mjs --rebuild
 
 `scripts/seed.sh` reloads every digest already in the repo.
 
+## Side lists
+
+J-Rod Core and Lenny's Stoner Corner are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json` and `data/special-lenny.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
+
+Rebuild both pages from those files:
+
+```bash
+node scripts/build-special.mjs
+```
+
+Add a week of rows. The JSON file has a `jrod` array and a `lenny` array. Each row is `band`, `album`, `date` (`MM/DD`), `genre`, `country`, `spotify` (an album URL or null), and `bandcamp` (an album URL or null). A repeated band and album stays one row. A link that was null is filled when the new row has one. Rows are not copied into `data/catalog.json`.
+
+```bash
+node scripts/add-special.mjs 2026-10-23 digests/special-2026-10-23.json
+```
+
+`node scripts/add-week.mjs --rebuild` and `node scripts/build-weeks.mjs` rewrite the side-list pages too, and they keep the side-list tags in the header of every page.
+
 ## Picture
 
 The index photograph is Schammasch at Eindhoven Metal Meeting, 2016, by Grywnn, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schammasch_@_Eindhoven_Metal_Meeting_2016_054.jpg). The page shows a short “Photo: Schammasch @ EMM 2016” caption. The full credit appears once, in the footer under Attributions. The site code is MIT. The photograph remains CC BY-SA 4.0.
