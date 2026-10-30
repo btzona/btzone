@@ -88,6 +88,9 @@ export function parseRelease(line) {
     return " ";
   });
   work = work.replace(/\s+/g, " ").trim();
+  // Labeled links are ` | bandcamp: URL | spotify: URL`. The labels are
+  // removed above; the leftover separators are not part of the country.
+  work = work.replace(/(?:\s*\|\s*)+$/, "").trim();
   const parts = work.split(" - ");
   if (parts.length < 4) return null;
   const place = parts.pop().trim();

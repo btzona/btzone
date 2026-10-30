@@ -1,4 +1,359 @@
 {
+  "2026-10-30": {
+    "releases": [
+      {
+        "band": "Astrominar",
+        "album": "Sojourn of the Stranger",
+        "date": "10/30",
+        "genre": "stonergaze / psych rock",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/6wWOCPtadbCBMM0nf0irqX",
+        "bandcamp": "https://astrominar.bandcamp.com/album/sojourn-of-the-stranger"
+      },
+      {
+        "band": "Black Royal",
+        "album": "Abyssian",
+        "date": "10/30",
+        "genre": "sludge / stoner / death metal",
+        "country": "Finland",
+        "spotify": "https://open.spotify.com/album/33Hcp3jW5Mn7IWHM3gxAYu",
+        "bandcamp": "https://blackroyal.bandcamp.com/album/abyssian"
+      },
+      {
+        "band": "Bong Turbo",
+        "album": "EP II",
+        "date": "10/26",
+        "genre": "stoner rock / punk",
+        "country": "Austria",
+        "spotify": "https://open.spotify.com/album/3QuMyMAtdTKcQeVkU2IslU",
+        "bandcamp": "https://bongturbo.bandcamp.com/album/ep-ii"
+      },
+      {
+        "band": "Coloso",
+        "album": "Berserkr",
+        "date": "10/30",
+        "genre": "stoner / desert / noise rock",
+        "country": "Mexico",
+        "spotify": "https://open.spotify.com/album/07Ijuqxf9eOTXQJAiGtEHV",
+        "bandcamp": "https://colosomx.bandcamp.com/album/berserkr"
+      },
+      {
+        "band": "Dead Meadow",
+        "album": "Foundlings",
+        "date": "10/29",
+        "genre": "heavy psych / stoner rock",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/13Lmwh10mN2pGDQXmiFVdZ",
+        "bandcamp": "https://deadmeadow.bandcamp.com/album/foundlings"
+      },
+      {
+        "band": "Deaf Blokes",
+        "album": "If Oceans Die... We Die",
+        "date": "10/30",
+        "genre": "stoner / doom rock",
+        "country": "France",
+        "spotify": "https://open.spotify.com/album/0B9JPJIymbHF0TvzwGHdla",
+        "bandcamp": "https://deafblokes.bandcamp.com/album/if-oceans-die-we-die"
+      },
+      {
+        "band": "Dewer",
+        "album": "The Whisht Hunt",
+        "date": "10/29",
+        "genre": "stoner/doom metal",
+        "country": "UK",
+        "spotify": null,
+        "bandcamp": "https://dewer.bandcamp.com/album/the-whisht-hunt"
+      },
+      {
+        "band": "Dickweed",
+        "album": "Pray for Death",
+        "date": "10/29",
+        "genre": "stoner / sludge / doom metal",
+        "country": "UK",
+        "spotify": null,
+        "bandcamp": "https://dickweedofficial.bandcamp.com/album/pray-for-death"
+      },
+      {
+        "band": "Face Velora",
+        "album": "River",
+        "date": "10/28",
+        "genre": "stoner rock / grunge",
+        "country": "Switzerland",
+        "spotify": "https://open.spotify.com/album/2gXaTWddrdpI2eMvpoBb3F",
+        "bandcamp": "https://facevelora.bandcamp.com/album/river"
+      },
+      {
+        "band": "Fat Dracula",
+        "album": "Fat Dracula",
+        "date": "10/25",
+        "genre": "stoner rock / sludge / psych",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://fatdracula.bandcamp.com/album/fat-dracula"
+      },
+      {
+        "band": "Floodstain",
+        "album": "Blues Weiser Plays Floodstain",
+        "date": "10/26",
+        "genre": "drone / sludge / stoner",
+        "country": "Unknown",
+        "spotify": null,
+        "bandcamp": "https://floodstain.bandcamp.com/album/blues-weiser-plays-floodstain"
+      },
+      {
+        "band": "Forest Horse",
+        "album": "Botany",
+        "date": "10/28",
+        "genre": "psychedelic doom / stoner metal",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/3KuNBlemhkOCChFW7M8SOM",
+        "bandcamp": "https://foresthorse.bandcamp.com/album/botany"
+      },
+      {
+        "band": "Ghost Pipe",
+        "album": "The Awakening",
+        "date": "10/30",
+        "genre": "stoner doom / heavy psych",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://ghostpipe2.bandcamp.com/album/the-awakening"
+      },
+      {
+        "band": "Iommi Watts",
+        "album": "Α ☧ Ω",
+        "date": "10/30",
+        "genre": "stoner / sludge / doom",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/5eeBgbyc7DaooM8HXgmkxr",
+        "bandcamp": "https://iommiwatts.bandcamp.com/album/-"
+      },
+      {
+        "band": "Karev",
+        "album": "Desert / Off the Floor (EP)",
+        "date": "10/30",
+        "genre": "desert rock",
+        "country": "Italy",
+        "spotify": "https://open.spotify.com/album/5qaT7skwNl1cOn8b7JUFD9",
+        "bandcamp": "https://karev.bandcamp.com/album/desert-off-the-floor-ep"
+      },
+      {
+        "band": "Ölböðull",
+        "album": "Ölböðull",
+        "date": "10/27",
+        "genre": "stoner / psychedelic doom",
+        "country": "Iceland",
+        "spotify": null,
+        "bandcamp": "https://olbodlull.bandcamp.com/album/lb-ull"
+      },
+      {
+        "band": "Mety Heaval",
+        "album": "Mety Heaval",
+        "date": "10/30",
+        "genre": "stoner metal / sludge / psych",
+        "country": "Germany",
+        "spotify": null,
+        "bandcamp": "https://metyheaval.bandcamp.com/album/mety-heaval"
+      },
+      {
+        "band": "Moonwire",
+        "album": "Pumpking Hood",
+        "date": "10/28",
+        "genre": "doom / stoner metal/rock",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://moonwire.bandcamp.com/album/pumpking-hood"
+      },
+      {
+        "band": "Moonwraith",
+        "album": "To the Woods",
+        "date": "10/30",
+        "genre": "hard / stoner rock",
+        "country": "Norway",
+        "spotify": "https://open.spotify.com/album/0HSeRQbrIwSzkJf2jVs4c4",
+        "bandcamp": "https://moonwraith.bandcamp.com/album/to-the-woods"
+      },
+      {
+        "band": "Mushroom Beard",
+        "album": "Mushroom Beard",
+        "date": "10/30",
+        "genre": "stoner doom / psych rock",
+        "country": "UK",
+        "spotify": "https://open.spotify.com/album/3bGakGn5Frb2THxUCCjy0C",
+        "bandcamp": "https://mushroombeard.bandcamp.com/album/mushroom-beard"
+      },
+      {
+        "band": "Other Maunder Plan",
+        "album": "The Occurrence",
+        "date": "10/28",
+        "genre": "stoner doom / doomgaze",
+        "country": "France",
+        "spotify": "https://open.spotify.com/album/59zjbTIiLNqwE9inV8rCnS",
+        "bandcamp": "https://othermaunderplan.bandcamp.com/album/the-occurrence"
+      },
+      {
+        "band": "Plowtooth",
+        "album": "On the Edge of Oblivion",
+        "date": "10/30",
+        "genre": "stoner doom / psych metal",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/0E8aKxOBILGdFpwtKxAwQz",
+        "bandcamp": "https://plowtooth.bandcamp.com/album/on-the-edge-of-oblivion"
+      },
+      {
+        "band": "Queens of the Stone Age",
+        "album": "Perfecth",
+        "date": "10/30",
+        "genre": "stoner / hard rock",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/4GUyvsWXjynz867s6Lww2p",
+        "bandcamp": "https://qotsa.bandcamp.com/album/perfecth"
+      },
+      {
+        "band": "Rebreather",
+        "album": "Chaos Patterns",
+        "date": "10/30",
+        "genre": "doom / noise rock / stoner",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/5pu8uoVZ1JVrq5uFNt0At5",
+        "bandcamp": "https://rebreather-ohio.bandcamp.com/album/chaos-patterns"
+      },
+      {
+        "band": "Renard Blanc",
+        "album": "Quand l'espoir est tout ce qu'il nous reste",
+        "date": "10/30",
+        "genre": "desert / stoner rock",
+        "country": "Canada",
+        "spotify": "https://open.spotify.com/album/6ids2mQqLrsTjf2LM0dCR2",
+        "bandcamp": "https://renardblanc.bandcamp.com/album/quand-lespoir-est-tout-ce-quil-nous-reste"
+      },
+      {
+        "band": "Santo Fuzz",
+        "album": "No llores sobre mi tumba",
+        "date": "10/26",
+        "genre": "stoner / sludge / doom metal",
+        "country": "Mexico",
+        "spotify": null,
+        "bandcamp": "https://santofuzz.bandcamp.com/album/no-llores-sobre-mi-tumba"
+      },
+      {
+        "band": "Shades of Ravaillac",
+        "album": "Before Man Was, War Waited for Him",
+        "date": "10/26",
+        "genre": "stoner metal/rock",
+        "country": "Italy",
+        "spotify": null,
+        "bandcamp": "https://shadesofravaillac.bandcamp.com/album/before-man-was-war-waited-for-him"
+      },
+      {
+        "band": "Sleeping Mountain",
+        "album": "The Things We Buried (EP)",
+        "date": "10/30",
+        "genre": "stoner metal/rock",
+        "country": "UK",
+        "spotify": null,
+        "bandcamp": "https://sleepingmountainband.bandcamp.com/album/the-things-we-buried-folk-session"
+      },
+      {
+        "band": "Soulers",
+        "album": "Ascension I",
+        "date": "10/28",
+        "genre": "drone / doom / stoner metal",
+        "country": "Canada",
+        "spotify": null,
+        "bandcamp": "https://soulers.bandcamp.com/album/ascension-i"
+      },
+      {
+        "band": "Starmonger",
+        "album": "Sirenia",
+        "date": "10/28",
+        "genre": "desert / stoner rock",
+        "country": "France",
+        "spotify": "https://open.spotify.com/album/5Z7Lk2KDB42RUigHF9aZba",
+        "bandcamp": "https://starmonger.bandcamp.com/album/sirenia"
+      },
+      {
+        "band": "Sunndogg",
+        "album": "Sunndogg (demo)",
+        "date": "10/26",
+        "genre": "stoner / sludge / doom metal",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://sunndogg.bandcamp.com/album/sunndogg-demo-ep"
+      },
+      {
+        "band": "Sybren Roefs",
+        "album": "Down Time",
+        "date": "10/26",
+        "genre": "desert / stoner rock",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/15J2OKJrsIESZbSjF1aCzw",
+        "bandcamp": "https://sybrenroefs.bandcamp.com/album/down-time"
+      },
+      {
+        "band": "The Astral Prophets",
+        "album": "Invasion",
+        "date": "10/30",
+        "genre": "stoner / heavy metal",
+        "country": "Canada",
+        "spotify": "https://open.spotify.com/album/2TyJRfyXTnw7ivX7PB4IKy",
+        "bandcamp": null
+      },
+      {
+        "band": "The Stone Souls",
+        "album": "Mushroom",
+        "date": "10/30",
+        "genre": "stoner / alternative rock",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/6XJmsHutXRtPEcRZTMUHJc",
+        "bandcamp": "https://thestonesouls.bandcamp.com/album/mushroom"
+      },
+      {
+        "band": "Thermal Black",
+        "album": "Evil Twin",
+        "date": "10/29",
+        "genre": "stoner / heavy rock",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/0w522Ue2bejVg6uIAizFXK",
+        "bandcamp": "https://thermalblack.bandcamp.com/album/evil-twin"
+      },
+      {
+        "band": "Torimasaurus Matorex",
+        "album": "Say Yes to the Superorganism",
+        "date": "10/25",
+        "genre": "stoner / alternative metal",
+        "country": "Serbia",
+        "spotify": null,
+        "bandcamp": "https://torimasaurusmatorex.bandcamp.com/album/say-yes-to-the-superorganism"
+      },
+      {
+        "band": "Triskaideka",
+        "album": "Eerf Nrob",
+        "date": "10/26",
+        "genre": "stoner / garage rock",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://triskaideka.bandcamp.com/album/eerf-nrob"
+      },
+      {
+        "band": "Yarn Plankton",
+        "album": "My Aura Attracts Moths",
+        "date": "10/29",
+        "genre": "stoner / garage blues",
+        "country": "Poland",
+        "spotify": null,
+        "bandcamp": "https://yarnplankton.bandcamp.com/album/my-aura-attracts-moths"
+      },
+      {
+        "band": "Почётная Грамота",
+        "album": "Окно",
+        "date": "10/28",
+        "genre": "stoner / blues rock",
+        "country": "Russia",
+        "spotify": null,
+        "bandcamp": "https://crystalth2026.bandcamp.com/album/--3"
+      }
+    ]
+  },
   "2026-10-23": {
     "releases": [
       {
