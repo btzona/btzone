@@ -2,6 +2,15 @@
   "2026-10-30": {
     "releases": [
       {
+        "band": "Animal Reincarnation",
+        "album": "The Empire Bleeds",
+        "date": "10/31",
+        "genre": "deathcore / deathgrind",
+        "country": "Spain",
+        "spotify": null,
+        "bandcamp": "https://animalreincarnation.bandcamp.com/album/the-empire-bleeds-2"
+      },
+      {
         "band": "ChewingGlass",
         "album": "Haters of the Scene",
         "date": "10/30",
@@ -9,6 +18,42 @@
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3QwleV2G1pkRMa0pF714vT",
         "bandcamp": "https://chewingglass312.bandcamp.com/album/haters-of-the-scene"
+      },
+      {
+        "band": "Dead Dogs Don't Lie",
+        "album": "If I Sleep With One Eye Open, It's Because I'm Not Asleep (EP)",
+        "date": "10/31",
+        "genre": "deathcore / metalcore",
+        "country": "Canada",
+        "spotify": "https://open.spotify.com/album/7t60xmzlEh1twOya6OyVvF",
+        "bandcamp": "https://dddl.bandcamp.com/album/if-i-sleep-with-one-eye-open-its-because-im-not-asleep"
+      },
+      {
+        "band": "Dead, I Guess",
+        "album": "Premeditated",
+        "date": "10/31",
+        "genre": "deathcore / metalcore",
+        "country": "Canada",
+        "spotify": "https://open.spotify.com/album/78rMJry6ug83yw9U5C2Nmw",
+        "bandcamp": "https://deadiguess.bandcamp.com/album/premeditated"
+      },
+      {
+        "band": "Despondent",
+        "album": "Despondent (EP)",
+        "date": "10/30",
+        "genre": "deathcore / beatdown",
+        "country": "UK",
+        "spotify": null,
+        "bandcamp": "https://despondentuk.bandcamp.com/album/despondent"
+      },
+      {
+        "band": "Diseased",
+        "album": "Internal Struggles",
+        "date": "10/31",
+        "genre": "deathcore / death metal",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/7H67CPvkiUtMV5S2ZyeFFf",
+        "bandcamp": "https://diseased2.bandcamp.com/album/internal-struggles"
       },
       {
         "band": "Dissociated",
@@ -38,6 +83,15 @@
         "bandcamp": "https://eoe777.bandcamp.com/album/embryogenesis"
       },
       {
+        "band": "Externus",
+        "album": "Cataclysmic Coalescence",
+        "date": "10/30",
+        "genre": "progressive death metal / deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/5DqpP4BRxVtv9VFbVSJ8Lp",
+        "bandcamp": "https://externus.bandcamp.com/album/cataclysmic-coalescence"
+      },
+      {
         "band": "Faith in Ruin",
         "album": "Altar of Ruin (EP)",
         "date": "10/26",
@@ -63,6 +117,15 @@
         "country": "Finland",
         "spotify": "https://open.spotify.com/album/13tZXWipgcdjXKURz5AxEq",
         "bandcamp": "https://holocaustwhorehouse.bandcamp.com/album/virtual-debauchery"
+      },
+      {
+        "band": "Hurakan",
+        "album": "Eternal Scars",
+        "date": "10/30",
+        "genre": "deathcore",
+        "country": "France",
+        "spotify": "https://open.spotify.com/album/2qOucearyIP5HjAVwWI4pg",
+        "bandcamp": "https://hurakanband.bandcamp.com/album/eternal-scars-2"
       },
       {
         "band": "Kill Your Abuser",
@@ -128,6 +191,24 @@
         "bandcamp": "https://rekak.bandcamp.com/album/vice-virtue"
       },
       {
+        "band": "Remains of the Tyrant",
+        "album": "Sepulchral (EP)",
+        "date": "10/31",
+        "genre": "technical death metal / deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/71v9KVs7a8BsCzvYbAp2Wz",
+        "bandcamp": "https://remainsofthetyrant.bandcamp.com/album/sepulchral"
+      },
+      {
+        "band": "Remember Your Scars",
+        "album": "Shallow Litany",
+        "date": "10/31",
+        "genre": "deathcore / melodic death metal",
+        "country": "Germany",
+        "spotify": null,
+        "bandcamp": "https://rememberyourscars.bandcamp.com/album/shallow-litany"
+      },
+      {
         "band": "Rev3rent",
         "album": "She Let the World Run Rampant",
         "date": "10/30",
@@ -173,6 +254,24 @@
         "bandcamp": "https://thescarletcord.bandcamp.com/album/cadaver-dead-to-me"
       },
       {
+        "band": "The Shotgun Experiment",
+        "album": "Honoring the Deceased (EP)",
+        "date": "10/31",
+        "genre": "deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/2M6VBbbDPXKbTFoDwTJ7o5",
+        "bandcamp": "https://theshotgunexperiment.bandcamp.com/album/honoring-the-deceased"
+      },
+      {
+        "band": "The Wretched Nocturne",
+        "album": "Black Swan (EP)",
+        "date": "10/31",
+        "genre": "symphonic/technical deathcore",
+        "country": "Spain",
+        "spotify": "https://open.spotify.com/album/7wN0voW3pPzgRWsVSmvGSg",
+        "bandcamp": "https://thewretchednocturne.bandcamp.com/album/black-swan"
+      },
+      {
         "band": "Tomb of Doom",
         "album": "Doghead (EP)",
         "date": "10/27",
@@ -189,6 +288,15 @@
         "country": "USA",
         "spotify": "https://open.spotify.com/album/0PBZOByDfdrDPkqWWZRY5S",
         "bandcamp": "https://whalefallthall.bandcamp.com/album/land"
+      },
+      {
+        "band": "XMUTINY",
+        "album": "A Pact of Violence (EP)",
+        "date": "10/31",
+        "genre": "deathcore / slam",
+        "country": "USA",
+        "spotify": null,
+        "bandcamp": "https://xmutiny.bandcamp.com/album/a-pact-of-violence"
       }
     ]
   },
