@@ -23,6 +23,8 @@ function parseDigest(text) {
     if (!release) continue;
     delete release.spotifyConflict;
     delete release.bandcampConflict;
+    delete release.youtubeConflict;
+    if (!release.youtube) delete release.youtube;
     if (!current) {
       current = { genre: "RELEASES", releases: [] };
       sections.push(current);

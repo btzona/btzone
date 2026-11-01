@@ -3,10 +3,11 @@
  *
  *   Band - Album - MM/DD - genre - Country
  *   Band - Album <https://artist.bandcamp.com/album/name> - MM/DD - genre - Country
- *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id
+ *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id | youtube: https://www.youtube.com/watch?v=id
  *
  * Only an open.spotify.com album URL is stored as `spotify`. Only a
- * bandcamp.com /album/ URL is stored as `bandcamp`. Anything else is ignored.
+ * bandcamp.com /album/ URL is stored as `bandcamp`. A YouTube watch URL is
+ * stored as `youtube` when one is present. Anything else is ignored.
  * Two different URLs for the same service on one line are dropped.
  */
 
@@ -49,6 +50,18 @@ export function classifyReleaseUrl(raw) {
     parsed.protocol = "https:";
     return { kind: "bandcamp", url: parsed.toString().replace(/\/$/, "") };
   }
+  if (host === "youtube.com" || host === "www.youtube.com" || host === "m.youtube.com" || host === "music.youtube.com") {
+    const id = parsed.searchParams.get("v");
+    if (id && /^[\w-]{6,}$/.test(id)) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${id}` };
+    const shorts = path.match(/^\/(?:shorts|embed)\/([\w-]{6,})/);
+    if (shorts) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${shorts[1]}` };
+    return null;
+  }
+  if (host === "youtu.be") {
+    const id = path.split("/").filter(Boolean)[0] || "";
+    if (/^[\w-]{6,}$/.test(id)) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${id}` };
+    return null;
+  }
   return null;
 }
 
@@ -59,23 +72,27 @@ function remember(bucket, url) {
 export function linksFromUrls(rawUrls) {
   const spotify = [];
   const bandcamp = [];
+  const youtube = [];
   for (const raw of rawUrls) {
     const classified = classifyReleaseUrl(raw);
     if (!classified) continue;
-    remember(classified.kind === "spotify" ? spotify : bandcamp, classified.url);
+    const bucket = classified.kind === "spotify" ? spotify : classified.kind === "youtube" ? youtube : bandcamp;
+    remember(bucket, classified.url);
   }
   return {
     spotify: spotify.length === 1 ? spotify[0] : null,
     bandcamp: bandcamp.length === 1 ? bandcamp[0] : null,
+    youtube: youtube.length === 1 ? youtube[0] : null,
     spotifyConflict: spotify.length > 1,
     bandcampConflict: bandcamp.length > 1,
+    youtubeConflict: youtube.length > 1,
   };
 }
 
 export function parseRelease(line) {
   const rawUrls = [];
   let work = line.trim();
-  work = work.replace(/(?:<\s*)?(spotify|bandcamp)\s*:\s*(https?:\/\/[^>\s|]+)(?:\s*>)?/gi, (_all, _kind, url) => {
+  work = work.replace(/(?:<\s*)?(spotify|bandcamp|youtube)\s*:\s*(https?:\/\/[^>\s|]+)(?:\s*>)?/gi, (_all, _kind, url) => {
     rawUrls.push(url);
     return " ";
   });
@@ -109,7 +126,9 @@ export function parseRelease(line) {
     place,
     spotify: links.spotify,
     bandcamp: links.bandcamp,
+    youtube: links.youtube,
     spotifyConflict: links.spotifyConflict,
     bandcampConflict: links.bandcampConflict,
+    youtubeConflict: links.youtubeConflict,
   };
 }

@@ -15,7 +15,7 @@
  *   node scripts/add-week.mjs --rebuild
  *
  * `--rebuild` rewrites the index, every week page, and the side lists
- * (J-Rod Core and Lenny's Stoner Corner). The side lists are not part of
+ * (J-Rod Core, Lenny's Stoner Corner, and Deutschrap). The side lists are not part of
  * data/catalog.json. Their header cluster is the same one used here.
  *
  * `--kind saturday` folds that digest into the Friday (or mid-week) slug in
@@ -27,7 +27,7 @@
  *
  *   Band - Album - MM/DD - genre - Country
  *   Band - Album <https://artist.bandcamp.com/album/name> - MM/DD - genre - Country
- *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id
+ *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id | youtube: https://www.youtube.com/watch?v=id
  *
  * Album titles are plain text. A Spotify album URL and a Bandcamp album URL
  * are stored separately and rendered as gold labels at the end of the line.
@@ -109,8 +109,11 @@ function parseDigest(text) {
     if (release) {
       if (release.spotifyConflict) warnings.push(`Conflicting Spotify URLs: ${line.slice(0, 160)}`);
       if (release.bandcampConflict) warnings.push(`Conflicting Bandcamp URLs: ${line.slice(0, 160)}`);
+      if (release.youtubeConflict) warnings.push(`Conflicting YouTube URLs: ${line.slice(0, 160)}`);
       delete release.spotifyConflict;
       delete release.bandcampConflict;
+      delete release.youtubeConflict;
+      if (!release.youtube) delete release.youtube;
       if (!current) {
         current = { genre: "RELEASES", releases: [] };
         sections.push(current);
