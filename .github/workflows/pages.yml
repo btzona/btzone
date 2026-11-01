@@ -1,5 +1,5 @@
 # Publish the already-built HTML. There is no site generator in this job.
-# The pages under index.html and weeks/ are committed on main.
+# Every root-level HTML page and the weeks/ pages are committed on main.
 #
 # Creating a Pages site the first time needs a token with pages:write and
 # administration:write. The default GITHUB_TOKEN can deploy after Pages exists,
@@ -40,7 +40,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site
-          cp index.html favicon.svg .nojekyll _site/
+          cp *.html favicon.svg .nojekyll _site/
           cp -a css js img weeks _site/
 
       - name: Configure GitHub Pages
