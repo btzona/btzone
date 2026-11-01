@@ -10,7 +10,7 @@
  *   node scripts/build-weeks.mjs
  *
  * The rebuild writes the weekly pages and then the side lists
- * (J-Rod Core and Lenny's Stoner Corner) from their own data files.
+ * (J-Rod Core, Lenny's Stoner Corner, and Deutschrap) from their own data files.
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
@@ -37,6 +37,8 @@ function parseDigest(text) {
     if (!release) continue;
     delete release.spotifyConflict;
     delete release.bandcampConflict;
+    delete release.youtubeConflict;
+    if (!release.youtube) delete release.youtube;
     if (!current) {
       current = { genre: "RELEASES", releases: [] };
       sections.push(current);
@@ -98,7 +100,7 @@ function applyPlace(release, table) {
 function storedRelease(release, table, links) {
   const key = releaseKey(release);
   const extra = Object.prototype.hasOwnProperty.call(links, key) ? links[key] : null;
-  return {
+  const stored = {
     band: release.band,
     album: release.album,
     date: release.date,
@@ -107,6 +109,9 @@ function storedRelease(release, table, links) {
     spotify: extra ? extra.spotify || null : release.spotify || null,
     bandcamp: extra ? extra.bandcamp || null : release.bandcamp || null,
   };
+  const youtube = extra && extra.youtube ? extra.youtube : release.youtube || null;
+  if (youtube) stored.youtube = youtube;
+  return stored;
 }
 
 function takeRelease(seen, release, table, links) {
@@ -119,6 +124,7 @@ function takeRelease(seen, release, table, links) {
   }
   if (!existing.spotify && next.spotify) existing.spotify = next.spotify;
   if (!existing.bandcamp && next.bandcamp) existing.bandcamp = next.bandcamp;
+  if (!existing.youtube && next.youtube) existing.youtube = next.youtube;
   if (isSpotify(existing.place) && !isSpotify(next.place)) existing.place = next.place;
   return { release: existing, duplicate: true };
 }

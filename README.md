@@ -68,7 +68,7 @@ Boss Keloid - Float & Aperture <https://artist.bandcamp.com/album/name> - 10/23 
 Sources: where the week's note came from.
 ```
 
-`spotify` has to be an `https://open.spotify.com/album/...` URL. `bandcamp` has to be an `https://....bandcamp.com/album/...` URL. A bare `<https://...>` or trailing `| https://...` is kept only when the host matches one of those. Artist pages, track pages, Apple Music, and label stores are not shown. Two different URLs for the same service on one line are dropped. Leave a label off when the page is not verified. `scripts/build-weeks.mjs` also fills gaps from `data/links.json`, which stores the same two fields keyed by band and album. A null there means no verified page.
+`spotify` has to be an `https://open.spotify.com/album/...` URL. `bandcamp` has to be an `https://....bandcamp.com/album/...` URL. `youtube` is optional: an `https://www.youtube.com/watch?v=...` or `https://youtu.be/...` URL is shown as a gold YouTube label when the line has one. A bare `<https://...>` or trailing `| https://...` is kept only when the host matches one of those. Artist pages, Apple Music, and label stores are not shown. Two different URLs for the same service on one line are dropped. Leave a label off when the page is not verified. `scripts/build-weeks.mjs` also fills gaps from `data/links.json`, which stores the same fields keyed by band and album. A null there means no verified page.
 
 The command rewrites `data/catalog.json`, `index.html`, and `weeks/*.html`. Commit those files. To regenerate without parsing again:
 
@@ -80,15 +80,15 @@ node scripts/add-week.mjs --rebuild
 
 ## Side lists
 
-J-Rod Core and Lenny's Stoner Corner are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json` and `data/special-lenny.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
+J-Rod Core, Lenny's Stoner Corner, and Deutschrap are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, and `data/special-deutschrap.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
 
-Rebuild both pages from those files:
+Rebuild the pages from those files:
 
 ```bash
 node scripts/build-special.mjs
 ```
 
-Add a week of rows. The JSON file has a `jrod` array and a `lenny` array. Each row is `band`, `album`, `date` (`MM/DD`), `genre`, `country`, `spotify` (an album URL or null), and `bandcamp` (an album URL or null). A repeated band and album stays one row. A link that was null is filled when the new row has one. Rows are not copied into `data/catalog.json`.
+Add a week of rows. The JSON file has `jrod`, `lenny`, and `deutschrap` arrays. Each row is `band` (or `artist`), `album` (or `title`), `date` (`MM/DD`), `genre`, `country`, `spotify` (an album or track URL or null), `youtube` (a video URL or null), and `bandcamp` (an album URL or null). A repeated band and album stays one row. A link that was null is filled when the new row has one. Rows are not copied into `data/catalog.json`.
 
 ```bash
 node scripts/add-special.mjs 2026-10-23 digests/special-2026-10-23.json

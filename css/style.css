@@ -185,6 +185,35 @@ a:focus {
   border-color: #e6c15a;
 }
 
+.buddy-nav a.tone-silver,
+.buddy-nav a.tone-silver:link,
+.buddy-nav a.tone-silver:visited,
+.buddy-nav a.tone-silver:hover,
+.buddy-nav a.tone-silver:active,
+.buddy-nav a.tone-silver:focus {
+  color: #d7d0c4;
+  border-color: #8a8478;
+}
+
+.buddy-nav a.tone-silver:hover,
+.buddy-nav a.tone-silver:active,
+.buddy-nav a.tone-silver:focus {
+  color: #f4efe6;
+  border-color: #d7d0c4;
+}
+
+.buddy-nav a.tone-silver[aria-current="page"],
+.buddy-nav a.tone-silver[aria-current="page"]:link,
+.buddy-nav a.tone-silver[aria-current="page"]:visited,
+.buddy-nav a.tone-silver[aria-current="page"]:hover,
+.buddy-nav a.tone-silver[aria-current="page"]:active,
+.buddy-nav a.tone-silver[aria-current="page"]:focus {
+  color: #f4efe6;
+  background: #161614;
+  border-style: solid;
+  border-color: #c5c1b8;
+}
+
 .buddy-glyph {
   display: block;
   flex: 0 0 auto;

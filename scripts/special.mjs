@@ -1,5 +1,5 @@
 /**
- * Side lists for J-Rod Core and Lenny's Stoner Corner.
+ * Side lists for J-Rod Core, Lenny's Stoner Corner, and Deutschrap.
  * Stored apart from data/catalog.json, one object per week slug.
  */
 
@@ -40,6 +40,15 @@ export const LISTS = [
     tagline: "Thick fuzz, slow riffs, and doom for Lenny.",
     description: "Stoner rock, stoner metal, and doom for Lenny.",
   },
+  {
+    id: "deutschrap",
+    key: "deutschrap",
+    file: "special-deutschrap.json",
+    page: "deutschrap.html",
+    title: "Deutschrap",
+    tagline: "German hip-hop picks, straight from the playlist.",
+    description: "German hip-hop picks, straight from the playlist.",
+  },
 ];
 
 export function listPath(list) {
@@ -60,12 +69,37 @@ export function compareEntries(a, b) {
   return sortKey(a.album).localeCompare(sortKey(b.album), "en", { sensitivity: "base" });
 }
 
+function canonicalYoutube(value) {
+  let parsed;
+  try {
+    parsed = new URL(value);
+  } catch {
+    return null;
+  }
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+  if (host === "youtu.be") {
+    const id = parsed.pathname.split("/").filter(Boolean)[0] || "";
+    if (/^[\w-]{6,}$/.test(id)) return `https://www.youtube.com/watch?v=${id}`;
+    return null;
+  }
+  if (host === "youtube.com" || host === "m.youtube.com" || host === "music.youtube.com") {
+    const query = parsed.searchParams.get("v");
+    if (query && /^[\w-]{6,}$/.test(query)) return `https://www.youtube.com/watch?v=${query}`;
+    const shorts = parsed.pathname.match(/^\/(?:shorts|embed)\/([\w-]{6,})/);
+    if (shorts) return `https://www.youtube.com/watch?v=${shorts[1]}`;
+  }
+  return null;
+}
+
 export function cleanUrl(url, kind) {
   if (url == null) return null;
   const value = String(url).trim();
   if (!value) return null;
-  if (kind === "spotify" && /^https:\/\/open\.spotify\.com\/album\/[A-Za-z0-9]+\/?$/.test(value)) return value;
+  if (kind === "spotify" && /^https:\/\/open\.spotify\.com\/(?:album|track)\/[A-Za-z0-9]+\/?$/.test(value)) {
+    return value.replace(/\/$/, "");
+  }
   if (kind === "bandcamp" && /^https:\/\/[a-z0-9.-]+\.bandcamp\.com\/album\/[^?#\s]+$/i.test(value)) return value;
+  if (kind === "youtube") return canonicalYoutube(value) || undefined;
   return undefined;
 }
 
@@ -83,11 +117,12 @@ export function publicGenre(genre) {
 }
 
 export function normalizeEntry(raw) {
-  const band = String(raw.band || "").trim();
-  const album = String(raw.album || "").trim();
+  const band = String(raw.band || raw.artist || "").trim();
+  const album = String(raw.album || raw.title || "").trim();
   if (!band || !album) return null;
   const spotify = cleanUrl(raw.spotify, "spotify");
   const bandcamp = cleanUrl(raw.bandcamp, "bandcamp");
+  const youtube = cleanUrl(raw.youtube, "youtube");
   return {
     band,
     album,
@@ -95,8 +130,10 @@ export function normalizeEntry(raw) {
     genre: publicGenre(raw.genre),
     country: String(raw.country || "").trim() || "Unknown",
     spotify: spotify || null,
+    youtube: youtube || null,
     bandcamp: bandcamp || null,
     spotifyRejected: spotify === undefined,
+    youtubeRejected: youtube === undefined,
     bandcampRejected: bandcamp === undefined,
   };
 }
@@ -126,6 +163,7 @@ export function writeList(list, data) {
       genre: publicGenre(release.genre),
       country: release.country,
       spotify: release.spotify || null,
+      youtube: release.youtube || null,
       bandcamp: release.bandcamp || null,
     }));
     const stored = { releases };
@@ -235,7 +273,7 @@ export function mergeSpecial(slug, payload) {
     throw new Error(`Week slug must look like 2026-10-23, got ${slug}`);
   }
   if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
-    throw new Error("JSON file must be an object with jrod and lenny arrays");
+    throw new Error("JSON file must be an object with jrod, lenny, and deutschrap arrays");
   }
   const summary = [];
   let matched = 0;
@@ -264,13 +302,12 @@ export function mergeSpecial(slug, payload) {
         console.error(`Skipped a ${list.title} row with no band or album`);
         continue;
       }
-      if (entry.spotifyRejected) {
-        console.error(`Dropped a Spotify URL that is not an album page: ${raw.band} - ${raw.album}`);
-      }
-      if (entry.bandcampRejected) {
-        console.error(`Dropped a Bandcamp URL that is not an album page: ${raw.band} - ${raw.album}`);
-      }
+      const label = `${entry.band} - ${entry.album}`;
+      if (entry.spotifyRejected) console.error(`Dropped a Spotify URL that is not an album or track page: ${label}`);
+      if (entry.youtubeRejected) console.error(`Dropped a YouTube URL that is not a video page: ${label}`);
+      if (entry.bandcampRejected) console.error(`Dropped a Bandcamp URL that is not an album page: ${label}`);
       delete entry.spotifyRejected;
+      delete entry.youtubeRejected;
       delete entry.bandcampRejected;
       matched += 1;
       const existing = seen.get(entryKey(entry));
@@ -278,6 +315,10 @@ export function mergeSpecial(slug, payload) {
         let changed = false;
         if (!existing.spotify && entry.spotify) {
           existing.spotify = entry.spotify;
+          changed = true;
+        }
+        if (!existing.youtube && entry.youtube) {
+          existing.youtube = entry.youtube;
           changed = true;
         }
         if (!existing.bandcamp && entry.bandcamp) {
