@@ -46,8 +46,8 @@ export const LISTS = [
     file: "special-deutschrap.json",
     page: "deutschrap.html",
     title: "Deutschrap",
-    tagline: "German hip-hop picks, straight from the playlist.",
-    description: "German hip-hop picks, straight from the playlist.",
+    tagline: "German rap and trap, hand-picked for J-Rod.",
+    description: "German rap and trap, hand-picked for J-Rod.",
   },
 ];
 
