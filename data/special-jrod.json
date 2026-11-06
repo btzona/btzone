@@ -1,4 +1,58 @@
 {
+  "2026-11-06": {
+    "releases": [
+      {
+        "band": "Breakdown of Sanity",
+        "album": "Reveries",
+        "date": "11/06",
+        "genre": "metalcore / deathcore",
+        "country": "Switzerland",
+        "spotify": "https://open.spotify.com/album/5c8zCWcv92eTD80RK55tDz",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Carnifex",
+        "album": "More Than Misery",
+        "date": "11/06",
+        "genre": "deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/4qrt6Dxmo2t9BwHt8fB75Q",
+        "youtube": "https://www.youtube.com/watch?v=6OYqFMevLY0",
+        "bandcamp": null
+      },
+      {
+        "band": "Distant",
+        "album": "Into Despair",
+        "date": "11/06",
+        "genre": "deathcore",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/2Zt1wxohrzFTAUqqFzYQ3o",
+        "youtube": null,
+        "bandcamp": "https://distantofficial.bandcamp.com/album/into-despair-24-bit-hd-audio-2"
+      },
+      {
+        "band": "Eyes Sewn Shut / Blood Will Tell",
+        "album": "Carnage in Collusion (split EP)",
+        "date": "11/02",
+        "genre": "deathcore",
+        "country": "Finland / Sweden",
+        "spotify": "https://open.spotify.com/album/3nT0ePAySI6GEXJrmZsexK",
+        "youtube": null,
+        "bandcamp": "https://eyessewnshut09.bandcamp.com/album/carnage-in-collusion"
+      },
+      {
+        "band": "The Hate Project",
+        "album": "Annihilation (EP)",
+        "date": "11/06",
+        "genre": "blackened deathcore",
+        "country": "Sweden",
+        "spotify": "https://open.spotify.com/album/5oaAd0c69Idg1ll9HBbEM7",
+        "youtube": null,
+        "bandcamp": null
+      }
+    ]
+  },
   "2026-10-30": {
     "releases": [
       {
@@ -8,6 +62,7 @@
         "genre": "deathcore / deathgrind",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://animalreincarnation.bandcamp.com/album/the-empire-bleeds-2"
       },
       {
@@ -17,6 +72,7 @@
         "genre": "slamming deathcore / beatdown",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3QwleV2G1pkRMa0pF714vT",
+        "youtube": null,
         "bandcamp": "https://chewingglass312.bandcamp.com/album/haters-of-the-scene"
       },
       {
@@ -26,6 +82,7 @@
         "genre": "deathcore / metalcore",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/7t60xmzlEh1twOya6OyVvF",
+        "youtube": null,
         "bandcamp": "https://dddl.bandcamp.com/album/if-i-sleep-with-one-eye-open-its-because-im-not-asleep"
       },
       {
@@ -35,6 +92,7 @@
         "genre": "deathcore / metalcore",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/78rMJry6ug83yw9U5C2Nmw",
+        "youtube": null,
         "bandcamp": "https://deadiguess.bandcamp.com/album/premeditated"
       },
       {
@@ -44,6 +102,7 @@
         "genre": "deathcore / beatdown",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://despondentuk.bandcamp.com/album/despondent"
       },
       {
@@ -53,6 +112,7 @@
         "genre": "deathcore / death metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/7H67CPvkiUtMV5S2ZyeFFf",
+        "youtube": null,
         "bandcamp": "https://diseased2.bandcamp.com/album/internal-struggles"
       },
       {
@@ -62,6 +122,7 @@
         "genre": "deathcore / death metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3viE6XEL6D1OZpDbnLKfzd",
+        "youtube": null,
         "bandcamp": "https://dissociatedmetal.bandcamp.com/album/it-reaches-out"
       },
       {
@@ -71,6 +132,7 @@
         "genre": "deathcore / djent / thall",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/7dGOftIz8jdFtMeGZ3mv7K",
+        "youtube": null,
         "bandcamp": "https://elisionaus.bandcamp.com/album/this-much-will-kill-you"
       },
       {
@@ -80,6 +142,7 @@
         "genre": "deathcore / progressive death metal",
         "country": "Colombia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://eoe777.bandcamp.com/album/embryogenesis"
       },
       {
@@ -89,6 +152,7 @@
         "genre": "progressive death metal / deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5DqpP4BRxVtv9VFbVSJ8Lp",
+        "youtube": null,
         "bandcamp": "https://externus.bandcamp.com/album/cataclysmic-coalescence"
       },
       {
@@ -98,6 +162,7 @@
         "genre": "deathcore / metalcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://faithinruin1.bandcamp.com/album/altar-of-ruin-ep"
       },
       {
@@ -107,6 +172,7 @@
         "genre": "deathcore / technical death metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/2cuNYxDy0oLyjENAm8Quq7",
+        "youtube": null,
         "bandcamp": "https://glaebcr.bandcamp.com/album/terror-incarnate"
       },
       {
@@ -116,6 +182,7 @@
         "genre": "brutal death metal / deathcore",
         "country": "Finland",
         "spotify": "https://open.spotify.com/album/13tZXWipgcdjXKURz5AxEq",
+        "youtube": null,
         "bandcamp": "https://holocaustwhorehouse.bandcamp.com/album/virtual-debauchery"
       },
       {
@@ -125,6 +192,7 @@
         "genre": "deathcore",
         "country": "France",
         "spotify": "https://open.spotify.com/album/2qOucearyIP5HjAVwWI4pg",
+        "youtube": null,
         "bandcamp": "https://hurakanband.bandcamp.com/album/eternal-scars-2"
       },
       {
@@ -134,6 +202,7 @@
         "genre": "symphonic melodic deathcore / djent",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4SoFTg1Hew29t4nAbNBdsO",
+        "youtube": null,
         "bandcamp": "https://killyourabuser.bandcamp.com/album/an-end-deserved"
       },
       {
@@ -143,6 +212,7 @@
         "genre": "deathcore / black metal / slam",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://love-evolmusic.bandcamp.com/album/sun-shine"
       },
       {
@@ -152,6 +222,7 @@
         "genre": "deathcore / black metal / slam",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://love-evolmusic.bandcamp.com/album/the-sadness"
       },
       {
@@ -161,6 +232,7 @@
         "genre": "blackened deathcore / blackgaze",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/2UITpq7LSVKSshMGdqGky3",
+        "youtube": null,
         "bandcamp": "https://obscuration.bandcamp.com/album/soular-plexus"
       },
       {
@@ -170,6 +242,7 @@
         "genre": "deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3TDN8laLfTEAZ3xseRZw7W",
+        "youtube": null,
         "bandcamp": "https://oceanofillusions.bandcamp.com/album/nexus"
       },
       {
@@ -179,6 +252,7 @@
         "genre": "deathcore / alternative metal",
         "country": "France",
         "spotify": "https://open.spotify.com/album/3oBjgEpdDMZ2YcD0pMQI1M",
+        "youtube": null,
         "bandcamp": "https://perpetualgravity.bandcamp.com/album/side-effect-digital"
       },
       {
@@ -188,6 +262,7 @@
         "genre": "deathcore / metalcore / thall",
         "country": "Poland",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://rekak.bandcamp.com/album/vice-virtue"
       },
       {
@@ -197,6 +272,7 @@
         "genre": "technical death metal / deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/71v9KVs7a8BsCzvYbAp2Wz",
+        "youtube": null,
         "bandcamp": "https://remainsofthetyrant.bandcamp.com/album/sepulchral"
       },
       {
@@ -206,6 +282,7 @@
         "genre": "deathcore / melodic death metal",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://rememberyourscars.bandcamp.com/album/shallow-litany"
       },
       {
@@ -215,6 +292,7 @@
         "genre": "deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/6GJl7skIeGqtZZqqQPglHS",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -224,6 +302,7 @@
         "genre": "progressive deathcore / metalcore",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/12PegrwSCudV4LE0yjvMIy",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -233,6 +312,7 @@
         "genre": "slamming brutal deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/7N3nRQdEXSUhsGK26sqJNR",
+        "youtube": null,
         "bandcamp": "https://slamband.bandcamp.com/album/the-album"
       },
       {
@@ -242,6 +322,7 @@
         "genre": "nu-deathcore / slam",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5vMxVQIkjoTosVF2Yo0vhs",
+        "youtube": null,
         "bandcamp": "https://surgeonus.bandcamp.com/album/aphantasia"
       },
       {
@@ -251,6 +332,7 @@
         "genre": "deathcore / metalcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/6QmMh7IyN6NBvvm5SefKO7",
+        "youtube": null,
         "bandcamp": "https://thescarletcord.bandcamp.com/album/cadaver-dead-to-me"
       },
       {
@@ -260,6 +342,7 @@
         "genre": "deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/2M6VBbbDPXKbTFoDwTJ7o5",
+        "youtube": null,
         "bandcamp": "https://theshotgunexperiment.bandcamp.com/album/honoring-the-deceased"
       },
       {
@@ -269,6 +352,7 @@
         "genre": "symphonic/technical deathcore",
         "country": "Spain",
         "spotify": "https://open.spotify.com/album/7wN0voW3pPzgRWsVSmvGSg",
+        "youtube": null,
         "bandcamp": "https://thewretchednocturne.bandcamp.com/album/black-swan"
       },
       {
@@ -278,6 +362,7 @@
         "genre": "deathcore / beatdown",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/4qxx7b3sg17XriFoQKRtxo",
+        "youtube": null,
         "bandcamp": "https://tombofdoom1.bandcamp.com/album/doghead-ep"
       },
       {
@@ -287,6 +372,7 @@
         "genre": "deathcore / djentcore / thall",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/0PBZOByDfdrDPkqWWZRY5S",
+        "youtube": null,
         "bandcamp": "https://whalefallthall.bandcamp.com/album/land"
       },
       {
@@ -296,6 +382,7 @@
         "genre": "deathcore / slam",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://xmutiny.bandcamp.com/album/a-pact-of-violence"
       }
     ]
@@ -309,6 +396,7 @@
         "genre": "deathcore / hardcore / metalcore",
         "country": "Netherlands",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://aknightundermariasaltar.bandcamp.com/album/inevitability"
       },
       {
@@ -318,6 +406,7 @@
         "genre": "deathcore / myspace deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://alessasrevenge.bandcamp.com/album/somewhere-in-the-heavens-they-are-waiting"
       },
       {
@@ -327,6 +416,7 @@
         "genre": "deathcore",
         "country": "UK",
         "spotify": "https://open.spotify.com/album/0ox99gAR8JGU7lhDXBArQB",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -336,6 +426,7 @@
         "genre": "metalcore / deathcore / grindcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://carcinizationinfection.bandcamp.com/album/maybea-demos"
       },
       {
@@ -345,6 +436,7 @@
         "genre": "deathcore / moshcore",
         "country": "Australia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://chapelhillau.bandcamp.com/album/a-tragic-loss-of-morality"
       },
       {
@@ -354,6 +446,7 @@
         "genre": "Death Metal/Deathcore",
         "country": "Italy",
         "spotify": "https://open.spotify.com/album/6NfrBsC5D4c6i83SQUSrEF",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -363,6 +456,7 @@
         "genre": "deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dsfprecords.bandcamp.com/album/disfigured-x-scythe-of-grim-tour-split"
       },
       {
@@ -372,6 +466,7 @@
         "genre": "Technical/Progressive Deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5y4hsQGrjysaK5ZHx70Fwa",
+        "youtube": null,
         "bandcamp": "https://entheosofficial.bandcamp.com/album/empty-on-the-inside"
       },
       {
@@ -381,6 +476,7 @@
         "genre": "deathcore / metalcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://faithinruin1.bandcamp.com/album/my-redeemer-lives-ep"
       },
       {
@@ -390,6 +486,7 @@
         "genre": "brutal slamming death metal / deathcore",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://godscourge.bandcamp.com/album/slampagne-steam-roomz-kinda-live"
       },
       {
@@ -399,6 +496,7 @@
         "genre": "slamming deathcore / beatdown",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://hollowerband.bandcamp.com/album/the-silence-that-follows"
       },
       {
@@ -408,6 +506,7 @@
         "genre": "death metal / deathcore / industrial metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://jonmilles.bandcamp.com/album/only-the-dead-have-seen-the-end-of-war"
       },
       {
@@ -417,6 +516,7 @@
         "genre": "death metal / deathcore / melodic death metal",
         "country": "Italy",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://jumpscareband.bandcamp.com/album/call-of-the-wild"
       },
       {
@@ -426,6 +526,7 @@
         "genre": "deathcore / black metal / slam",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://love-evolmusic.bandcamp.com/album/sea-of-tears"
       },
       {
@@ -435,6 +536,7 @@
         "genre": "Deathcore",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/0tEjgvDyTe7q1jOH0ZTtHB",
+        "youtube": null,
         "bandcamp": "https://manifestations.bandcamp.com/album/welcome-2-gary"
       },
       {
@@ -444,6 +546,7 @@
         "genre": "Brutal Deathcore (early); Symphonic Blackened Deathcore (later)",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/7lfUw2CffJEMZncAgSUaxC",
+        "youtube": null,
         "bandcamp": "https://mentalcruelty.bandcamp.com/album/echoes-of-a-forlorn-land-24-bit-hd-audio"
       },
       {
@@ -453,6 +556,7 @@
         "genre": "deathcore / grindcore / myspace deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://beentherescenethat.bandcamp.com/album/my-son-my-executioner-the-burning"
       },
       {
@@ -462,6 +566,7 @@
         "genre": "Mathcore/Deathcore (early); Technical/Avant-garde Death Metal (later)",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/2G9LwVAluvOybJCWICwQ0o",
+        "youtube": null,
         "bandcamp": "https://nugreth.bandcamp.com/album/nugreth"
       },
       {
@@ -471,6 +576,7 @@
         "genre": "Blackened Death Metal / deathcore",
         "country": "Italy",
         "spotify": "https://open.spotify.com/album/2DIgVGjJG3LgSRfusH48W5",
+        "youtube": null,
         "bandcamp": "https://obscuraqalma.bandcamp.com/album/immortality-through-ashes"
       },
       {
@@ -480,6 +586,7 @@
         "genre": "deathcore / cybergrind / nintendocore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://ohsweetsurrender.bandcamp.com/album/game-over-is-just-another-way-of-saying-youre-ass"
       },
       {
@@ -489,6 +596,7 @@
         "genre": "deathcore / metalcore / djent",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://seclusionistor.bandcamp.com/album/challenger-ep"
       },
       {
@@ -498,6 +606,7 @@
         "genre": "deathcore / beatdown hardcore / electronicore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://lifeishard.bandcamp.com/album/demonstration-of-aggression"
       },
       {
@@ -507,6 +616,7 @@
         "genre": "deathcore / metalcore / crabcore",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://tragedywashitaway.bandcamp.com/album/tragedy-wash-it-away"
       },
       {
@@ -516,6 +626,7 @@
         "genre": "Slam/Brutal Death Metal / slamming deathcore",
         "country": "Russia",
         "spotify": "https://open.spotify.com/album/5ZAwnZkwcLxu3wXec8BNgX",
+        "youtube": null,
         "bandcamp": "https://tumorfleshrejection.bandcamp.com/album/beneath-the-moor-the-ancient-dwells-lp"
       },
       {
@@ -525,6 +636,7 @@
         "genre": "deathcore / metalcore / mathcore",
         "country": "Ukraine",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://antaitld.bandcamp.com/album/--2"
       }
     ]
@@ -538,6 +650,7 @@
         "genre": "deathcore / hardcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://blindspotfw.bandcamp.com/album/human-conditioning"
       },
       {
@@ -547,6 +660,7 @@
         "genre": "deathcore / metalcore / cybergrind",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://boldoromance.bandcamp.com/album/te-dejo-este-ep"
       },
       {
@@ -556,6 +670,7 @@
         "genre": "deathcore / metalcore",
         "country": "Unknown",
         "spotify": null,
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -565,6 +680,7 @@
         "genre": "deathcore / metalcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://faithinruin1.bandcamp.com/album/help-us-god-feat-emergency-contact"
       },
       {
@@ -574,6 +690,7 @@
         "genre": "Technical Death Metal/Deathcore",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/00EVMPtyE2ATy4RbjBLbfZ",
+        "youtube": null,
         "bandcamp": "https://fracturus.bandcamp.com/album/the-synthetic-path"
       },
       {
@@ -583,6 +700,7 @@
         "genre": "deathcore / metalcore / sasscore",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://getchompedloser.bandcamp.com/album/get-chomped-loser"
       },
       {
@@ -592,6 +710,7 @@
         "genre": "Technical Death Metal/Deathcore",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/5IRJ19KfSyA99cbteBwUBD",
+        "youtube": null,
         "bandcamp": "https://hatalom.bandcamp.com/album/immanence"
       },
       {
@@ -601,6 +720,7 @@
         "genre": "deathcore / grindcore / myspace deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://beentherescenethat.bandcamp.com/album/izeovasis-narcissist-ep"
       },
       {
@@ -610,6 +730,7 @@
         "genre": "deathcore / black metal / slam",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://love-evolmusic.bandcamp.com/album/death-salvation"
       },
       {
@@ -619,6 +740,7 @@
         "genre": "Deathcore",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/1HwHR7MgKDMGitqPw3x1vI",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -628,6 +750,7 @@
         "genre": "deathcore / djent / progressive metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://mysarium.bandcamp.com/album/a-musicians-night"
       },
       {
@@ -637,6 +760,7 @@
         "genre": "deathcore / brutal deathcore / progressive deathcore",
         "country": "Russia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://obscureofacacia.bandcamp.com/album/blackness-2"
       },
       {
@@ -646,6 +770,7 @@
         "genre": "slamming deathcore / slam brutal death metal",
         "country": "Panama",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://panfiliek.bandcamp.com/album/corpus-suffering"
       },
       {
@@ -655,6 +780,7 @@
         "genre": "death metal / metalcore / deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://pickmansmodelsucks.bandcamp.com/album/graves-painted-where-no-light-can-reach"
       },
       {
@@ -664,6 +790,7 @@
         "genre": "deathcore / metalcore / metallic hardcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://pronenc.bandcamp.com/album/demos"
       },
       {
@@ -673,6 +800,7 @@
         "genre": "Melodic Death Metal/Deathcore",
         "country": "Spain",
         "spotify": "https://open.spotify.com/album/6LRo1yEQaeAXPUIrIaF14H",
+        "youtube": null,
         "bandcamp": "https://scarsofoblivion.bandcamp.com/album/edge-of-extinction"
       },
       {
@@ -682,6 +810,7 @@
         "genre": "blackened death metal / deathcore",
         "country": "Sweden",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://skaldergbg.bandcamp.com/album/hollowborn"
       },
       {
@@ -691,6 +820,7 @@
         "genre": "deathcore / experimental / drum & bass",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sleepforever666.bandcamp.com/album/life-in-a-box"
       },
       {
@@ -700,6 +830,7 @@
         "genre": "deathcore / beatdown hardcore",
         "country": "Czechia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sokolovna.bandcamp.com/album/slet"
       },
       {
@@ -709,6 +840,7 @@
         "genre": "deathcore / electronicore / powerviolence",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://lifeishard.bandcamp.com/album/tractorcore-demo"
       },
       {
@@ -718,6 +850,7 @@
         "genre": "deathcore / symphonic metal",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://vilesycophant.bandcamp.com/album/okami"
       },
       {
@@ -727,6 +860,7 @@
         "genre": "deathcore / melodic death metal / thall",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://wikkr.bandcamp.com/album/syd-wicked-learns-telekinesis"
       },
       {
@@ -736,6 +870,7 @@
         "genre": "death metal / deathcore / myspace deathcore",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://xdaniellarsonx.bandcamp.com/album/colares"
       }
     ]

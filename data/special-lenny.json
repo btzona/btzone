@@ -1,4 +1,128 @@
 {
+  "2026-11-06": {
+    "releases": [
+      {
+        "band": "Diggeth",
+        "album": "Intrinity",
+        "date": "11/06",
+        "genre": "stoner metal / rock",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/7miHj52FyL9v896STHEfvf",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Doombia",
+        "album": "Doombia Vol. 2: El Diablo Que Conoces",
+        "date": "11/06",
+        "genre": "doom / stoner / cumbia",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/3WBemjoZYvTpRRoaNEyvr0",
+        "youtube": null,
+        "bandcamp": "https://doombia.bandcamp.com/album/doombia-vol-2-el-diablo-que-conoces"
+      },
+      {
+        "band": "Electric Valley",
+        "album": "Echo",
+        "date": "11/06",
+        "genre": "stoner rock / psych",
+        "country": "Spain",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://smallstone.bandcamp.com/album/echo"
+      },
+      {
+        "band": "Ghoast",
+        "album": "Troublemaker (EP)",
+        "date": "11/04",
+        "genre": "stoner metal",
+        "country": "Switzerland",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://ghoast696.bandcamp.com/album/troublemaker"
+      },
+      {
+        "band": "Häxmästaren",
+        "album": "Skuggor Del 1 (EP)",
+        "date": "11/01",
+        "genre": "stoner / psychedelic doom",
+        "country": "Sweden",
+        "spotify": "https://open.spotify.com/album/1LVDWanhCUzCKFgAHFv4Sk",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Hydra",
+        "album": "Sign of the Witch",
+        "date": "11/01",
+        "genre": "stoner / doom metal",
+        "country": "Poland",
+        "spotify": "https://open.spotify.com/album/3CZeabf5WiymzVqfrlWUSp",
+        "youtube": null,
+        "bandcamp": "https://hydra666.bandcamp.com/album/sign-of-the-witch"
+      },
+      {
+        "band": "Mountain of Misery",
+        "album": "IV: The Monolith",
+        "date": "11/06",
+        "genre": "psychedelic stoner / doom",
+        "country": "Poland",
+        "spotify": "https://open.spotify.com/album/5cHsoLGJomyVJ2UU6rZxnM",
+        "youtube": null,
+        "bandcamp": "https://mountainofmisery.bandcamp.com/album/iv-the-monolith"
+      },
+      {
+        "band": "Redwood",
+        "album": "Slowlane Pt. 1 (EP)",
+        "date": "11/01",
+        "genre": "heavy psych / stoner rock",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/52Po6jOgTJJUk6brj3x44C",
+        "youtube": null,
+        "bandcamp": "https://redwooddoom.bandcamp.com/album/slowlane-pt-1"
+      },
+      {
+        "band": "Rising Fuzz",
+        "album": "Transilvanian Fuzz (EP)",
+        "date": "11/01",
+        "genre": "blackened sludge / stoner",
+        "country": "Singapore",
+        "spotify": "https://open.spotify.com/album/5vwZy5wXXxHyZU3WEjwfTX",
+        "youtube": null,
+        "bandcamp": "https://risingfuzz.bandcamp.com/album/transilvanian-fuzz"
+      },
+      {
+        "band": "Sonic Moon",
+        "album": "In Lack of Clarity",
+        "date": "11/06",
+        "genre": "psychedelic doom / stoner",
+        "country": "Denmark",
+        "spotify": "https://open.spotify.com/album/6WO08Aj9TF1cXdXAeVqS0l",
+        "youtube": null,
+        "bandcamp": "https://ripplemusic.bandcamp.com/album/in-lack-of-clarity"
+      },
+      {
+        "band": "Soulers",
+        "album": "Ascension II",
+        "date": "11/04",
+        "genre": "drone / doom / stoner",
+        "country": "Canada",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://soulers.bandcamp.com/album/ascension-ii"
+      },
+      {
+        "band": "Tangerine Stoned",
+        "album": "Faded Dreams",
+        "date": "11/06",
+        "genre": "psychedelic stoner rock",
+        "country": "Italy",
+        "spotify": "https://open.spotify.com/album/70YOnyoBXUDxUltRoDjgnp",
+        "youtube": "https://www.youtube.com/watch?v=_ES9T0aDvD8",
+        "bandcamp": "https://godownrecords.bandcamp.com/album/faded-dreams"
+      }
+    ]
+  },
   "2026-10-30": {
     "releases": [
       {
@@ -8,6 +132,7 @@
         "genre": "industrial / stoner doom",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://astralmoon.bandcamp.com/album/visions-of-apocalypse-ep"
       },
       {
@@ -17,6 +142,7 @@
         "genre": "stonergaze / psych rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/6wWOCPtadbCBMM0nf0irqX",
+        "youtube": null,
         "bandcamp": "https://astrominar.bandcamp.com/album/sojourn-of-the-stranger"
       },
       {
@@ -26,6 +152,7 @@
         "genre": "sludge / stoner / death metal",
         "country": "Finland",
         "spotify": "https://open.spotify.com/album/33Hcp3jW5Mn7IWHM3gxAYu",
+        "youtube": null,
         "bandcamp": "https://blackroyal.bandcamp.com/album/abyssian"
       },
       {
@@ -35,6 +162,7 @@
         "genre": "psychedelic stoner doom",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://blacksutra.bandcamp.com/album/higan-shigan"
       },
       {
@@ -44,6 +172,7 @@
         "genre": "stoner rock / punk",
         "country": "Austria",
         "spotify": "https://open.spotify.com/album/3QuMyMAtdTKcQeVkU2IslU",
+        "youtube": null,
         "bandcamp": "https://bongturbo.bandcamp.com/album/ep-ii"
       },
       {
@@ -53,6 +182,7 @@
         "genre": "instrumental stoner rock",
         "country": "Italy",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://brasilelauranoblesilence.bandcamp.com/album/rehearsals-demo-2"
       },
       {
@@ -62,6 +192,7 @@
         "genre": "space / stoner rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sparktacular.bandcamp.com/album/sparktacular-vol-1"
       },
       {
@@ -71,6 +202,7 @@
         "genre": "stoner / desert / noise rock",
         "country": "Mexico",
         "spotify": "https://open.spotify.com/album/07Ijuqxf9eOTXQJAiGtEHV",
+        "youtube": null,
         "bandcamp": "https://colosomx.bandcamp.com/album/berserkr"
       },
       {
@@ -80,6 +212,7 @@
         "genre": "stoner / epic doom",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://cosmiceve.bandcamp.com/album/poppy-field-of-dreams"
       },
       {
@@ -89,6 +222,7 @@
         "genre": "stoner metal/rock",
         "country": "Mexico",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://bandacrank.bandcamp.com/album/guerra-interna"
       },
       {
@@ -98,6 +232,7 @@
         "genre": "stoner doom / sludgegrass",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dramaticartsyslur.bandcamp.com/album/sludgegrass-vol-2"
       },
       {
@@ -107,6 +242,7 @@
         "genre": "heavy psych / stoner rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/13Lmwh10mN2pGDQXmiFVdZ",
+        "youtube": null,
         "bandcamp": "https://deadmeadow.bandcamp.com/album/foundlings"
       },
       {
@@ -116,6 +252,7 @@
         "genre": "stoner / doom rock",
         "country": "France",
         "spotify": "https://open.spotify.com/album/0B9JPJIymbHF0TvzwGHdla",
+        "youtube": null,
         "bandcamp": "https://deafblokes.bandcamp.com/album/if-oceans-die-we-die"
       },
       {
@@ -125,6 +262,7 @@
         "genre": "stoner/doom metal",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dewer.bandcamp.com/album/the-whisht-hunt"
       },
       {
@@ -134,6 +272,7 @@
         "genre": "stoner / sludge / doom metal",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dickweedofficial.bandcamp.com/album/pray-for-death"
       },
       {
@@ -143,6 +282,7 @@
         "genre": "industrial stoner / doom",
         "country": "Netherlands",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dinosaursrex.bandcamp.com/album/v"
       },
       {
@@ -152,6 +292,7 @@
         "genre": "stoner rock",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://dolmenbanda.bandcamp.com/album/umbral"
       },
       {
@@ -161,6 +302,7 @@
         "genre": "stoner rock / grunge",
         "country": "Switzerland",
         "spotify": "https://open.spotify.com/album/2gXaTWddrdpI2eMvpoBb3F",
+        "youtube": null,
         "bandcamp": "https://facevelora.bandcamp.com/album/river"
       },
       {
@@ -170,6 +312,7 @@
         "genre": "stoner rock / sludge / psych",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://fatdracula.bandcamp.com/album/fat-dracula"
       },
       {
@@ -179,6 +322,7 @@
         "genre": "drone / sludge / stoner",
         "country": "Unknown",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://floodstain.bandcamp.com/album/blues-weiser-plays-floodstain"
       },
       {
@@ -188,6 +332,7 @@
         "genre": "psychedelic doom / stoner metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3KuNBlemhkOCChFW7M8SOM",
+        "youtube": null,
         "bandcamp": "https://foresthorse.bandcamp.com/album/botany"
       },
       {
@@ -197,6 +342,7 @@
         "genre": "stoner doom / heavy psych",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://ghostpipe2.bandcamp.com/album/the-awakening"
       },
       {
@@ -206,6 +352,7 @@
         "genre": "stoner metal / psychedelic doom",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://godbluff.bandcamp.com/album/drug-ghost"
       },
       {
@@ -215,6 +362,7 @@
         "genre": "desert / stoner rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/7Jl59MYx4nn9bnQsf0JhJv",
+        "youtube": null,
         "bandcamp": "https://heavyclap.bandcamp.com/album/hare-metal"
       },
       {
@@ -224,6 +372,7 @@
         "genre": "stoner/doom metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://holybowl.bandcamp.com/album/new-american-standard"
       },
       {
@@ -233,6 +382,7 @@
         "genre": "psychedelic stoner rock",
         "country": "Mexico",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://humusbandmx.bandcamp.com/album/riffer-blood"
       },
       {
@@ -242,6 +392,7 @@
         "genre": "stoner / sludge / doom",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5eeBgbyc7DaooM8HXgmkxr",
+        "youtube": null,
         "bandcamp": "https://iommiwatts.bandcamp.com/album/-"
       },
       {
@@ -251,6 +402,7 @@
         "genre": "stoner doom metal",
         "country": "Serbia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://kalijuga.bandcamp.com/album/do-koske"
       },
       {
@@ -260,6 +412,7 @@
         "genre": "desert rock",
         "country": "Italy",
         "spotify": "https://open.spotify.com/album/5qaT7skwNl1cOn8b7JUFD9",
+        "youtube": null,
         "bandcamp": "https://karev.bandcamp.com/album/desert-off-the-floor-ep"
       },
       {
@@ -269,6 +422,7 @@
         "genre": "noise / stoner rock",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://khzeng-pengk.bandcamp.com/album/untergang"
       },
       {
@@ -278,6 +432,7 @@
         "genre": "desert / stoner rock",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/0rJQkiR3lA0AVHWPstLyey",
+        "youtube": null,
         "bandcamp": "https://kitchenwitch.bandcamp.com/album/the-space-in-between-full-length-lp"
       },
       {
@@ -287,6 +442,7 @@
         "genre": "stoner / psychedelic doom",
         "country": "Iceland",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://olbodlull.bandcamp.com/album/lb-ull"
       },
       {
@@ -296,6 +452,7 @@
         "genre": "stoner rock / punk",
         "country": "Italy",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://littleboylost.bandcamp.com/album/whatever"
       },
       {
@@ -305,6 +462,7 @@
         "genre": "heavy psych / stoner rock",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://lowmonkey.bandcamp.com/album/low-monkey"
       },
       {
@@ -314,6 +472,7 @@
         "genre": "sludge/stoner/doom metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://lungbuster420.bandcamp.com/album/bongwater-blues"
       },
       {
@@ -323,6 +482,7 @@
         "genre": "doom/stoner metal",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://malsain.bandcamp.com/album/malsain-ep"
       },
       {
@@ -332,6 +492,7 @@
         "genre": "stoner metal / sludge / psych",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://metyheaval.bandcamp.com/album/mety-heaval"
       },
       {
@@ -341,6 +502,7 @@
         "genre": "doom / stoner metal/rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://moonwire.bandcamp.com/album/pumpking-hood"
       },
       {
@@ -350,6 +512,7 @@
         "genre": "hard / stoner rock",
         "country": "Norway",
         "spotify": "https://open.spotify.com/album/0HSeRQbrIwSzkJf2jVs4c4",
+        "youtube": null,
         "bandcamp": "https://moonwraith.bandcamp.com/album/to-the-woods"
       },
       {
@@ -359,6 +522,7 @@
         "genre": "stoner doom / psych rock",
         "country": "UK",
         "spotify": "https://open.spotify.com/album/3bGakGn5Frb2THxUCCjy0C",
+        "youtube": null,
         "bandcamp": "https://mushroombeard.bandcamp.com/album/mushroom-beard"
       },
       {
@@ -368,6 +532,7 @@
         "genre": "stoner doom / doomgaze",
         "country": "France",
         "spotify": "https://open.spotify.com/album/59zjbTIiLNqwE9inV8rCnS",
+        "youtube": null,
         "bandcamp": "https://othermaunderplan.bandcamp.com/album/the-occurrence"
       },
       {
@@ -377,6 +542,7 @@
         "genre": "stoner doom / psych metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/0E8aKxOBILGdFpwtKxAwQz",
+        "youtube": null,
         "bandcamp": "https://plowtooth.bandcamp.com/album/on-the-edge-of-oblivion"
       },
       {
@@ -386,6 +552,7 @@
         "genre": "doom / stoner metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://spacegoatrecords1.bandcamp.com/album/erosions-psalm"
       },
       {
@@ -395,6 +562,7 @@
         "genre": "stoner / hard rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4GUyvsWXjynz867s6Lww2p",
+        "youtube": null,
         "bandcamp": "https://qotsa.bandcamp.com/album/perfecth"
       },
       {
@@ -404,6 +572,7 @@
         "genre": "doom / noise rock / stoner",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5pu8uoVZ1JVrq5uFNt0At5",
+        "youtube": null,
         "bandcamp": "https://rebreather-ohio.bandcamp.com/album/chaos-patterns"
       },
       {
@@ -413,6 +582,7 @@
         "genre": "desert / stoner rock",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/6ids2mQqLrsTjf2LM0dCR2",
+        "youtube": null,
         "bandcamp": "https://renardblanc.bandcamp.com/album/quand-lespoir-est-tout-ce-quil-nous-reste"
       },
       {
@@ -422,6 +592,7 @@
         "genre": "stoner / sludge / doom metal",
         "country": "Mexico",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://santofuzz.bandcamp.com/album/no-llores-sobre-mi-tumba"
       },
       {
@@ -431,6 +602,7 @@
         "genre": "stoner/doom metal",
         "country": "France",
         "spotify": "https://open.spotify.com/album/3BvZkYqHZUnAg7YYdaLoYc",
+        "youtube": null,
         "bandcamp": "https://sedated.bandcamp.com/album/night-of-the-full-dark-moon-2"
       },
       {
@@ -440,6 +612,7 @@
         "genre": "stoner/doom metal",
         "country": "France",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sedated.bandcamp.com/album/o-ritual-dos-sadicos"
       },
       {
@@ -449,6 +622,7 @@
         "genre": "stoner metal/rock",
         "country": "Italy",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://shadesofravaillac.bandcamp.com/album/before-man-was-war-waited-for-him"
       },
       {
@@ -458,6 +632,7 @@
         "genre": "stoner metal/rock",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sleepingmountainband.bandcamp.com/album/the-things-we-buried-folk-session"
       },
       {
@@ -467,6 +642,7 @@
         "genre": "drone / doom / stoner metal",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://soulers.bandcamp.com/album/ascension-i"
       },
       {
@@ -476,6 +652,7 @@
         "genre": "desert / stoner rock",
         "country": "France",
         "spotify": "https://open.spotify.com/album/5Z7Lk2KDB42RUigHF9aZba",
+        "youtube": null,
         "bandcamp": "https://starmonger.bandcamp.com/album/sirenia"
       },
       {
@@ -485,6 +662,7 @@
         "genre": "stoner / sludge / doom metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://sunndogg.bandcamp.com/album/sunndogg-demo-ep"
       },
       {
@@ -494,6 +672,7 @@
         "genre": "desert / stoner rock",
         "country": "Netherlands",
         "spotify": "https://open.spotify.com/album/15J2OKJrsIESZbSjF1aCzw",
+        "youtube": null,
         "bandcamp": "https://sybrenroefs.bandcamp.com/album/down-time"
       },
       {
@@ -503,6 +682,7 @@
         "genre": "stoner / doom metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://templewitch.bandcamp.com/album/veiling-the-void"
       },
       {
@@ -512,6 +692,7 @@
         "genre": "stoner / heavy metal",
         "country": "Canada",
         "spotify": "https://open.spotify.com/album/2TyJRfyXTnw7ivX7PB4IKy",
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -521,6 +702,7 @@
         "genre": "stoner / alternative rock",
         "country": "Netherlands",
         "spotify": "https://open.spotify.com/album/6XJmsHutXRtPEcRZTMUHJc",
+        "youtube": null,
         "bandcamp": "https://thestonesouls.bandcamp.com/album/mushroom"
       },
       {
@@ -530,6 +712,7 @@
         "genre": "stoner / heavy rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/0w522Ue2bejVg6uIAizFXK",
+        "youtube": null,
         "bandcamp": "https://thermalblack.bandcamp.com/album/evil-twin"
       },
       {
@@ -539,6 +722,7 @@
         "genre": "stoner / alternative metal",
         "country": "Serbia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://torimasaurusmatorex.bandcamp.com/album/say-yes-to-the-superorganism"
       },
       {
@@ -548,6 +732,7 @@
         "genre": "stoner / garage rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://triskaideka.bandcamp.com/album/eerf-nrob"
       },
       {
@@ -557,6 +742,7 @@
         "genre": "doom/stoner metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://witchwhoresofsatan.bandcamp.com/album/underground-satanic-cult"
       },
       {
@@ -566,6 +752,7 @@
         "genre": "stoner / garage blues",
         "country": "Poland",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://yarnplankton.bandcamp.com/album/my-aura-attracts-moths"
       },
       {
@@ -575,6 +762,7 @@
         "genre": "stoner / blues rock",
         "country": "Russia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://crystalth2026.bandcamp.com/album/--3"
       }
     ]
@@ -588,6 +776,7 @@
         "genre": "stoner rock / space rock / instrumental",
         "country": "Australia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://aliendream.bandcamp.com/album/aldebaran"
       },
       {
@@ -597,6 +786,7 @@
         "genre": "progressive rock / stoner rock",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://authari.bandcamp.com/album/echoes-down-the-aisle"
       },
       {
@@ -606,6 +796,7 @@
         "genre": "stoner rock / sludge / doom",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://midnightmatsuri.bandcamp.com/album/arise-wizard-arise"
       },
       {
@@ -615,6 +806,7 @@
         "genre": "desert rock / stoner doom / psych rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://comprayventa.bandcamp.com/album/god-sends-his-funniest-battles-to-his-silliest-clowns"
       },
       {
@@ -624,6 +816,7 @@
         "genre": "death'n'roll / stoner metal",
         "country": "Poland",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://corruptionpoland.bandcamp.com/album/pussyworld-remastered-2026"
       },
       {
@@ -633,6 +826,7 @@
         "genre": "stoner rock / grunge / hard rock",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://deploythesentinelsimmediately.bandcamp.com/album/deploy-the-sentinels-immediately"
       },
       {
@@ -642,6 +836,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/1ysfv9jcRYgLWDpgsPeZkH",
+        "youtube": null,
         "bandcamp": "https://earthbong.bandcamp.com/album/salutations-to-the-cultivators"
       },
       {
@@ -651,6 +846,7 @@
         "genre": "Stoner Rock (early); Stoner/Sludge/Doom Metal (later)",
         "country": "Estonia",
         "spotify": "https://open.spotify.com/album/2DU8wWjtFgZpk1iWGplxed",
+        "youtube": null,
         "bandcamp": "https://estoner.bandcamp.com/album/black-metal-uus-l-pp"
       },
       {
@@ -660,6 +856,7 @@
         "genre": "Psychedelic Stoner/Doom Metal",
         "country": "Brazil",
         "spotify": "https://open.spotify.com/album/37AHAEyvq126K2nQkJ1MIN",
+        "youtube": null,
         "bandcamp": "https://flordefumo.bandcamp.com/album/may-the-flower-be-smoked"
       },
       {
@@ -669,6 +866,7 @@
         "genre": "Stoner Metal/Rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://flyingfuzz.bandcamp.com/album/flying-fuzz-iii-lp"
       },
       {
@@ -678,6 +876,7 @@
         "genre": "Black Metal (early); Stoner/Southern/Black Metal (later)",
         "country": "France",
         "spotify": "https://open.spotify.com/album/4ZoB65DVtfeT2BtlxLRkEj",
+        "youtube": null,
         "bandcamp": "https://gloriorbelli.bandcamp.com/album/ave-marais"
       },
       {
@@ -687,6 +886,7 @@
         "genre": "Doom/Stoner Metal/Rock",
         "country": "UK",
         "spotify": "https://open.spotify.com/album/485nXVlxh7nvPke9tteieb",
+        "youtube": null,
         "bandcamp": "https://goatmajorband.bandcamp.com/album/death-comes-twice"
       },
       {
@@ -696,6 +896,7 @@
         "genre": "psychedelic/progressive metal / stoner metal",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/0dyRjWDqUJpnsWEsbAXR0E",
+        "youtube": null,
         "bandcamp": "https://godzillainthekitchen.bandcamp.com/album/termination-sequence"
       },
       {
@@ -705,6 +906,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/3ntvF2Y3x3pEY2pdRrVvr1",
+        "youtube": null,
         "bandcamp": "https://grimreefer420.bandcamp.com/album/the-unholy-bong-ritual"
       },
       {
@@ -714,6 +916,7 @@
         "genre": "stoner doom / crust / thrash punk",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://gunsandspeed.bandcamp.com/album/goat-blood"
       },
       {
@@ -723,6 +926,7 @@
         "genre": "stoner rock / heavy rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://hempirerocks.bandcamp.com/album/sealed-by-the-sea"
       },
       {
@@ -732,6 +936,7 @@
         "genre": "Stoner/Doom Metal/Rock",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4LmZRhmQN1O3eKDbSf7sBB",
+        "youtube": null,
         "bandcamp": "https://hexecutioner.bandcamp.com/album/ascension-rock"
       },
       {
@@ -741,6 +946,7 @@
         "genre": "Stoner/Sludge/Doom Metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://highpriestofnothing.bandcamp.com/album/seven-moons"
       },
       {
@@ -750,6 +956,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "Belgium",
         "spotify": "https://open.spotify.com/album/740q9tSr7lgGHSpzYqTUT4",
+        "youtube": null,
         "bandcamp": "https://inner-marshland.bandcamp.com/album/tales-from-the-marshland"
       },
       {
@@ -759,6 +966,7 @@
         "genre": "stoner rock / psychedelic rock / pagan folk metal",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://kevbyker.bandcamp.com/album/recovered"
       },
       {
@@ -768,6 +976,7 @@
         "genre": "Doom/Stoner Metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://loremasterdoom.bandcamp.com/album/loremaster"
       },
       {
@@ -777,6 +986,7 @@
         "genre": "stoner metal / doom / thrash",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://massdelusion4.bandcamp.com/album/origins-ov-the-damned"
       },
       {
@@ -786,6 +996,7 @@
         "genre": "stoner rock / doom rock / fuzz",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://mightymothra.bandcamp.com/album/always-low-never-zero"
       },
       {
@@ -795,6 +1006,7 @@
         "genre": "stoner rock / alternative / hard rock",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://nacar.bandcamp.com/album/the-fools"
       },
       {
@@ -804,6 +1016,7 @@
         "genre": "hard rock / grunge / stoner rock",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://omensrocks.bandcamp.com/album/ii-burn-it-down"
       },
       {
@@ -813,6 +1026,7 @@
         "genre": "stoner doom / stoner metal / stoner rock",
         "country": "Germany",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://orgov.bandcamp.com/album/orgov"
       },
       {
@@ -822,6 +1036,7 @@
         "genre": "stoner rock / desert rock / doomgaze",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://perdidoperdidoperdido.bandcamp.com/album/homenajes-despedidas"
       },
       {
@@ -831,6 +1046,7 @@
         "genre": "stoner doom / stoner rock / space rock",
         "country": "Netherlands",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://peul-music.bandcamp.com/album/mud"
       },
       {
@@ -840,6 +1056,7 @@
         "genre": "stoner rock / fuzz / desert",
         "country": "Netherlands",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://phemusic2.bandcamp.com/album/closer-to-the-sun"
       },
       {
@@ -849,6 +1066,7 @@
         "genre": "doom / sludge / stoner / heavy psych",
         "country": "Spain",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://discosmacarras.bandcamp.com/album/mirrors"
       },
       {
@@ -858,6 +1076,7 @@
         "genre": "sludge punk / stoner / noise rock",
         "country": "Belgium",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://pratsj.bandcamp.com/album/rotte-n-s"
       },
       {
@@ -867,6 +1086,7 @@
         "genre": "stoner rock / heavy psych rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://primordialhappenstance.bandcamp.com/album/no-time-to-explain"
       },
       {
@@ -876,6 +1096,7 @@
         "genre": "stoner rock / hard rock / punk rock",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://productofconception.bandcamp.com/album/10"
       },
       {
@@ -885,6 +1106,7 @@
         "genre": "stoner rock / groove metal / party metal",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://rickshawbilliesburgerpatrol.bandcamp.com/album/ca-h-grab"
       },
       {
@@ -894,6 +1116,7 @@
         "genre": "stoner rock / heavy psych / hard rock",
         "country": "Unknown",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://routelaws.bandcamp.com/album/kicking-line"
       },
       {
@@ -903,6 +1126,7 @@
         "genre": "Doom/Stoner Metal/Rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://skullmother.bandcamp.com/album/serpents-tongue"
       },
       {
@@ -912,6 +1136,7 @@
         "genre": "stoner rock / heavy psych",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://snakemountainrevival.bandcamp.com/album/the-divide"
       },
       {
@@ -921,6 +1146,7 @@
         "genre": "Drone/Doom/Stoner Metal",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://soulers.bandcamp.com/album/brought-here-to-turn-to-dust"
       },
       {
@@ -930,6 +1156,7 @@
         "genre": "stoner rock / psychedelic rock",
         "country": "Unknown",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://stonedcentury.bandcamp.com/album/snow-white-and-the-seven-riffs"
       },
       {
@@ -939,6 +1166,7 @@
         "genre": "desert rock / stoner rock / heavy psych",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/5jD18w4AgCIJolI1cM0F5y",
+        "youtube": null,
         "bandcamp": "https://sun-voyager.bandcamp.com/album/vandromeda"
       },
       {
@@ -948,6 +1176,7 @@
         "genre": "stoner metal / stoner rock / occult rock",
         "country": "Brazil",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://therainbowforest.bandcamp.com/album/meu-pr-prio-mundo"
       },
       {
@@ -957,6 +1186,7 @@
         "genre": "hard rock / grunge / stoner rock",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/6QmSZvF49YJSpSz0v4fN3Q",
+        "youtube": null,
         "bandcamp": "https://therefugeband.bandcamp.com/album/love-death-prophecy"
       },
       {
@@ -966,6 +1196,7 @@
         "genre": "stoner metal / heavy psych",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://tombstoneeyes.bandcamp.com/album/trick-or-treat-or-die"
       },
       {
@@ -975,6 +1206,7 @@
         "genre": "stoner metal / stoner rock / doom",
         "country": "Estonia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://tumeaine.bandcamp.com/album/k-ik-v-i-mitte-midagi"
       },
       {
@@ -984,6 +1216,7 @@
         "genre": "psychedelic death/doom / stoner doom / stoner metal",
         "country": "Germany",
         "spotify": "https://open.spotify.com/album/6W7YrAGoCGWxAFP3amOMbE",
+        "youtube": null,
         "bandcamp": "https://vamacara.bandcamp.com/album/destructress-of-tantric-asceticism"
       },
       {
@@ -993,6 +1226,7 @@
         "genre": "Stoner Metal/Hard Rock",
         "country": "Poland",
         "spotify": "https://open.spotify.com/album/2FJvlTbZpxKNP2sKWl8Wtl",
+        "youtube": null,
         "bandcamp": "https://piranhamusicpl.bandcamp.com/album/protisty"
       },
       {
@@ -1002,6 +1236,7 @@
         "genre": "sludge / noise rock / stoner",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://worseband.bandcamp.com/album/worse-ii"
       },
       {
@@ -1011,6 +1246,7 @@
         "genre": "stoner rock / psychedelic / krautrock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://zincvacuum.bandcamp.com/album/zonk-iii"
       }
     ]
@@ -1024,6 +1260,7 @@
         "genre": "stoner rock / psychedelic metal / space rock",
         "country": "Australia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://astralritual.bandcamp.com/album/sailing-to-utopia"
       },
       {
@@ -1033,6 +1270,7 @@
         "genre": "doom folk / stoner rock",
         "country": "USA",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://buzzarddoomfolk.bandcamp.com/album/hush-now"
       },
       {
@@ -1042,6 +1280,7 @@
         "genre": "stoner metal / doom / groove",
         "country": "Australia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://chronomancer-music.bandcamp.com/album/codex-infernalis"
       },
       {
@@ -1051,6 +1290,7 @@
         "genre": "stoner rock / hard rock / alt rock",
         "country": "UK",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://deadlosssuperstar.bandcamp.com/album/everythings-a-shit-show-now"
       },
       {
@@ -1060,6 +1300,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "Denmark",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://2xspace.bandcamp.com/album/not-in-a-million-years"
       },
       {
@@ -1069,6 +1310,7 @@
         "genre": "stoner / doom / punk / psychedelic",
         "country": "South Africa",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://drunkwizard.bandcamp.com/album/i-cast-drunk-wizard"
       },
       {
@@ -1078,6 +1320,7 @@
         "genre": "Death/Sludge Metal / stoner doom",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://eldercolossus.bandcamp.com/album/black-kiss-of-the-crow"
       },
       {
@@ -1087,6 +1330,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "Sweden",
         "spotify": "https://open.spotify.com/album/5Qx2gu3GtdsU0jjks8CnJt",
+        "youtube": null,
         "bandcamp": "https://firebreatherdoom.bandcamp.com/album/blood-that-i-spill-turns-to-fire"
       },
       {
@@ -1096,6 +1340,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://inferousdoom.bandcamp.com/album/mueran-todos"
       },
       {
@@ -1105,6 +1350,7 @@
         "genre": "psychedelic rock / stoner rock",
         "country": "France",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://jagannatha.bandcamp.com/album/purushartha"
       },
       {
@@ -1114,6 +1360,7 @@
         "genre": "psychedelic rock / stoner rock / jam",
         "country": "Norway",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://kanaanband.bandcamp.com/album/kanaan"
       },
       {
@@ -1123,6 +1370,7 @@
         "genre": "stoner doom / stoner metal",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://kumaru9.bandcamp.com/album/morbus-doominatrix"
       },
       {
@@ -1132,6 +1380,7 @@
         "genre": "Sludge/Stoner/Doom Metal; stoner doom / powerviolence",
         "country": "UK / Unknown",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://mildlincolnsludge.bandcamp.com/album/mild-pothole-split"
       },
       {
@@ -1141,6 +1390,7 @@
         "genre": "Psychedelic Drone/Doom/Stoner Metal",
         "country": "Italy",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://nightscape1.bandcamp.com/album/the-great-beyond"
       },
       {
@@ -1150,6 +1400,7 @@
         "genre": "Doom/Stoner Metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4VvPBblR6Zpeh9c5PHzrUR",
+        "youtube": null,
         "bandcamp": "https://appalachiandoomhippies.bandcamp.com/album/overdosing-on-hate"
       },
       {
@@ -1159,6 +1410,7 @@
         "genre": "Stoner/Doom Metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/1cCQLtTu751vEZjyLt8c6O",
+        "youtube": null,
         "bandcamp": "https://peacepipe.bandcamp.com/album/emerald-flood"
       },
       {
@@ -1168,6 +1420,7 @@
         "genre": "heavy psych / stoner rock",
         "country": "Australia",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://robotgodband.bandcamp.com/album/curse-of-the-driven"
       },
       {
@@ -1177,6 +1430,7 @@
         "genre": "stoner doom / stoner metal",
         "country": "Brazil",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://selvagem.bandcamp.com/album/realidade-fict-cia"
       },
       {
@@ -1186,6 +1440,7 @@
         "genre": "Drone/Doom/Stoner Metal",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://soulers.bandcamp.com/album/consumed-by-the-grave"
       },
       {
@@ -1195,6 +1450,7 @@
         "genre": "desert rock / stoner rock",
         "country": "Argentina",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://spatola1.bandcamp.com/album/round-1"
       },
       {
@@ -1204,6 +1460,7 @@
         "genre": "Doom/Stoner Metal/Rock",
         "country": "Ukraine",
         "spotify": "https://open.spotify.com/album/7E71KJNZlQpoHfgt0Xnpsm",
+        "youtube": null,
         "bandcamp": "https://stonedjesus.bandcamp.com/album/songs-to-moon"
       },
       {
@@ -1213,6 +1470,7 @@
         "genre": "Sludge/Stoner Metal",
         "country": "Australia",
         "spotify": "https://open.spotify.com/album/1a8xllsqW7n6OaxlmCNlvq",
+        "youtube": null,
         "bandcamp": "https://sundownersludge.bandcamp.com/album/cesspool"
       },
       {
@@ -1222,6 +1480,7 @@
         "genre": "Groove/Stoner Metal",
         "country": "Poland",
         "spotify": "https://open.spotify.com/album/4tLNT3nNtk4f0SbX2cVT5B",
+        "youtube": null,
         "bandcamp": "https://theblackthunder.bandcamp.com/album/time-obliteration"
       },
       {
@@ -1231,6 +1490,7 @@
         "genre": "stoner doom / drone doom",
         "country": "Canada",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://fuzzdoom1.bandcamp.com/album/void"
       },
       {
@@ -1240,6 +1500,7 @@
         "genre": "Sludge/Doom / stoner metal",
         "country": "Finland",
         "spotify": null,
+        "youtube": null,
         "bandcamp": null
       },
       {
@@ -1249,6 +1510,7 @@
         "genre": "garage / stoner / punk",
         "country": "France",
         "spotify": null,
+        "youtube": null,
         "bandcamp": "https://zapoix2.bandcamp.com/album/zapo-ep"
       }
     ]

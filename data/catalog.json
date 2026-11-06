@@ -1,6 +1,657 @@
 {
   "weeks": [
     {
+      "slug": "2026-11-06",
+      "title": "Week of Nov 1–6, 2026",
+      "kind": "friday",
+      "sort": "2026-11-06",
+      "blurb": "69 releases · black metal, death metal, experimental / noise, sludge / doom",
+      "sources": "",
+      "sections": [
+        {
+          "genre": "BLACK METAL",
+          "releases": [
+            {
+              "band": "Angbandhordes",
+              "album": "Cualantoc (EP)",
+              "date": "11/01",
+              "genre": "raw black metal",
+              "place": "Mexico",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Arctos",
+              "album": "A Path Apart",
+              "date": "11/06",
+              "genre": "melodic black metal",
+              "place": "Canada",
+              "spotify": null,
+              "bandcamp": "https://arctosofficial.bandcamp.com/album/a-path-apart"
+            },
+            {
+              "band": "Beenkerver",
+              "album": "Doodlot",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Netherlands",
+              "spotify": "https://open.spotify.com/album/33BfNSZ4QkHK7P3e3dQ3Mg",
+              "bandcamp": "https://beenkerver.bandcamp.com/album/doodlot"
+            },
+            {
+              "band": "Breaths",
+              "album": "Into the Depths",
+              "date": "11/01",
+              "genre": "black/doom metal / shoegaze",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Chthonian",
+              "album": "Excoriate",
+              "date": "11/06",
+              "genre": "crusty blackened-death",
+              "place": "Finland",
+              "spotify": null,
+              "bandcamp": "https://chthonian.bandcamp.com/album/excoriate"
+            },
+            {
+              "band": "Crowhurst",
+              "album": "T H O R N S",
+              "date": "11/06",
+              "genre": "post-black/sludge / experimental",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/2vNJj3Vut1aBYJefaf6WVa",
+              "bandcamp": "https://crowhurst.bandcamp.com/album/t-h-o-r-n-s"
+            },
+            {
+              "band": "Dantalion",
+              "album": "Dantalion",
+              "date": "11/01",
+              "genre": "black metal",
+              "place": "Spain",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Dimscûa",
+              "album": "Grief & Silence (EP)",
+              "date": "11/02",
+              "genre": "post-black / ambient",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/79fGeozM5vgukWLdLXJHiv",
+              "bandcamp": "https://dimscua.bandcamp.com/album/grief-silence-ep"
+            },
+            {
+              "band": "Disembody",
+              "album": "Awakening of Ancient Evil",
+              "date": "11/04",
+              "genre": "black/thrash metal",
+              "place": "Finland",
+              "spotify": null,
+              "bandcamp": "https://helldprod.bandcamp.com/album/disembody-awakening-of-ancient-evil"
+            },
+            {
+              "band": "Frail Petals",
+              "album": "Stars Above the Triumphant Loss",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Finland",
+              "spotify": "https://open.spotify.com/album/3sgtzje3VVEHuvv1FtwX9W",
+              "bandcamp": "https://frailpetals.bandcamp.com/album/stars-above-the-triumphant-loss"
+            },
+            {
+              "band": "Fraught",
+              "album": "Pillar I: Ashes of Verdant Collapse (EP)",
+              "date": "11/06",
+              "genre": "death/black metal",
+              "place": "Ireland",
+              "spotify": "https://open.spotify.com/album/4Gz1KNglklfkj4BWdiexl7",
+              "bandcamp": null
+            },
+            {
+              "band": "Grand Harvest",
+              "album": "Home",
+              "date": "11/06",
+              "genre": "death/doom / melodic black",
+              "place": "Sweden",
+              "spotify": "https://open.spotify.com/album/0zP3Ihov4KzI3an0AmRqXA",
+              "bandcamp": "https://grandharvest.bandcamp.com/album/home"
+            },
+            {
+              "band": "Hagel",
+              "album": "The Veil of Shadows (EP)",
+              "date": "11/05",
+              "genre": "black/doom metal",
+              "place": "Mexico",
+              "spotify": "https://open.spotify.com/album/6413GZYEJjEorEGbhX8UUd",
+              "bandcamp": null
+            },
+            {
+              "band": "Hyperion",
+              "album": "Elysia",
+              "date": "11/06",
+              "genre": "melodic black/death metal",
+              "place": "Sweden",
+              "spotify": "https://open.spotify.com/album/3mTEySOHhw3taSessQXHfN",
+              "bandcamp": "https://hyperionswe.bandcamp.com/album/elysia"
+            },
+            {
+              "band": "I Helvete",
+              "album": "Halla",
+              "date": "11/06",
+              "genre": "melodic death/black metal",
+              "place": "Finland",
+              "spotify": "https://open.spotify.com/album/63wemMM2IH7tryv7CEQZzY",
+              "bandcamp": "https://ihelvete.bandcamp.com/album/halla"
+            },
+            {
+              "band": "Les Chants de Nihil",
+              "album": "Graines",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "France",
+              "spotify": "https://open.spotify.com/album/7w5RIos8M92T4GkgWYKeiu",
+              "bandcamp": "https://ladlo.bandcamp.com/album/graines"
+            },
+            {
+              "band": "Malignant Spirit",
+              "album": "A Serpent To Devour, A Servant To Abhor",
+              "date": "11/06",
+              "genre": "avant-garde black/death metal",
+              "place": "Denmark",
+              "spotify": null,
+              "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/a-serpent-to-devour-a-servant-to-abhor"
+            },
+            {
+              "band": "Mists",
+              "album": "Summoning Eternity",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Belgium/USA",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Moorah",
+              "album": "The Beast Called Ego",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Czechia",
+              "spotify": "https://open.spotify.com/album/2mJDMzgGKVo1lsy45LDRyO",
+              "bandcamp": "https://moorah.bandcamp.com/album/the-beast-called-ego"
+            },
+            {
+              "band": "Murskaus",
+              "album": "Murskaus (EP)",
+              "date": "11/06",
+              "genre": "blackened doom-sludge",
+              "place": "Finland",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Nocturnis",
+              "album": "Drangsal",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/1hMN9EUnicq2MSVJRlBGaG",
+              "bandcamp": "https://nocturnis-kvlt.bandcamp.com/album/drangsal"
+            },
+            {
+              "band": "Northwind",
+              "album": "Tuhkasta nouseva mahti",
+              "date": "11/06",
+              "genre": "folk/black metal",
+              "place": "Finland",
+              "spotify": "https://open.spotify.com/album/0Nm6XA5pFlV0FyuISpQbaI",
+              "bandcamp": null
+            },
+            {
+              "band": "Only Worms Left",
+              "album": "Beneath the Earth, at One with Fear",
+              "date": "11/06",
+              "genre": "blackened death/doom",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/2HC5Gyix8tnhtsYh3CRuf4",
+              "bandcamp": "https://meusemusicrecords.bandcamp.com/album/only-worms-left-beneath-the-earth-at-one-with-fear-mmr085"
+            },
+            {
+              "band": "Ováte",
+              "album": "Rúin",
+              "date": "11/06",
+              "genre": "black metal",
+              "place": "Norway",
+              "spotify": "https://open.spotify.com/album/7bQQU3py3GrTYEZWwpj8zp",
+              "bandcamp": "https://soulsellerrecords.bandcamp.com/album/r-in"
+            },
+            {
+              "band": "Polderhaat",
+              "album": "Klaagliederen",
+              "date": "11/06",
+              "genre": "atmospheric black metal",
+              "place": "Netherlands",
+              "spotify": null,
+              "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/klaagliederen"
+            },
+            {
+              "band": "Saor",
+              "album": "Caledonia",
+              "date": "11/06",
+              "genre": "atmospheric folk/black metal",
+              "place": "Scotland",
+              "spotify": "https://open.spotify.com/album/1JsI8SwZUkgBHJzSck3ABA",
+              "bandcamp": "https://saor.bandcamp.com/album/caledonia-2"
+            },
+            {
+              "band": "Sentries",
+              "album": "Disciples Of Void & Fire",
+              "date": "11/04",
+              "genre": "black metal",
+              "place": "International",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Sepulchre by the Sea",
+              "album": "Goldseeker (EP)",
+              "date": "11/06",
+              "genre": "atmospheric black metal",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/1LhZBa9ImHG5lBPOt2TUHF",
+              "bandcamp": "https://sepulchrebythesea.bandcamp.com/album/goldseeker"
+            },
+            {
+              "band": "Sigurður",
+              "album": "Niu lif Einars Hrafns",
+              "date": "11/06",
+              "genre": "atmospheric black metal",
+              "place": "Czechia/Iceland",
+              "spotify": "https://open.spotify.com/album/5Bw3GtQghrwv8ppzSDbSph",
+              "bandcamp": "https://hypnoticdirgerecords.bandcamp.com/album/niu-lif-einars-hrafns"
+            },
+            {
+              "band": "Underdark",
+              "album": "O Come Forth Annihilation",
+              "date": "11/06",
+              "genre": "post-black metal",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/1osRVxMNsvStxhyyB8q1eO",
+              "bandcamp": "https://underdark.bandcamp.com/album/o-come-forth-annihilation"
+            },
+            {
+              "band": "Wolvennest",
+              "album": "In the Ruins (EP)",
+              "date": "11/06",
+              "genre": "psychedelic doom/black metal",
+              "place": "Belgium",
+              "spotify": "https://open.spotify.com/album/4RJ7TCDZubLD36ihaB2QC1",
+              "bandcamp": null
+            }
+          ]
+        },
+        {
+          "genre": "DEATH METAL",
+          "releases": [
+            {
+              "band": "Abysmal Rage",
+              "album": "A House No One Could Live In",
+              "date": "11/06",
+              "genre": "death/doom metal",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/34nVA8fCkbcMsqgOC70i9t",
+              "bandcamp": null
+            },
+            {
+              "band": "Annihilus Mundi",
+              "album": "The Dead Sea Scrolls",
+              "date": "11/06",
+              "genre": "progressive death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/0M2wMQaJ5LRsBR8lqfsf4x",
+              "bandcamp": "https://annihilusmundi.bandcamp.com/album/the-dead-sea-scrolls"
+            },
+            {
+              "band": "Architect of Seth",
+              "album": "Solitude Solaire",
+              "date": "11/06",
+              "genre": "technical death metal",
+              "place": "France",
+              "spotify": null,
+              "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/solitude-solaire"
+            },
+            {
+              "band": "Besotten",
+              "album": "Eye of the Monolithicrypt",
+              "date": "11/06",
+              "genre": "death/doom metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/1tTLJXceczUBsWZ1sz6uCD",
+              "bandcamp": "https://besotten.bandcamp.com/album/eye-of-the-monolithicrypt"
+            },
+            {
+              "band": "Extol",
+              "album": "Aura of Decay",
+              "date": "11/06",
+              "genre": "progressive death/thrash",
+              "place": "Norway",
+              "spotify": "https://open.spotify.com/album/7DZluT9OJKwoQVzcwTA3vx",
+              "bandcamp": null
+            },
+            {
+              "band": "Grób",
+              "album": "Ikonoklasta",
+              "date": "11/06",
+              "genre": "thrash/death metal",
+              "place": "Poland",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Hannes Grossmann",
+              "album": "Worlds Beyond the Sun",
+              "date": "11/06",
+              "genre": "progressive technical death metal",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/5xosxO4zGGyfSKQ4uRyaTk",
+              "bandcamp": "https://hannesgrossmann.bandcamp.com/album/worlds-beyond-the-sun"
+            },
+            {
+              "band": "Infortuno",
+              "album": "Artefato da Falha Humana (EP)",
+              "date": "11/02",
+              "genre": "death/doom / hardcore",
+              "place": "Brazil",
+              "spotify": "https://open.spotify.com/album/6cHZCvq051n3sJpk9PUdRp",
+              "bandcamp": "https://infortuno.bandcamp.com/album/artefato-da-falha-humana"
+            },
+            {
+              "band": "Klaïton",
+              "album": "A Celebration Of Pain (EP)",
+              "date": "11/04",
+              "genre": "death metal",
+              "place": "Netherlands",
+              "spotify": "https://open.spotify.com/album/6PTFptNIJECQ1V9Nq8k4fp",
+              "bandcamp": "https://klaiton.bandcamp.com/album/a-celebration-of-pain"
+            },
+            {
+              "band": "Konvent",
+              "album": "Firesky",
+              "date": "11/06",
+              "genre": "death/doom metal",
+              "place": "Denmark",
+              "spotify": "https://open.spotify.com/album/40dUC2HL3fcImRx7xiqIev",
+              "bandcamp": "https://konvent666.bandcamp.com/album/firesky"
+            },
+            {
+              "band": "Lethal Evil",
+              "album": "Unleash the Apocalypse",
+              "date": "11/06",
+              "genre": "thrash/death metal",
+              "place": "UK",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Monastery",
+              "album": "Revenge Is Mine",
+              "date": "11/06",
+              "genre": "death metal",
+              "place": "Hungary",
+              "spotify": "https://open.spotify.com/album/0rJrlsRcvOMX6CssfVrhvX",
+              "bandcamp": null
+            },
+            {
+              "band": "Mystical Death",
+              "album": "Across",
+              "date": "11/06",
+              "genre": "technical/progressive death metal",
+              "place": "Netherlands",
+              "spotify": "https://open.spotify.com/album/3XEN6P3MHeRV0GfMfkwAdA",
+              "bandcamp": null
+            },
+            {
+              "band": "Nihilo",
+              "album": "Abyss",
+              "date": "11/03",
+              "genre": "death metal",
+              "place": "Switzerland",
+              "spotify": "https://open.spotify.com/album/18LtmecyjcQbX0rfLfHKrX",
+              "bandcamp": "https://xtreemmusic.bandcamp.com/album/abyss-2"
+            },
+            {
+              "band": "Obbrobrius",
+              "album": "Usurped",
+              "date": "11/06",
+              "genre": "death metal",
+              "place": "Italy",
+              "spotify": "https://open.spotify.com/album/7kG9nE9taOpryiXE664cyd",
+              "bandcamp": "https://overtheborderrecords.bandcamp.com/album/usurped"
+            },
+            {
+              "band": "Olympus",
+              "album": "L'appel Du Vide (EP)",
+              "date": "11/06",
+              "genre": "melodic death metal",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/5u1E6w7bWsDs28pG9sxkkg",
+              "bandcamp": null
+            },
+            {
+              "band": "Orbital Gate",
+              "album": "Engineering His Planetary Dominion",
+              "date": "11/06",
+              "genre": "slam/brutal death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/4kaKYJ6EhpYa8MtCGQy6Zh",
+              "bandcamp": "https://orbitalgate.bandcamp.com/album/engineering-his-planetary-dominion"
+            },
+            {
+              "band": "Penny Coffin",
+              "album": "Transitory Fragmentation",
+              "date": "11/06",
+              "genre": "death metal",
+              "place": "Scotland",
+              "spotify": null,
+              "bandcamp": "https://pennycoffindeath.bandcamp.com/album/transitory-fragmentation"
+            },
+            {
+              "band": "Shit Hexis",
+              "album": "Du wurdest noch nie geliebt",
+              "date": "11/06",
+              "genre": "disso-death",
+              "place": "Germany",
+              "spotify": null,
+              "bandcamp": "https://shithexis.bandcamp.com/album/du-wurdest-noch-nie-geliebt"
+            },
+            {
+              "band": "Solitary Sanity",
+              "album": "Genesis Of Despotism",
+              "date": "11/05",
+              "genre": "technical death/thrash",
+              "place": "Unknown",
+              "spotify": "https://open.spotify.com/album/0iFghz6ZzQ8jS9M9QrM04B",
+              "bandcamp": "https://solitarysanity.bandcamp.com/album/genesis-of-despotism"
+            },
+            {
+              "band": "Surgent",
+              "album": "Sin Eater",
+              "date": "11/05",
+              "genre": "progressive death metal",
+              "place": "Estonia",
+              "spotify": "https://open.spotify.com/album/0ZPI0wuBkKQ0XyYO84TQCy",
+              "bandcamp": "https://surgentband.bandcamp.com/album/sin-eater"
+            },
+            {
+              "band": "Veil Piercer",
+              "album": "This Will Not Be Painless (EP)",
+              "date": "11/06",
+              "genre": "death/groove metal",
+              "place": "UK",
+              "spotify": "https://open.spotify.com/album/5ZyPMDjUZXKUGIrbrkUFZR",
+              "bandcamp": "https://veilpiercer-official.bandcamp.com/album/this-will-not-be-painless"
+            },
+            {
+              "band": "Violence Only",
+              "album": "Violence Only (EP)",
+              "date": "11/06",
+              "genre": "brutal death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/2KsGIi7oVf1KaRzuwP439B",
+              "bandcamp": "https://comatosemusic.bandcamp.com/album/violence-only"
+            },
+            {
+              "band": "Wicked Wave",
+              "album": "Wicked Wave",
+              "date": "11/06",
+              "genre": "melodic death metal",
+              "place": "Italy",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Wingless",
+              "album": "Vision Beyond Form",
+              "date": "11/06",
+              "genre": "doom/death metal",
+              "place": "Poland",
+              "spotify": "https://open.spotify.com/album/1PKTm0w3rKVIBZIZd4LBvt",
+              "bandcamp": "https://selfmadegod.bandcamp.com/album/vision-beyond-form"
+            }
+          ]
+        },
+        {
+          "genre": "EXPERIMENTAL / NOISE",
+          "releases": [
+            {
+              "band": "Hypno5e",
+              "album": "Trame Noire",
+              "date": "11/06",
+              "genre": "progressive/post-metal",
+              "place": "France",
+              "spotify": "https://open.spotify.com/album/4kGXM3pTwu8EmDFn9MqnTV",
+              "bandcamp": "https://hypno5e.bandcamp.com/album/trame-noire"
+            }
+          ]
+        },
+        {
+          "genre": "SLUDGE / DOOM",
+          "releases": [
+            {
+              "band": "Coilguns",
+              "album": "Everything We Love, We Destroy",
+              "date": "11/06",
+              "genre": "alt/noise sludge",
+              "place": "Switzerland",
+              "spotify": "https://open.spotify.com/album/2hVz8soLKNDmlbCdZLbBxx",
+              "bandcamp": "https://coilguns.bandcamp.com/album/everything-we-love-we-destroy"
+            },
+            {
+              "band": "Cult of Luna",
+              "album": "In the Shadow of Your Shadow",
+              "date": "11/06",
+              "genre": "atmospheric sludge/post-metal",
+              "place": "Sweden",
+              "spotify": "https://open.spotify.com/album/2jo7MOpWqcaorbFYvAhmZL",
+              "bandcamp": "https://cultofluna.bandcamp.com/album/in-the-shadow-of-your-shadow"
+            },
+            {
+              "band": "E-L-R",
+              "album": "Atropa",
+              "date": "11/06",
+              "genre": "atmospheric doom/post-metal",
+              "place": "Switzerland",
+              "spotify": "https://open.spotify.com/album/1osZrV4TAYsAhCVqtBt25p",
+              "bandcamp": "https://e-l-r.bandcamp.com/album/atropa"
+            },
+            {
+              "band": "Kavrila",
+              "album": "Transcend",
+              "date": "11/06",
+              "genre": "sludge/post-metal/hardcore",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/21NWn3TTGY25TzjixPYL30",
+              "bandcamp": "https://kavrila.bandcamp.com/album/transcend"
+            },
+            {
+              "band": "KOSMOBERKH",
+              "album": "Troglobiten in Absonderlicht",
+              "date": "11/06",
+              "genre": "experimental doom",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/0xQKDzU5puUewy6l315pPY",
+              "bandcamp": "https://kosmoberkh.bandcamp.com/album/troglobiten-in-absonderlicht"
+            },
+            {
+              "band": "Liminal Spirit",
+              "album": "Forfeiture Hymns",
+              "date": "11/06",
+              "genre": "avant-garde doom / industrial / drone",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/27GbRJionFgxttxUdkPJrp",
+              "bandcamp": "https://liminalspirit.bandcamp.com/album/forfeiture-hymns"
+            },
+            {
+              "band": "Melpomene",
+              "album": "New Queer Cinema (EP)",
+              "date": "11/06",
+              "genre": "progressive/groove/doom/post-metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/3gowUdnDOD22Y3sbrxPIQX",
+              "bandcamp": "https://fiadh.bandcamp.com/album/new-queer-cinema"
+            },
+            {
+              "band": "Shakhtyor",
+              "album": "Simulacron",
+              "date": "11/06",
+              "genre": "instrumental post-metal / sludge",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/4kGOXS5YmDWYqrMTQKMJ1j",
+              "bandcamp": "https://shakhtyor.bandcamp.com/album/simulacron"
+            },
+            {
+              "band": "Slain Thought",
+              "album": "The Light Is A Nail (EP)",
+              "date": "11/06",
+              "genre": "experimental doom / drone / post-metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://slainthought.bandcamp.com/album/the-light-is-a-nail"
+            },
+            {
+              "band": "Stricken",
+              "album": "From Dark Dimensions an Unspeakable Presence Awakens",
+              "date": "11/06",
+              "genre": "sludge/doom metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/7e3iPdCRVYDutfE6gD3tN3",
+              "bandcamp": null
+            },
+            {
+              "band": "Sycomore",
+              "album": "Dégradé",
+              "date": "11/06",
+              "genre": "sludge metal / hardcore",
+              "place": "France",
+              "spotify": "https://open.spotify.com/album/2qnksnuDeh2KS3uUZaVBXU",
+              "bandcamp": null
+            },
+            {
+              "band": "This Brutal World",
+              "album": "One Finger Left",
+              "date": "11/06",
+              "genre": "sludge",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/59qNsAhxDhdkagEPi8jHvY",
+              "bandcamp": "https://thisbrutalworld.bandcamp.com/album/one-finger-left"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "2026-10-30",
       "title": "Week of Oct 25–30, 2026",
       "kind": "friday",
