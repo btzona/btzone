@@ -302,6 +302,16 @@
         "bandcamp": null
       },
       {
+        "band": "PAPKE & AchtVier",
+        "album": "BIS KLAPPT",
+        "date": "11/06",
+        "genre": "Deutschrap",
+        "country": "Germany",
+        "spotify": "https://open.spotify.com/track/6DXIy5qWu6LCAn21lFdoKm",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
         "band": "Samy Deluxe & DJ Desue",
         "album": "On Point",
         "date": "11/05",
@@ -398,6 +408,16 @@
         "genre": "Deutschrap",
         "country": "Unknown",
         "spotify": null,
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Zensery",
+        "album": "HALT STOP!",
+        "date": "11/06",
+        "genre": "Deutschrap",
+        "country": "Germany",
+        "spotify": "https://open.spotify.com/track/0BFCze37dN2FGMZTLL4vDQ",
         "youtube": null,
         "bandcamp": null
       }
