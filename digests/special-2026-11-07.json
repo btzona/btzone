@@ -1,0 +1,107 @@
+{
+ "jrod": [],
+ "lenny": [
+  {
+   "band": "Autumn Tomb",
+   "album": "Autumn Tomb",
+   "date": "11/06",
+   "genre": "sludge/stoner/doom metal",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/4qcTjkV7UwE80jzuyvnjvw",
+   "youtube": null,
+   "bandcamp": "https://autumntomb.bandcamp.com/album/autumn-tomb"
+  },
+  {
+   "band": "Idealus Maximus",
+   "album": "Side A (EP)",
+   "date": "11/06",
+   "genre": "stoner metal/rock",
+   "country": "Belgium",
+   "spotify": "https://open.spotify.com/album/2MSVT32d3zMEM8t2kp842D",
+   "youtube": null,
+   "bandcamp": "https://idealusmaximus.bandcamp.com/album/side-a"
+  },
+  {
+   "band": "Moss Valley",
+   "album": "Faraway (EP)",
+   "date": "11/06",
+   "genre": "stoner metal/grunge",
+   "country": "UK",
+   "spotify": "https://open.spotify.com/album/65nGyCKkHqaSXrcQXUjDpF",
+   "youtube": null,
+   "bandcamp": "https://mossvalley.bandcamp.com/album/faraway"
+  },
+  {
+   "band": "Qadys",
+   "album": "Convergence (EP)",
+   "date": "11/06",
+   "genre": "doom/stoner metal",
+   "country": "UK",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://qadys.bandcamp.com/album/convergence"
+  },
+  {
+   "band": "Serial Hawk",
+   "album": "White Sands",
+   "date": "11/06",
+   "genre": "doom/stoner/sludge metal",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/50i4YJhD19Q8NcKNu8OvcH",
+   "youtube": null,
+   "bandcamp": "https://serialhawk.bandcamp.com/album/white-sands"
+  },
+  {
+   "band": "Slow Lorry / Konung / Согра",
+   "album": "Lordorange Vol. 1 (split)",
+   "date": "11/06",
+   "genre": "sludge/stoner/doom metal",
+   "country": "Russia",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Sod the Earth",
+   "album": "Touch Grass",
+   "date": "11/06",
+   "genre": "stoner metal/rock",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/0YMwNPhYGUHmBblRqvOX7r",
+   "youtube": null,
+   "bandcamp": "https://sodtheearth.bandcamp.com/album/touch-grass"
+  },
+  {
+   "band": "Troll Mother",
+   "album": "A Tale for Two",
+   "date": "11/07",
+   "genre": "stoner/sludge metal",
+   "country": "UK",
+   "spotify": "https://open.spotify.com/album/5727ArHfVcnn84fUCfz3vK",
+   "youtube": null,
+   "bandcamp": "https://trollmother.bandcamp.com/album/a-tale-for-two"
+  }
+ ],
+ "deutschrap": [
+  {
+   "band": "Zensery",
+   "album": "HALT STOP!",
+   "date": "11/06",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/track/0BFCze37dN2FGMZTLL4vDQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "PAPKE & AchtVier",
+   "album": "BIS KLAPPT",
+   "date": "11/06",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/track/6DXIy5qWu6LCAn21lFdoKm",
+   "youtube": null,
+   "bandcamp": null
+  }
+ ]
+}
