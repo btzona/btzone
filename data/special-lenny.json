@@ -1,4 +1,128 @@
 {
+  "2026-11-13": {
+    "releases": [
+      {
+        "band": "Acromancer",
+        "album": "Live at Delta Doom (live)",
+        "date": "11/09",
+        "genre": "stoner doom",
+        "country": "United States",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://acromancer.bandcamp.com/album/live-at-delta-doom"
+      },
+      {
+        "band": "Altar of the Fuzz",
+        "album": "Astronauts Carried the Stars",
+        "date": "11/12",
+        "genre": "stoner metal",
+        "country": "Canada",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://altarofthefuzz613.bandcamp.com/album/astronauts-carried-the-stars"
+      },
+      {
+        "band": "Bonanza",
+        "album": "Cult Trip / Wizard Berserk (EP)",
+        "date": "11/11",
+        "genre": "stoner doom",
+        "country": "Indonesia",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://robumarecords.bandcamp.com/album/cult-trip-wizard-berserk"
+      },
+      {
+        "band": "Carbellion",
+        "album": "This Is Our Style",
+        "date": "11/13",
+        "genre": "stoner rock / sludge",
+        "country": "United States",
+        "spotify": "https://open.spotify.com/album/2CkZTV2vn4vbdl6bTyI8Cf",
+        "youtube": null,
+        "bandcamp": "https://carbellion.bandcamp.com/album/this-is-our-style"
+      },
+      {
+        "band": "Cervus",
+        "album": "Axis",
+        "date": "11/13",
+        "genre": "stoner metal / sludge",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/5srwrK2OZxNFMsGutdXry8",
+        "youtube": null,
+        "bandcamp": "https://cervustheband.bandcamp.com/album/axis"
+      },
+      {
+        "band": "Odrot",
+        "album": "Odrot",
+        "date": "11/11",
+        "genre": "psychedelic stoner doom",
+        "country": "United States",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://odrot.bandcamp.com/album/odrot"
+      },
+      {
+        "band": "Sixyearhex",
+        "album": "Liminal Space Cadet",
+        "date": "11/13",
+        "genre": "doom 'n' roll",
+        "country": "United States",
+        "spotify": "https://open.spotify.com/album/4eNr5pu9WVExIZjAOKgedX",
+        "youtube": null,
+        "bandcamp": "https://sixyearhex.bandcamp.com/album/liminal-space-cadet"
+      },
+      {
+        "band": "Skyjoggers",
+        "album": "Frag Nicht Nach Sonnenschein",
+        "date": "11/13",
+        "genre": "psych stoner rock",
+        "country": "Finland",
+        "spotify": "https://open.spotify.com/album/2J6LB9b9sdBG2HP18eKdJb",
+        "youtube": null,
+        "bandcamp": "https://skyjoggers.bandcamp.com/album/frag-nicht-nach-sonnenschein"
+      },
+      {
+        "band": "Solar Hammer",
+        "album": "Outlawed",
+        "date": "11/10",
+        "genre": "stoner metal",
+        "country": "Russia",
+        "spotify": "https://open.spotify.com/album/5BPQ30uu5JUiButhR9BacX",
+        "youtube": null,
+        "bandcamp": "https://solarhammer.bandcamp.com/album/outlawed"
+      },
+      {
+        "band": "Soulers",
+        "album": "Ascension III",
+        "date": "11/11",
+        "genre": "drone doom / stoner",
+        "country": "Canada",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://soulers.bandcamp.com/album/ascension-iii"
+      },
+      {
+        "band": "The Streamliner",
+        "album": "The Thousand Faces Odyssey",
+        "date": "11/13",
+        "genre": "stoner / doom",
+        "country": "France",
+        "spotify": "https://open.spotify.com/album/4VnSRqCDLm6lLXdunPzWsm",
+        "youtube": null,
+        "bandcamp": "https://thestreamliner.bandcamp.com/album/the-thousand-faces-odyssey"
+      },
+      {
+        "band": "Viral Tyrant",
+        "album": "Live at Hallowed Halls (live)",
+        "date": "11/13",
+        "genre": "stoner doom sludge",
+        "country": "United States",
+        "spotify": "https://open.spotify.com/album/3JF6mluVLrRhLsi1ggRgm6",
+        "youtube": null,
+        "bandcamp": "https://viraltyrant.bandcamp.com/album/live-at-hallowed-halls"
+      }
+    ]
+  },
   "2026-11-06": {
     "releases": [
       {
