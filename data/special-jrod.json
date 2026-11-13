@@ -1,4 +1,38 @@
 {
+  "2026-11-13": {
+    "releases": [
+      {
+        "band": "Cutterred Flesh",
+        "album": "The Shapes of Hidden Malice",
+        "date": "11/13",
+        "genre": "death metal / deathcore",
+        "country": "Czechia",
+        "spotify": "https://open.spotify.com/album/3yIGRdbIqoWULPXXgQgqRQ",
+        "youtube": null,
+        "bandcamp": "https://cutterredfleshband.bandcamp.com/album/the-shapes-of-hidden-malice"
+      },
+      {
+        "band": "Survivalist",
+        "album": "Four Nails (EP)",
+        "date": "11/13",
+        "genre": "blackened deathcore",
+        "country": "UK",
+        "spotify": "https://open.spotify.com/album/1qFvtkU7hrnMRzVDEUTDYU",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "The Fallen Prophets",
+        "album": "Cerebral Plague",
+        "date": "11/13",
+        "genre": "melodic deathcore",
+        "country": "South Africa",
+        "spotify": "https://open.spotify.com/album/4gVPAWoI5oCafmHeUh7Nbx",
+        "youtube": null,
+        "bandcamp": "https://thefallenprophets.bandcamp.com/album/cerebral-plague"
+      }
+    ]
+  },
   "2026-11-06": {
     "releases": [
       {

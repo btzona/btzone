@@ -1,0 +1,608 @@
+{
+ "jrod": [
+  {
+   "band": "Survivalist",
+   "album": "Four Nails (EP)",
+   "date": "11/13",
+   "genre": "blackened deathcore",
+   "country": "UK",
+   "spotify": "https://open.spotify.com/album/1qFvtkU7hrnMRzVDEUTDYU",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "The Fallen Prophets",
+   "album": "Cerebral Plague",
+   "date": "11/13",
+   "genre": "melodic deathcore",
+   "country": "South Africa",
+   "spotify": "https://open.spotify.com/album/4gVPAWoI5oCafmHeUh7Nbx",
+   "youtube": null,
+   "bandcamp": "https://thefallenprophets.bandcamp.com/album/cerebral-plague"
+  },
+  {
+   "band": "Cutterred Flesh",
+   "album": "The Shapes of Hidden Malice",
+   "date": "11/13",
+   "genre": "death metal / deathcore",
+   "country": "Czechia",
+   "spotify": "https://open.spotify.com/album/3yIGRdbIqoWULPXXgQgqRQ",
+   "youtube": null,
+   "bandcamp": "https://cutterredfleshband.bandcamp.com/album/the-shapes-of-hidden-malice"
+  }
+ ],
+ "lenny": [
+  {
+   "band": "Soulers",
+   "album": "Ascension III",
+   "date": "11/11",
+   "genre": "drone doom / stoner",
+   "country": "Canada",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://soulers.bandcamp.com/album/ascension-iii"
+  },
+  {
+   "band": "Odrot",
+   "album": "Odrot",
+   "date": "11/11",
+   "genre": "psychedelic stoner doom",
+   "country": "United States",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://odrot.bandcamp.com/album/odrot"
+  },
+  {
+   "band": "Bonanza",
+   "album": "Cult Trip / Wizard Berserk (EP)",
+   "date": "11/11",
+   "genre": "stoner doom",
+   "country": "Indonesia",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://robumarecords.bandcamp.com/album/cult-trip-wizard-berserk"
+  },
+  {
+   "band": "Solar Hammer",
+   "album": "Outlawed",
+   "date": "11/10",
+   "genre": "stoner metal",
+   "country": "Russia",
+   "spotify": "https://open.spotify.com/album/5BPQ30uu5JUiButhR9BacX",
+   "youtube": null,
+   "bandcamp": "https://solarhammer.bandcamp.com/album/outlawed"
+  },
+  {
+   "band": "Altar of the Fuzz",
+   "album": "Astronauts Carried the Stars",
+   "date": "11/12",
+   "genre": "stoner metal",
+   "country": "Canada",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://altarofthefuzz613.bandcamp.com/album/astronauts-carried-the-stars"
+  },
+  {
+   "band": "Cervus",
+   "album": "Axis",
+   "date": "11/13",
+   "genre": "stoner metal / sludge",
+   "country": "Netherlands",
+   "spotify": "https://open.spotify.com/album/5srwrK2OZxNFMsGutdXry8",
+   "youtube": null,
+   "bandcamp": "https://cervustheband.bandcamp.com/album/axis"
+  },
+  {
+   "band": "Carbellion",
+   "album": "This Is Our Style",
+   "date": "11/13",
+   "genre": "stoner rock / sludge",
+   "country": "United States",
+   "spotify": "https://open.spotify.com/album/2CkZTV2vn4vbdl6bTyI8Cf",
+   "youtube": null,
+   "bandcamp": "https://carbellion.bandcamp.com/album/this-is-our-style"
+  },
+  {
+   "band": "The Streamliner",
+   "album": "The Thousand Faces Odyssey",
+   "date": "11/13",
+   "genre": "stoner / doom",
+   "country": "France",
+   "spotify": "https://open.spotify.com/album/4VnSRqCDLm6lLXdunPzWsm",
+   "youtube": null,
+   "bandcamp": "https://thestreamliner.bandcamp.com/album/the-thousand-faces-odyssey"
+  },
+  {
+   "band": "Sixyearhex",
+   "album": "Liminal Space Cadet",
+   "date": "11/13",
+   "genre": "doom 'n' roll",
+   "country": "United States",
+   "spotify": "https://open.spotify.com/album/4eNr5pu9WVExIZjAOKgedX",
+   "youtube": null,
+   "bandcamp": "https://sixyearhex.bandcamp.com/album/liminal-space-cadet"
+  },
+  {
+   "band": "Skyjoggers",
+   "album": "Frag Nicht Nach Sonnenschein",
+   "date": "11/13",
+   "genre": "psych stoner rock",
+   "country": "Finland",
+   "spotify": "https://open.spotify.com/album/2J6LB9b9sdBG2HP18eKdJb",
+   "youtube": null,
+   "bandcamp": "https://skyjoggers.bandcamp.com/album/frag-nicht-nach-sonnenschein"
+  },
+  {
+   "band": "Viral Tyrant",
+   "album": "Live at Hallowed Halls (live)",
+   "date": "11/13",
+   "genre": "stoner doom sludge",
+   "country": "United States",
+   "spotify": "https://open.spotify.com/album/3JF6mluVLrRhLsi1ggRgm6",
+   "youtube": null,
+   "bandcamp": "https://viraltyrant.bandcamp.com/album/live-at-hallowed-halls"
+  },
+  {
+   "band": "Acromancer",
+   "album": "Live at Delta Doom (live)",
+   "date": "11/09",
+   "genre": "stoner doom",
+   "country": "United States",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://acromancer.bandcamp.com/album/live-at-delta-doom"
+  }
+ ],
+ "deutschrap": [
+  {
+   "band": "Mowgli018",
+   "album": "Rubin",
+   "date": "11/08",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7tQvLazyZTdVux7m3fuIUa",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "King Orgasmus One",
+   "album": "Hip Hop Muzik",
+   "date": "11/11",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1wTqUgcJ0Bap0hS56H3Fo3",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "capré",
+   "album": "Madeira",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3NSzbclb8cBFGcAo8oMNsg",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Civan",
+   "album": "Nur du",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4C5DceYTKAiaC2EycLEVOP",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Eno",
+   "album": "Too Much Pain",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6TkUHNpShRbv3APxpv7UqQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Fourty",
+   "album": "Rosarot",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/621EKVp44LPfs2pq0cd9Op",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Gangsta Ralph feat. Lucio101",
+   "album": "Film",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4TGcpp724y4DBmdzTyKKiV",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Gianni Suave",
+   "album": "W€I$$€ TAUB€N",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1uFnkNF4cCeJr2WwnZBB3q",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kardo & X Wave",
+   "album": "SUPERSTAR (XOXO)",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0RdUR55h6SquW8BQPOa3qM",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kasimir1441",
+   "album": "Echt (EP)",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1rJkakCErnSDBL0Um81WhW",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Mucco",
+   "album": "Auf Trab",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1mOJGYaYx9dBgDpkUeJ7BQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Nu51, Des & G-Mac feat. Luciano, reezy, Jazeek & Thizzy52",
+   "album": "Black",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0znAfPvrcIevD306b2QHkr",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Rosc",
+   "album": "Rettungsboot",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/2wb945pFpCJT0ozSesVmnB",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Sampagne",
+   "album": "365",
+   "date": "11/12",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3JCoyTgwaB67uFXXDZKiDD",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "2ara",
+   "album": "Davidoff (EP)",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/2WCfaCMscwDxNHySNsz9sZ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "2lade",
+   "album": "Never 2lade",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/70JAOVB7yzfv6lgcabiazr",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "42 feat. YAYA, Dahabflex & Erzin",
+   "album": "Migranten Flow",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/5yhFJoOmHw3Jq2k4mmUDR7",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "AchtVier",
+   "album": "IGWU",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6NsedlHrRHMGa2Ecj0Vwxd",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Antifuchs",
+   "album": "Stur",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/63656nVv7pJNJMXwEsi0oR",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "BHZ feat. Monk, Ion Miles & Big Pat",
+   "album": "City Bikes",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1DwVoXoKcpYbKQh5rkseAP",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Billa Joe feat. Juju",
+   "album": "ruf mich an",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/24XSWTrKkedZHjM3DojGJt",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Carlo5",
+   "album": "Eines Tages",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/5NS31GNoaqa6GSCu6uAb0l",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Dame",
+   "album": "Most Wanted",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0J4Fuhd9VwfLlnTneohjzQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Edo Saiya feat. Leyy",
+   "album": "ausgebrannt",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0m53KWMuWDgM5LAmMhOSwy",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Einseinsfuenf feat. Venti, Sizzo, ceevon & GRiNGO",
+   "album": "96",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0foB3ilA54H7Pp3oMxvyXd",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "EN6O feat. skrt cobain",
+   "album": "für dich lerne ich lesen",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/5m9biN3LgKvuvBF9ckEmfX",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Felix Blume",
+   "album": "Vintage",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/2tc0o6Yl41a0V9MLerdJ6Z",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Filow",
+   "album": "KO Tour L3ben",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4OYwrdDDVS43ORq94qcraD",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Herr Kuchen",
+   "album": "Koksbrocken",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3Vyh0gHsWrVlFHpNTF8oqT",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Joje",
+   "album": "beverly hills",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/06c2ShYOE24khluOXg5IyQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Khrome feat. Takt32 & Lina Maly",
+   "album": "Aggro MTV",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4A8d9v937PLbxi79xpHpKf",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kibo",
+   "album": "50 Bars",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3ywoDxryApjPfP1lQJrr55",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Koushino",
+   "album": "Wie",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4H6yH5Y5qyjfEIJrcSVXpi",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Lacazette feat. Kalazh44, GRiNGO & Narkaman",
+   "album": "NRC",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0oOd0Ihi6nzeyp6agf7Xqf",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Majoe",
+   "album": "Meilen",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6VJOICAYSxkbgpNjsxN7nn",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Morgen",
+   "album": "Tanzverbot",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4IXBlnKuRVP2IPJHLmNCHB",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Nizi19",
+   "album": "Walter White",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/61XrSOkdbH2cZ12Dr9E9NI",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "PaulK feat. Chilly Gonzalez",
+   "album": "Oktober",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6LucNEojrbXH1IZMEhQ2Aj",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Sportler99",
+   "album": "Intro",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/11iuAJxo5ojjuktDvvuEYl",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Tzavellas",
+   "album": "bitter",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/467UYpcGo5ecbaRju4xlwE",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Volo feat. SadiQ, Ghost61, Kolja Goldstein, Dú Maroc, 18 Karat & Sa4",
+   "album": "Nasib (Bayda)",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/2sYz1vZ3nsmSkkELiv5058",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Wena41",
+   "album": "Nachtsicht (Mixtape)",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6kw7KjWeYMFRaHNPmYGK0n",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Yung FSK18 & Rattenjunge",
+   "album": "1000 Kleine Tode",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3O3Ch3iAYTMrAdujlQjYR0",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Yungpalo",
+   "album": "Oh-9",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6wrqgoREEwqEjvwNWjV3WC",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "ZZIMA",
+   "album": "Safe BB",
+   "date": "11/13",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0tpVIq4FSCDaNwfPptuBJy",
+   "youtube": null,
+   "bandcamp": null
+  }
+ ]
+}
