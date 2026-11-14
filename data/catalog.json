@@ -5,7 +5,7 @@
       "title": "Week of Nov 8–13, 2026",
       "kind": "friday",
       "sort": "2026-11-13",
-      "blurb": "122 releases · black metal, death metal, experimental / noise, grind / crust, sludge / doom",
+      "blurb": "133 releases · black metal, death metal, experimental / noise, grind / crust, sludge / doom",
       "sources": "Heavy Blog Is Heavy, Metal Injection, Metal Collision, Nine Circles, Heavy Music HQ, The Razor's Edge, KaosMetal, Metal Archives, Bandcamp, Spotify.",
       "sections": [
         {
@@ -469,6 +469,60 @@
               "place": "USA",
               "spotify": null,
               "bandcamp": null
+            },
+            {
+              "band": "Gravewrought",
+              "album": "FINAL CALL",
+              "date": "11/09",
+              "genre": "black metal",
+              "place": "Poland",
+              "spotify": "https://open.spotify.com/album/6p7qF1JC3YCGPil88IUcLJ",
+              "bandcamp": null
+            },
+            {
+              "band": "Immortal Sun",
+              "album": "Scrolls of the Immortal Sun",
+              "date": "11/10",
+              "genre": "djent / black metal",
+              "place": "Egypt",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Nihilist Militia",
+              "album": "Hordes of the Napalm Martyr (EP)",
+              "date": "11/14",
+              "genre": "black/death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/34xSZsn9xT8Mk8PqCDZBUL",
+              "bandcamp": null
+            },
+            {
+              "band": "Nobody",
+              "album": "The Birds Know (EP)",
+              "date": "11/12",
+              "genre": "black metal",
+              "place": "Unknown",
+              "spotify": "https://open.spotify.com/album/3SiFFFMH3W7agVVd8zv5fT",
+              "bandcamp": null
+            },
+            {
+              "band": "Ubilaz",
+              "album": "Four Seasons (EP)",
+              "date": "11/09",
+              "genre": "black metal",
+              "place": "Canada",
+              "spotify": "https://open.spotify.com/album/4vxgkwyp8N2on6WYzy6Sus",
+              "bandcamp": null
+            },
+            {
+              "band": "Wylk",
+              "album": "Urtrieb (EP)",
+              "date": "11/14",
+              "genre": "atmospheric black metal",
+              "place": "Germany",
+              "spotify": "https://open.spotify.com/album/2pI9jm9mUSWS70xKi71hFm",
+              "bandcamp": "https://wylk.bandcamp.com/album/urtrieb"
             }
           ]
         },
@@ -951,6 +1005,42 @@
               "place": "Spain",
               "spotify": "https://open.spotify.com/album/45MzhDlJcrqHjoEnCDcyyz",
               "bandcamp": "https://osserp.bandcamp.com/album/les-homilies-del-desengany"
+            },
+            {
+              "band": "Iron Flesh",
+              "album": "All Hail the Rotten Flesh",
+              "date": "11/14",
+              "genre": "death metal",
+              "place": "France",
+              "spotify": null,
+              "bandcamp": "https://ironflesh.bandcamp.com/album/all-hail-the-rotten-flesh"
+            },
+            {
+              "band": "Mortal Dismay",
+              "album": "Dark Dimension",
+              "date": "11/11",
+              "genre": "thrash/death metal",
+              "place": "Russia",
+              "spotify": "https://open.spotify.com/album/3hfydW0yVDNgPPeCPN4LjF",
+              "bandcamp": null
+            },
+            {
+              "band": "Odór",
+              "album": "Foetor Hepaticus Vol. 2 (EP)",
+              "date": "11/08",
+              "genre": "death metal / grindcore",
+              "place": "Poland",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Sacrament",
+              "album": "Discovering What Remains",
+              "date": "11/08",
+              "genre": "melodic death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/3qQMcYCDtBtQ4cbCcNmYtC",
+              "bandcamp": null
             }
           ]
         },
@@ -1069,6 +1159,15 @@
               "place": "Brazil",
               "spotify": null,
               "bandcamp": "https://podreirarecords.bandcamp.com/album/lute-filho-da-puta-lute-ep-2026"
+            },
+            {
+              "band": "Genestealer",
+              "album": "Reciprocating Malevolence",
+              "date": "11/11",
+              "genre": "grindcore",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://genestealergrind.bandcamp.com/album/reciprocating-malevolence"
             }
           ]
         },
