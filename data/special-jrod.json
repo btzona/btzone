@@ -1,4 +1,58 @@
 {
+  "2026-11-20": {
+    "releases": [
+      {
+        "band": "Apple Sauce",
+        "album": "Hybris",
+        "date": "11/20",
+        "genre": "experimental progressive metal / deathcore",
+        "country": "Italy",
+        "spotify": "https://open.spotify.com/album/2hzkOb68iW0HKHADNu56Ji",
+        "youtube": null,
+        "bandcamp": "https://applesauceofficial.bandcamp.com/album/hybris"
+      },
+      {
+        "band": "Black Pegasus",
+        "album": "Noctis Monstrum",
+        "date": "11/18",
+        "genre": "deathcore/sludge/post-metal",
+        "country": "Netherlands",
+        "spotify": "https://open.spotify.com/album/7dS8kirzGvSb4dHBWfZ5r1",
+        "youtube": null,
+        "bandcamp": "https://black0pegasus.bandcamp.com/album/noctis-monstrum"
+      },
+      {
+        "band": "Body Prison",
+        "album": "A Waste Of Good Suffering (EP)",
+        "date": "11/20",
+        "genre": "deathcore",
+        "country": "Australia",
+        "spotify": "https://open.spotify.com/album/5HQDn5ZHbxkgnOe3sHjT0L",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Brutus Maximus",
+        "album": "Your Fear Is the Disease",
+        "date": "11/17",
+        "genre": "brutal death metal/deathcore",
+        "country": "USA",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://brutusmaximus.bandcamp.com/album/your-fear-is-the-disease"
+      },
+      {
+        "band": "Suicide Silence",
+        "album": "Graceless",
+        "date": "11/20",
+        "genre": "deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/1wuUydn2HW0pnmQnTFNJtL",
+        "youtube": null,
+        "bandcamp": "https://centurymedia.bandcamp.com/album/graceless-24-bit-hd-audio"
+      }
+    ]
+  },
   "2026-11-13": {
     "releases": [
       {
