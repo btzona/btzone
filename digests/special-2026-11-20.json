@@ -1,0 +1,458 @@
+{
+ "jrod": [
+  {
+   "band": "Apple Sauce",
+   "album": "Hybris",
+   "date": "11/20",
+   "genre": "experimental progressive metal / deathcore",
+   "country": "Italy",
+   "spotify": "https://open.spotify.com/album/2hzkOb68iW0HKHADNu56Ji",
+   "youtube": null,
+   "bandcamp": "https://applesauceofficial.bandcamp.com/album/hybris"
+  },
+  {
+   "band": "Black Pegasus",
+   "album": "Noctis Monstrum",
+   "date": "11/18",
+   "genre": "deathcore/sludge/post-metal",
+   "country": "Netherlands",
+   "spotify": "https://open.spotify.com/album/7dS8kirzGvSb4dHBWfZ5r1",
+   "youtube": null,
+   "bandcamp": "https://black0pegasus.bandcamp.com/album/noctis-monstrum"
+  },
+  {
+   "band": "Body Prison",
+   "album": "A Waste Of Good Suffering (EP)",
+   "date": "11/20",
+   "genre": "deathcore",
+   "country": "Australia",
+   "spotify": "https://open.spotify.com/album/5HQDn5ZHbxkgnOe3sHjT0L",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Brutus Maximus",
+   "album": "Your Fear Is the Disease",
+   "date": "11/17",
+   "genre": "brutal death metal/deathcore",
+   "country": "USA",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://brutusmaximus.bandcamp.com/album/your-fear-is-the-disease"
+  },
+  {
+   "band": "Suicide Silence",
+   "album": "Graceless",
+   "date": "11/20",
+   "genre": "deathcore",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/1wuUydn2HW0pnmQnTFNJtL",
+   "youtube": null,
+   "bandcamp": "https://centurymedia.bandcamp.com/album/graceless-24-bit-hd-audio"
+  }
+ ],
+ "lenny": [
+  {
+   "band": "Bongfist",
+   "album": "Bongfist (EP)",
+   "date": "11/17",
+   "genre": "sludge/stoner metal",
+   "country": "Australia",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://bongfist.bandcamp.com/album/bongfist"
+  },
+  {
+   "band": "Domkraft",
+   "album": "Night Songs",
+   "date": "11/20",
+   "genre": "stoner/sludge/doom metal",
+   "country": "Sweden",
+   "spotify": "https://open.spotify.com/album/3gTZdYDFWuLN6aWUKpDwMD",
+   "youtube": null,
+   "bandcamp": "https://domkraft.bandcamp.com/album/night-songs"
+  },
+  {
+   "band": "Down",
+   "album": "Volume V",
+   "date": "11/20",
+   "genre": "southern/sludge/stoner metal",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/3zORhuGv9MMKoUhNnJtnyk",
+   "youtube": null,
+   "bandcamp": "https://downofficial.bandcamp.com/album/volume-v"
+  },
+  {
+   "band": "Downstem",
+   "album": "420,000 BCE (The Final Hour)",
+   "date": "11/19",
+   "genre": "doom/stoner metal",
+   "country": "USA",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://downstempdx.bandcamp.com/album/420000-bce-the-final-hour"
+  },
+  {
+   "band": "Embertears",
+   "album": "Songs for the Rain God Pt. 2",
+   "date": "11/20",
+   "genre": "sludge/progressive/stoner metal",
+   "country": "Hungary",
+   "spotify": "https://open.spotify.com/album/2FT23aDIgmTXXo0o253HEZ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Ghost Pipe",
+   "album": "The Awakening",
+   "date": "11/20",
+   "genre": "stoner/doom metal",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/2blER3OTYjAvTKcE07LDgC",
+   "youtube": null,
+   "bandcamp": "https://ghostpipe2.bandcamp.com/album/the-awakening"
+  },
+  {
+   "band": "Greyborn",
+   "album": "Insoluble",
+   "date": "11/20",
+   "genre": "heavy psychedelic rock / stoner / doom",
+   "country": "France",
+   "spotify": "https://open.spotify.com/album/33wBqghBMWoSEl4TP2eqDz",
+   "youtube": null,
+   "bandcamp": "https://greyborn.bandcamp.com/album/insoluble-3"
+  },
+  {
+   "band": "Herba Mate",
+   "album": "Bolide I & II",
+   "date": "11/20",
+   "genre": "stoner / psychedelic rock",
+   "country": "Italy",
+   "spotify": "https://open.spotify.com/album/4e7BwiJ3xFqQFTf1Ta8FUO",
+   "youtube": null,
+   "bandcamp": "https://godownrecords.bandcamp.com/album/bolide-i-ii"
+  },
+  {
+   "band": "Jason Walker's Gravity Amplifiers",
+   "album": "Disclosure Vol. 1",
+   "date": "11/20",
+   "genre": "heavy rock / stoner rock",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/0vrHzkQQic5He0yCfLpwMM",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Jupiter Cyclops",
+   "album": "One Eye Opens",
+   "date": "11/20",
+   "genre": "stoner/heavy metal/hard rock",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/0eu832rzeMYSxwBuXvf4qj",
+   "youtube": null,
+   "bandcamp": "https://jupitercyclops.bandcamp.com/album/one-eye-opens-2"
+  },
+  {
+   "band": "Meatdripper",
+   "album": "Into the Golden Orb (EP)",
+   "date": "11/18",
+   "genre": "psychedelic stoner/doom metal",
+   "country": "UK",
+   "spotify": "https://open.spotify.com/album/0WFYiSUu9zO8KAxxDVVtx9",
+   "youtube": null,
+   "bandcamp": "https://meatdripperband.bandcamp.com/album/into-the-golden-orb-ep"
+  },
+  {
+   "band": "Mordor Truckers",
+   "album": "Drowning Light (EP)",
+   "date": "11/20",
+   "genre": "stoner/doom metal/rock",
+   "country": "Brazil",
+   "spotify": "https://open.spotify.com/album/0BDtAaZhMBjLzF8dJlSLQH",
+   "youtube": null,
+   "bandcamp": "https://mordortruckers.bandcamp.com/album/drowning-light"
+  },
+  {
+   "band": "Redwood",
+   "album": "Slowlane Pt. 2 (EP)",
+   "date": "11/16",
+   "genre": "heavy / psych / stoner rock",
+   "country": "USA",
+   "spotify": "https://open.spotify.com/album/1aoZk4koNWgSYRP1L4WwrP",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Riffana / Hebi Katana",
+   "album": "Riff Katana -蛇ノ巣穴- (split)",
+   "date": "11/18",
+   "genre": "stoner metal",
+   "country": "Japan",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Sickwood",
+   "album": "May the Surface Be Condemned",
+   "date": "11/20",
+   "genre": "stoner/doom metal",
+   "country": "Italy",
+   "spotify": "https://open.spotify.com/album/12lv83TKinaFqh6g6Fx5RY",
+   "youtube": null,
+   "bandcamp": "https://sickwood.bandcamp.com/album/may-the-surface-be-condemned"
+  },
+  {
+   "band": "Skull Mother",
+   "album": "Devil's Flood (EP)",
+   "date": "11/18",
+   "genre": "doom/stoner metal/rock",
+   "country": "USA",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://skullmother.bandcamp.com/album/devils-flood"
+  },
+  {
+   "band": "Son of Boar",
+   "album": "The Hand That Reigns",
+   "date": "11/20",
+   "genre": "stoner/doom metal",
+   "country": "UK",
+   "spotify": "https://open.spotify.com/album/1MDeiU7haf922hkmsuWWOJ",
+   "youtube": null,
+   "bandcamp": "https://sonofboar.bandcamp.com/album/the-hand-that-reigns"
+  },
+  {
+   "band": "Soulers",
+   "album": "Ascension IV",
+   "date": "11/18",
+   "genre": "drone/doom/stoner metal",
+   "country": "Canada",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://soulers.bandcamp.com/album/ascension-iv"
+  },
+  {
+   "band": "Strange Horizon",
+   "album": "The Plague Is Watching",
+   "date": "11/20",
+   "genre": "doom metal",
+   "country": "Norway",
+   "spotify": "https://open.spotify.com/album/3VNOC54qGqtPeVJQ764fua",
+   "youtube": null,
+   "bandcamp": "https://strangehorizon.bandcamp.com/album/the-plague-is-watching"
+  },
+  {
+   "band": "Subsun",
+   "album": "Doomsday Clock",
+   "date": "11/20",
+   "genre": "progressive stoner/doom metal",
+   "country": "Canada",
+   "spotify": "https://open.spotify.com/album/6snlLsf5FehSQ6c4WEwLzH",
+   "youtube": null,
+   "bandcamp": "https://subsunrock.bandcamp.com/album/doomsday-clock"
+  },
+  {
+   "band": "The Black Furs",
+   "album": "Slaughterhouse",
+   "date": "11/17",
+   "genre": "psychedelic rock/doom/stoner metal",
+   "country": "Argentina",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://theblackfurs.bandcamp.com/album/slaughterhouse-lp"
+  },
+  {
+   "band": "Wizard Bloody Wizard / Juehring",
+   "album": "Warp Riders/Cheap Novocaine/Good or God (split)",
+   "date": "11/15",
+   "genre": "stoner/doom metal",
+   "country": "USA",
+   "spotify": null,
+   "youtube": null,
+   "bandcamp": "https://thewizardbloodywizard.bandcamp.com/album/warp-riders-cheap-novocaine-good-or-god-split-ep"
+  }
+ ],
+ "deutschrap": [
+  {
+   "band": "Billa Joe",
+   "album": "capeesh? (EP)",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0E4jmtLtCImlBdY0pyCGzs",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Shindy & reezy",
+   "album": "Throw That Thang",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4TrFNu02UOt6B9tgpxy8OQ",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Sido",
+   "album": "FLÜGEL",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3LF1E9zmSNaTntoBM1ujiT",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "UNTER OBSI, DIZZY & Nimo",
+   "album": "Perserteppich",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1TpS9FN0ooaXUIdrXZN4CG",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kurdo",
+   "album": "Bon Appétit",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7q2bRCXRzw3LPCFCsM1XHt",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Soufian & SOTT",
+   "album": "Status Minus",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0X1vP5hg8GOoZ5Fmurg8tq",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Haaland936",
+   "album": "Upamecano (IV)",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/6cqobQRuFr50fLSugD5ufS",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Dias",
+   "album": "Block G's",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/10rJQuvK4fPWpFofRjUJxD",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Soufi & Madlin",
+   "album": "Wann & Wie",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/1xV0pVNd9ccJ5jj9Q24SOP",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Jamule",
+   "album": "Back to Basics",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7cau7i40yA8nVEEDLunSZp",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Lucio101 & Nizi19",
+   "album": "Stell dir vor",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/720PR82lnw7nYcAMvpDo02",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kauta feat. Mucco",
+   "album": "Tut mir leid",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7aXihUybDaD030LOsS3NXD",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Monet192",
+   "album": "Dumb",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7KJIyeJm51NCnGQuRmfVh2",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "CANEY030",
+   "album": "BABY",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3vnpDY0TvK9476QFA8E918",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Kane",
+   "album": "Tag & Nacht",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/4IQ1zrnL2hEyqwQ5WFLPgf",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Arkan",
+   "album": "Schock",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/3DJqkw9iHn81afsVH4HYxb",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Elef",
+   "album": "Geständnis (EP)",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/0ojUBrmipkRTmGRHIRJUM4",
+   "youtube": null,
+   "bandcamp": null
+  },
+  {
+   "band": "Celo & Abdi feat. Hanybal",
+   "album": "Die Letzten ihrer Art / Ticker die rappen",
+   "date": "11/20",
+   "genre": "Deutschrap",
+   "country": "Germany",
+   "spotify": "https://open.spotify.com/album/7zL8uatbMsxLKXDgCU11Ry",
+   "youtube": null,
+   "bandcamp": null
+  }
+ ]
+}
