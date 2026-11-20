@@ -8,7 +8,7 @@ The index lists weeks newest first. Under the title, genre labels filter the pag
 
 `Band - Album - MM/DD - genre - Country`
 
-The album name is plain text. When a Spotify album page or a Bandcamp album page is known, a small gold Spotify or Bandcamp label sits at the end of the line. A release can have one, both, or neither. Other links are left off.
+The album name is plain text. When a Spotify album page, a Bandcamp album page, or a YouTube video is known, a small gold label sits at the end of the line, in that order. A release can show any combination of those labels. Other links are left off.
 
 Each row is one week, Friday through Friday, with no gap between them:
 
@@ -19,7 +19,7 @@ Each row is one week, Friday through Friday, with no gap between them:
 - Week of Oct 10–16, 2026 (includes the Oct 17 catch-up)
 - Week of Oct 18–23, 2026 (includes the Oct 24 catch-up)
 
-A Saturday catch-up is not its own card or page. A band and album already on that week is kept once. Older catch-up addresses redirect to the week page. The last field is the band's country. Where that could not be verified, the line says Unknown. Spotify and Bandcamp labels are separate from that field.
+A Saturday catch-up is not its own card or page. A band and album already on that week is kept once. Older catch-up addresses redirect to the week page. The last field is the band's country. Where that could not be verified, the line says Unknown. Spotify, Bandcamp, and YouTube labels are separate from that field.
 
 ## Pages
 

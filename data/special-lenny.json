@@ -38,7 +38,7 @@
         "genre": "stoner rock / sludge",
         "country": "United States",
         "spotify": "https://open.spotify.com/album/2CkZTV2vn4vbdl6bTyI8Cf",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=s32bha3KpE8",
         "bandcamp": "https://carbellion.bandcamp.com/album/this-is-our-style"
       },
       {
@@ -48,7 +48,7 @@
         "genre": "stoner metal / sludge",
         "country": "Netherlands",
         "spotify": "https://open.spotify.com/album/5srwrK2OZxNFMsGutdXry8",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=5q6BWL-Gfn8",
         "bandcamp": "https://cervustheband.bandcamp.com/album/axis"
       },
       {
@@ -78,7 +78,7 @@
         "genre": "psych stoner rock",
         "country": "Finland",
         "spotify": "https://open.spotify.com/album/2J6LB9b9sdBG2HP18eKdJb",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=UOXww5WfTFo",
         "bandcamp": "https://skyjoggers.bandcamp.com/album/frag-nicht-nach-sonnenschein"
       },
       {
@@ -132,7 +132,7 @@
         "genre": "sludge/stoner/doom metal",
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4qcTjkV7UwE80jzuyvnjvw",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=WTSOiQW342g",
         "bandcamp": "https://autumntomb.bandcamp.com/album/autumn-tomb"
       },
       {
@@ -161,7 +161,7 @@
         "date": "11/06",
         "genre": "stoner rock / psych",
         "country": "Spain",
-        "spotify": null,
+        "spotify": "https://open.spotify.com/album/5SCQWGlrGzP9x3z9rOTAMT",
         "youtube": null,
         "bandcamp": "https://smallstone.bandcamp.com/album/echo"
       },
@@ -182,8 +182,8 @@
         "genre": "stoner / psychedelic doom",
         "country": "Sweden",
         "spotify": "https://open.spotify.com/album/1LVDWanhCUzCKFgAHFv4Sk",
-        "youtube": null,
-        "bandcamp": null
+        "youtube": "https://www.youtube.com/watch?v=7sBNef4Frrw",
+        "bandcamp": "https://haxmastaren.bandcamp.com/album/skuggor-del-1-2"
       },
       {
         "band": "Hydra",
@@ -192,7 +192,7 @@
         "genre": "stoner / doom metal",
         "country": "Poland",
         "spotify": "https://open.spotify.com/album/3CZeabf5WiymzVqfrlWUSp",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=NONZXDMIrY4",
         "bandcamp": "https://hydra666.bandcamp.com/album/sign-of-the-witch"
       },
       {
@@ -273,7 +273,7 @@
         "country": "Russia",
         "spotify": null,
         "youtube": null,
-        "bandcamp": null
+        "bandcamp": "https://lordorange.bandcamp.com/album/lordorange-vol-1-live-bootleg"
       },
       {
         "band": "Sod the Earth",

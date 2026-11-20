@@ -36,10 +36,11 @@ export function classifyReleaseUrl(raw) {
   } catch {
     return null;
   }
-  parsed.search = "";
-  parsed.hash = "";
   const host = parsed.hostname.toLowerCase();
   const path = parsed.pathname;
+  const videoId = parsed.searchParams.get("v");
+  parsed.search = "";
+  parsed.hash = "";
   if (host === "open.spotify.com") {
     const album = path.match(/\/album\/([A-Za-z0-9]+)/);
     if (!album) return null;
@@ -51,8 +52,7 @@ export function classifyReleaseUrl(raw) {
     return { kind: "bandcamp", url: parsed.toString().replace(/\/$/, "") };
   }
   if (host === "youtube.com" || host === "www.youtube.com" || host === "m.youtube.com" || host === "music.youtube.com") {
-    const id = parsed.searchParams.get("v");
-    if (id && /^[\w-]{6,}$/.test(id)) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${id}` };
+    if (videoId && /^[\w-]{6,}$/.test(videoId)) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${videoId}` };
     const shorts = path.match(/^\/(?:shorts|embed)\/([\w-]{6,})/);
     if (shorts) return { kind: "youtube", url: `https://www.youtube.com/watch?v=${shorts[1]}` };
     return null;

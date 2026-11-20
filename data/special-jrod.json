@@ -19,7 +19,7 @@
         "country": "UK",
         "spotify": "https://open.spotify.com/album/1qFvtkU7hrnMRzVDEUTDYU",
         "youtube": null,
-        "bandcamp": null
+        "bandcamp": "https://survivalistgc.bandcamp.com/album/four-nails"
       },
       {
         "band": "The Fallen Prophets",
@@ -28,7 +28,7 @@
         "genre": "melodic deathcore",
         "country": "South Africa",
         "spotify": "https://open.spotify.com/album/4gVPAWoI5oCafmHeUh7Nbx",
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=MAqWXmFtQdE",
         "bandcamp": "https://thefallenprophets.bandcamp.com/album/cerebral-plague"
       }
     ]
@@ -53,7 +53,7 @@
         "country": "USA",
         "spotify": "https://open.spotify.com/album/4qrt6Dxmo2t9BwHt8fB75Q",
         "youtube": "https://www.youtube.com/watch?v=6OYqFMevLY0",
-        "bandcamp": null
+        "bandcamp": "https://sumerianrecords.bandcamp.com/album/more-than-misery"
       },
       {
         "band": "Distant",
@@ -83,7 +83,7 @@
         "country": "Sweden",
         "spotify": "https://open.spotify.com/album/5oaAd0c69Idg1ll9HBbEM7",
         "youtube": null,
-        "bandcamp": null
+        "bandcamp": "https://thehateproject.bandcamp.com/album/annihilation"
       }
     ]
   },
