@@ -29,8 +29,9 @@
  *   Band - Album <https://artist.bandcamp.com/album/name> - MM/DD - genre - Country
  *   Band - Album - MM/DD - genre - Country | bandcamp: https://artist.bandcamp.com/album/name | spotify: https://open.spotify.com/album/id | youtube: https://www.youtube.com/watch?v=id
  *
- * Album titles are plain text. A Spotify album URL and a Bandcamp album URL
- * are stored separately and rendered as gold labels at the end of the line.
+ * Album titles are plain text. A Spotify album URL, a Bandcamp album URL, and
+ * an optional YouTube video URL are stored separately and rendered as gold
+ * labels at the end of the line: Spotify, then Bandcamp, then YouTube.
  * Other URLs are ignored. A line that starts with `Sources:` is the week's note.
  * `--kind` is `friday`, `saturday`, or `midweek`.
  */
@@ -170,6 +171,7 @@ function mergeSections(baseSections, incomingSections) {
         dupes += 1;
         if (!existing.spotify && release.spotify) existing.spotify = release.spotify;
         if (!existing.bandcamp && release.bandcamp) existing.bandcamp = release.bandcamp;
+        if (!existing.youtube && release.youtube) existing.youtube = release.youtube;
         continue;
       }
       const copy = { ...release };

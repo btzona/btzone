@@ -45,7 +45,8 @@
               "genre": "black metal",
               "place": "Serbia",
               "spotify": "https://open.spotify.com/album/0ITqV2uzQ5JH0NFidUZ8eW",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=QOlSXmvoPeg"
             },
             {
               "band": "Asgrauw",
@@ -54,7 +55,7 @@
               "genre": "black metal",
               "place": "Netherlands",
               "spotify": "https://open.spotify.com/album/14HucSfY2pAticAxpi3sOe",
-              "bandcamp": null
+              "bandcamp": "https://asgrauw.bandcamp.com/album/solips"
             },
             {
               "band": "Canticum Diaboli",
@@ -72,7 +73,8 @@
               "genre": "raw black metal",
               "place": "Brazil",
               "spotify": null,
-              "bandcamp": "https://cappelapromisccua1.bandcamp.com/album/empire-the-black-flame"
+              "bandcamp": "https://cappelapromisccua1.bandcamp.com/album/empire-the-black-flame",
+              "youtube": "https://www.youtube.com/watch?v=xE-i-bz55-A"
             },
             {
               "band": "Catacomb Voices",
@@ -117,7 +119,8 @@
               "genre": "black metal",
               "place": "Latvia",
               "spotify": null,
-              "bandcamp": "https://danolarth.bandcamp.com/album/altered-state"
+              "bandcamp": "https://danolarth.bandcamp.com/album/altered-state",
+              "youtube": "https://www.youtube.com/watch?v=8Om6_sUeqJU"
             },
             {
               "band": "Demonslaught 666",
@@ -153,7 +156,8 @@
               "genre": "black metal",
               "place": "Germany",
               "spotify": null,
-              "bandcamp": "https://distantacheron.bandcamp.com/album/distant-acheron"
+              "bandcamp": "https://distantacheron.bandcamp.com/album/distant-acheron",
+              "youtube": "https://www.youtube.com/watch?v=oXesKBhPL3g"
             },
             {
               "band": "Dunkelhain",
@@ -171,7 +175,7 @@
               "genre": "black metal / dungeon synth",
               "place": "Spain/France",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://elffor.bandcamp.com/album/roi-des-for-ts-basoen-jauna"
             },
             {
               "band": "Evilucifer",
@@ -197,7 +201,7 @@
               "date": "11/13",
               "genre": "black metal",
               "place": "Germany",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/0KSJMEr8vRjZK0CPh8JqUe",
               "bandcamp": "https://bhnproductions.bandcamp.com/album/folk-devils-moral-panics"
             },
             {
@@ -207,7 +211,8 @@
               "genre": "atmospheric black metal",
               "place": "Russia",
               "spotify": null,
-              "bandcamp": "https://forestofdespair.bandcamp.com/album/forest-of-despair"
+              "bandcamp": "https://forestofdespair.bandcamp.com/album/forest-of-despair",
+              "youtube": "https://www.youtube.com/watch?v=TLOOVHQqAOk"
             },
             {
               "band": "Hatefog",
@@ -216,7 +221,8 @@
               "genre": "depressive black metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": "https://glgaborg.bandcamp.com/album/subconscious-fears-ep"
+              "bandcamp": "https://glgaborg.bandcamp.com/album/subconscious-fears-ep",
+              "youtube": "https://www.youtube.com/watch?v=s6tCjoO7P50"
             },
             {
               "band": "Hieromancer",
@@ -288,7 +294,7 @@
               "genre": "raw black metal/noise",
               "place": "Norway",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://northern-forest-productions.bandcamp.com/album/chaotic-madness"
             },
             {
               "band": "Nox Profunda",
@@ -306,7 +312,8 @@
               "genre": "epic black metal",
               "place": "France",
               "spotify": null,
-              "bandcamp": "https://chapitre13.bandcamp.com/album/obscurite-contemplation-iii"
+              "bandcamp": "https://chapitre13.bandcamp.com/album/obscurite-contemplation-iii",
+              "youtube": "https://www.youtube.com/watch?v=LQWMEm6Mywg"
             },
             {
               "band": "Ordre Wampyrica",
@@ -378,7 +385,7 @@
               "genre": "depressive black metal",
               "place": "Australia",
               "spotify": "https://open.spotify.com/album/4y0YNevHuGvr43auKBdL7r",
-              "bandcamp": null
+              "bandcamp": "https://septemberleavesscars.bandcamp.com/album/home"
             },
             {
               "band": "Shroudweaver",
@@ -468,7 +475,7 @@
               "genre": "black metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://makarapress.bandcamp.com/album/weird-angel-weird-angel"
             },
             {
               "band": "Gravewrought",
@@ -477,7 +484,8 @@
               "genre": "black metal",
               "place": "Poland",
               "spotify": "https://open.spotify.com/album/6p7qF1JC3YCGPil88IUcLJ",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=sfhBRY-BKck"
             },
             {
               "band": "Immortal Sun",
@@ -486,7 +494,7 @@
               "genre": "djent / black metal",
               "place": "Egypt",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://immortalsun1.bandcamp.com/album/scrolls-of-the-immortal-sun"
             },
             {
               "band": "Nihilist Militia",
@@ -495,7 +503,7 @@
               "genre": "black/death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/34xSZsn9xT8Mk8PqCDZBUL",
-              "bandcamp": null
+              "bandcamp": "https://nihilistmilitia.bandcamp.com/album/hordes-of-the-napalm-martyr"
             },
             {
               "band": "Nobody",
@@ -504,7 +512,7 @@
               "genre": "black metal",
               "place": "Unknown",
               "spotify": "https://open.spotify.com/album/3SiFFFMH3W7agVVd8zv5fT",
-              "bandcamp": null
+              "bandcamp": "https://nobodymetal.bandcamp.com/album/the-birds-know"
             },
             {
               "band": "Ubilaz",
@@ -513,7 +521,7 @@
               "genre": "black metal",
               "place": "Canada",
               "spotify": "https://open.spotify.com/album/4vxgkwyp8N2on6WYzy6Sus",
-              "bandcamp": null
+              "bandcamp": "https://ubilaz.bandcamp.com/album/four-seasons"
             },
             {
               "band": "Wylk",
@@ -607,7 +615,7 @@
               "date": "11/13",
               "genre": "melodic death metal",
               "place": "Poland",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/68dtJ1bQlHG5Z00mpGrwFV",
               "bandcamp": null
             },
             {
@@ -671,7 +679,8 @@
               "genre": "experimental death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/6a8aTrjBLMJRS1sGODVKX8",
-              "bandcamp": "https://discordantmeditation.bandcamp.com/album/aborted-emanations"
+              "bandcamp": "https://discordantmeditation.bandcamp.com/album/aborted-emanations",
+              "youtube": "https://www.youtube.com/watch?v=q3bZU1d84_o"
             },
             {
               "band": "Epidemic Scorn",
@@ -698,7 +707,8 @@
               "genre": "death metal",
               "place": "Australia",
               "spotify": null,
-              "bandcamp": "https://fleshrenderednull.bandcamp.com/album/grinding-death-blaster"
+              "bandcamp": "https://fleshrenderednull.bandcamp.com/album/grinding-death-blaster",
+              "youtube": "https://www.youtube.com/watch?v=aO8QDWTP9XI"
             },
             {
               "band": "Forever Stuck on This Nightmare They Called Planet Earth",
@@ -743,7 +753,8 @@
               "genre": "blackened death / crust punk",
               "place": "Norway",
               "spotify": "https://open.spotify.com/album/3zEHlRftjqh6YYTMFu4DF8",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=b-AxoYqEkTU"
             },
             {
               "band": "Kintraitor",
@@ -752,7 +763,8 @@
               "genre": "melodic death metal",
               "place": "Germany",
               "spotify": "https://open.spotify.com/album/2qEYr6MsAmJqXk952NqQXM",
-              "bandcamp": "https://insteadrecords.bandcamp.com/album/beneath-the-neon-skies"
+              "bandcamp": "https://insteadrecords.bandcamp.com/album/beneath-the-neon-skies",
+              "youtube": "https://www.youtube.com/watch?v=WAmQKmgJLP4"
             },
             {
               "band": "Lamentari",
@@ -761,7 +773,7 @@
               "genre": "symphonic/blackened death metal",
               "place": "Denmark",
               "spotify": "https://open.spotify.com/album/2msEiloCI48EmqfW3QsQ9e",
-              "bandcamp": null
+              "bandcamp": "https://cult-of-lamentari.bandcamp.com/album/ante-auroram"
             },
             {
               "band": "Layad",
@@ -779,7 +791,8 @@
               "genre": "death metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=Nh92RJu7X6A"
             },
             {
               "band": "Mournful Soil",
@@ -788,7 +801,8 @@
               "genre": "melodic death/gothic metal",
               "place": "Finland",
               "spotify": "https://open.spotify.com/album/1zPny7aGCSBchiYOFf5kez",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=klbKqZPDd7A"
             },
             {
               "band": "Nankin",
@@ -797,7 +811,8 @@
               "genre": "death/thrash metal",
               "place": "France",
               "spotify": null,
-              "bandcamp": "https://nankin.bandcamp.com/album/behind-the-mask"
+              "bandcamp": "https://nankin.bandcamp.com/album/behind-the-mask",
+              "youtube": "https://www.youtube.com/watch?v=s7HC3CWg_VA"
             },
             {
               "band": "Necropanther",
@@ -805,7 +820,7 @@
               "date": "11/13",
               "genre": "melodic death/thrash metal",
               "place": "USA",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/7BkoI0Bjmq1PAezncnP3TR",
               "bandcamp": "https://necropanther.bandcamp.com/album/the-book-of-change"
             },
             {
@@ -833,7 +848,8 @@
               "genre": "melodic death metal",
               "place": "Spain",
               "spotify": "https://open.spotify.com/album/6mtOSxTdKchuHZlYg4xfWK",
-              "bandcamp": "https://nethertale.bandcamp.com/album/shaded-symphonies"
+              "bandcamp": "https://nethertale.bandcamp.com/album/shaded-symphonies",
+              "youtube": "https://www.youtube.com/watch?v=uoCZmQUBxrQ"
             },
             {
               "band": "Night in Gales",
@@ -851,7 +867,8 @@
               "genre": "death metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": "https://bloodymountainrecords.bandcamp.com/album/in-ruins"
+              "bandcamp": "https://bloodymountainrecords.bandcamp.com/album/in-ruins",
+              "youtube": "https://www.youtube.com/watch?v=-DUMuGOJ8L8"
             },
             {
               "band": "Pit Inferno",
@@ -877,7 +894,7 @@
               "date": "11/13",
               "genre": "death metal / grindcore",
               "place": "Germany/Italy",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/3nNWxzYSxsgCeODWVIn8dZ",
               "bandcamp": "https://repulsivefeast.bandcamp.com/album/faces-of-atrocity"
             },
             {
@@ -896,7 +913,8 @@
               "genre": "death metal/hardcore",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/7mAcxxAO4OF6zPSQByopfR",
-              "bandcamp": "https://hpgd.bandcamp.com/album/de-extinction"
+              "bandcamp": "https://hpgd.bandcamp.com/album/de-extinction",
+              "youtube": "https://www.youtube.com/watch?v=TbcwL94gr70"
             },
             {
               "band": "Serpent",
@@ -905,7 +923,8 @@
               "genre": "death/thrash metal",
               "place": "Sweden",
               "spotify": "https://open.spotify.com/album/0rgh8i3f4RpC7xut9Auixk",
-              "bandcamp": "https://hammerheart.bandcamp.com/album/the-pit-and-the-pendulum"
+              "bandcamp": "https://hammerheart.bandcamp.com/album/the-pit-and-the-pendulum",
+              "youtube": "https://www.youtube.com/watch?v=PoTrNcviX5o"
             },
             {
               "band": "Sinister",
@@ -941,7 +960,8 @@
               "genre": "melodic death metal",
               "place": "Chile",
               "spotify": "https://open.spotify.com/album/1Xp5gmaKXj1WpSp6qCD9ax",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=S_35SwQq5co"
             },
             {
               "band": "Temple of Bones",
@@ -950,7 +970,7 @@
               "genre": "death metal / hardcore",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/07eLIGcpvZdh7Po5MTGV7X",
-              "bandcamp": null
+              "bandcamp": "https://templeofbones.bandcamp.com/album/walk-the-winds"
             },
             {
               "band": "The Flesh Trading Company",
@@ -977,7 +997,8 @@
               "genre": "melodic death / death-doom",
               "place": "Germany/Finland",
               "spotify": "https://open.spotify.com/album/6mehWqLAGJN1eKN2ZucJF9",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=U8gCVqn_-mc"
             },
             {
               "band": "Until Extinction",
@@ -995,7 +1016,7 @@
               "genre": "brutal death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/2Tyu86cuuzMk2mAEXSg5Eh",
-              "bandcamp": null
+              "bandcamp": "https://virologist.bandcamp.com/album/subjugation-of-anthropoid-forms"
             },
             {
               "band": "Ósserp",
@@ -1012,7 +1033,7 @@
               "date": "11/14",
               "genre": "death metal",
               "place": "France",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/1PNmyF5Xk0ojTHLwUwnIJ3",
               "bandcamp": "https://ironflesh.bandcamp.com/album/all-hail-the-rotten-flesh"
             },
             {
@@ -1040,7 +1061,8 @@
               "genre": "melodic death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/3qQMcYCDtBtQ4cbCcNmYtC",
-              "bandcamp": null
+              "bandcamp": "https://sacramentofficial.bandcamp.com/album/discovering-what-remains",
+              "youtube": "https://www.youtube.com/watch?v=Yyqipyb6PfA"
             }
           ]
         },
@@ -1090,7 +1112,7 @@
               "genre": "black metal / drill",
               "place": "Netherlands",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://themonstergateexperiments.bandcamp.com/album/teloorgang"
             },
             {
               "band": "Malhavoc",
@@ -1131,7 +1153,7 @@
               "genre": "goregrind / slam",
               "place": "Canada/USA",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://maggotvomitgoregrind.bandcamp.com/album/maggot-vomit-girlcock-split"
             },
             {
               "band": "Maggot Vomit / Lombotomy",
@@ -1250,7 +1272,7 @@
               "genre": "raw black metal",
               "place": "Mexico",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://angbandhordes.bandcamp.com/album/cualantoc"
             },
             {
               "band": "Arctos",
@@ -1258,7 +1280,7 @@
               "date": "11/06",
               "genre": "melodic black metal",
               "place": "Canada",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/6KxbDfx8rpAi7VBsVCkrya",
               "bandcamp": "https://arctosofficial.bandcamp.com/album/a-path-apart"
             },
             {
@@ -1276,8 +1298,8 @@
               "date": "11/01",
               "genre": "black/doom metal / shoegaze",
               "place": "USA",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/6HS1Stq5JtnFQLDwMR0KCp",
+              "bandcamp": "https://breaths.bandcamp.com/album/into-the-depths"
             },
             {
               "band": "Chthonian",
@@ -1303,8 +1325,9 @@
               "date": "11/01",
               "genre": "black metal",
               "place": "Spain",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/6V3XltCIhgxUWEac7CXDtp",
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=R79XkjJqK-s"
             },
             {
               "band": "Dimscûa",
@@ -1313,7 +1336,8 @@
               "genre": "post-black / ambient",
               "place": "UK",
               "spotify": "https://open.spotify.com/album/79fGeozM5vgukWLdLXJHiv",
-              "bandcamp": "https://dimscua.bandcamp.com/album/grief-silence-ep"
+              "bandcamp": "https://dimscua.bandcamp.com/album/grief-silence-ep",
+              "youtube": "https://www.youtube.com/watch?v=_J6tBcPCSoI"
             },
             {
               "band": "Disembody",
@@ -1349,7 +1373,8 @@
               "genre": "death/doom / melodic black",
               "place": "Sweden",
               "spotify": "https://open.spotify.com/album/0zP3Ihov4KzI3an0AmRqXA",
-              "bandcamp": "https://grandharvest.bandcamp.com/album/home"
+              "bandcamp": "https://grandharvest.bandcamp.com/album/home",
+              "youtube": "https://www.youtube.com/watch?v=8P-0kLKvfhk"
             },
             {
               "band": "Hagel",
@@ -1358,7 +1383,7 @@
               "genre": "black/doom metal",
               "place": "Mexico",
               "spotify": "https://open.spotify.com/album/6413GZYEJjEorEGbhX8UUd",
-              "bandcamp": null
+              "bandcamp": "https://personal-records.bandcamp.com/album/the-veil-of-shadows"
             },
             {
               "band": "Hyperion",
@@ -1376,7 +1401,8 @@
               "genre": "melodic death/black metal",
               "place": "Finland",
               "spotify": "https://open.spotify.com/album/63wemMM2IH7tryv7CEQZzY",
-              "bandcamp": "https://ihelvete.bandcamp.com/album/halla"
+              "bandcamp": "https://ihelvete.bandcamp.com/album/halla",
+              "youtube": "https://www.youtube.com/watch?v=r5UyOm5IyJE"
             },
             {
               "band": "Les Chants de Nihil",
@@ -1393,8 +1419,9 @@
               "date": "11/06",
               "genre": "avant-garde black/death metal",
               "place": "Denmark",
-              "spotify": null,
-              "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/a-serpent-to-devour-a-servant-to-abhor"
+              "spotify": "https://open.spotify.com/album/1hwPoNS6U37bCaNM0yfOYL",
+              "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/a-serpent-to-devour-a-servant-to-abhor",
+              "youtube": "https://www.youtube.com/watch?v=1p19aczAV04"
             },
             {
               "band": "Mists",
@@ -1403,7 +1430,7 @@
               "genre": "black metal",
               "place": "Belgium/USA",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://summoningeternity.bandcamp.com/album/summoning-eternity"
             },
             {
               "band": "Moorah",
@@ -1412,7 +1439,8 @@
               "genre": "black metal",
               "place": "Czechia",
               "spotify": "https://open.spotify.com/album/2mJDMzgGKVo1lsy45LDRyO",
-              "bandcamp": "https://moorah.bandcamp.com/album/the-beast-called-ego"
+              "bandcamp": "https://moorah.bandcamp.com/album/the-beast-called-ego",
+              "youtube": "https://www.youtube.com/watch?v=9CT7SYHC0qk"
             },
             {
               "band": "Murskaus",
@@ -1420,8 +1448,9 @@
               "date": "11/06",
               "genre": "blackened doom-sludge",
               "place": "Finland",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/18gBc50heqJRAqdeI9oVFC",
+              "bandcamp": "https://murskaus.bandcamp.com/album/murskaus-murskaus-ep",
+              "youtube": "https://www.youtube.com/watch?v=PeEf5upiZyY"
             },
             {
               "band": "Nocturnis",
@@ -1439,7 +1468,8 @@
               "genre": "folk/black metal",
               "place": "Finland",
               "spotify": "https://open.spotify.com/album/0Nm6XA5pFlV0FyuISpQbaI",
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=YHH_E-1RIaM"
             },
             {
               "band": "Only Worms Left",
@@ -1465,7 +1495,7 @@
               "date": "11/06",
               "genre": "atmospheric black metal",
               "place": "Netherlands",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/2acD1zp9p0JASEOylhyslN",
               "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/klaagliederen"
             },
             {
@@ -1484,7 +1514,7 @@
               "genre": "black metal",
               "place": "International",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://sentriesvoid.bandcamp.com/album/disciples-of-void-fire"
             },
             {
               "band": "Sepulchre by the Sea",
@@ -1493,7 +1523,8 @@
               "genre": "atmospheric black metal",
               "place": "UK",
               "spotify": "https://open.spotify.com/album/1LhZBa9ImHG5lBPOt2TUHF",
-              "bandcamp": "https://sepulchrebythesea.bandcamp.com/album/goldseeker"
+              "bandcamp": "https://sepulchrebythesea.bandcamp.com/album/goldseeker",
+              "youtube": "https://www.youtube.com/watch?v=fnJxUDrByxo"
             },
             {
               "band": "Sigurður",
@@ -1520,7 +1551,7 @@
               "genre": "psychedelic doom/black metal",
               "place": "Belgium",
               "spotify": "https://open.spotify.com/album/4RJ7TCDZubLD36ihaB2QC1",
-              "bandcamp": null
+              "bandcamp": "https://wolvennestband.bandcamp.com/album/in-the-ruins"
             },
             {
               "band": "Aexeixcla",
@@ -1529,7 +1560,8 @@
               "genre": "black metal",
               "place": "Chile",
               "spotify": null,
-              "bandcamp": "https://aexeixcla.bandcamp.com/album/unholy-wars"
+              "bandcamp": "https://aexeixcla.bandcamp.com/album/unholy-wars",
+              "youtube": "https://www.youtube.com/watch?v=ZKcFbrTTGKU"
             },
             {
               "band": "Amras Numenesse",
@@ -1555,7 +1587,7 @@
               "date": "11/01",
               "genre": "melodic post-black metal",
               "place": "Hungary",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/0iM3nNLX4C2TOtOUC2gvIY",
               "bandcamp": "https://anyegin.bandcamp.com/album/black-stork"
             },
             {
@@ -1609,7 +1641,7 @@
               "date": "11/06",
               "genre": "black metal",
               "place": "Germany",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/4n97qbLyANoxLZ2JRam5LU",
               "bandcamp": "https://balberskult.bandcamp.com/album/kunneschdouch"
             },
             {
@@ -1619,7 +1651,8 @@
               "genre": "black/thrash metal",
               "place": "Brazil",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://begotteninpyramids.bandcamp.com/album/4-5-6-demo",
+              "youtube": "https://www.youtube.com/watch?v=wT7gF-iBUdw"
             },
             {
               "band": "Buat Kopi Jangan Tambah Gula",
@@ -1673,7 +1706,8 @@
               "genre": "black/doom metal",
               "place": "Unknown",
               "spotify": null,
-              "bandcamp": "https://transylvanianrecordings.bandcamp.com/album/ergot"
+              "bandcamp": "https://transylvanianrecordings.bandcamp.com/album/ergot",
+              "youtube": "https://www.youtube.com/watch?v=bveU3R38ebs"
             },
             {
               "band": "Forbannelse",
@@ -1691,7 +1725,7 @@
               "genre": "raw black metal",
               "place": "Norway",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://northern-forest-productions.bandcamp.com/album/frost-landscapes"
             },
             {
               "band": "Gates of Mourning",
@@ -1699,7 +1733,7 @@
               "date": "11/06",
               "genre": "black metal",
               "place": "USA",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/7DwpzHdcaTaCSFGsPPHkkH",
               "bandcamp": "https://gatesofmourning1.bandcamp.com/album/the-dominion-of-the-fallen-star"
             },
             {
@@ -1726,7 +1760,7 @@
               "date": "11/01",
               "genre": "black metal",
               "place": "France",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/4i3I1jleCYAI8CSwN4dzq8",
               "bandcamp": "https://gohralkrohn.bandcamp.com/album/kaatharian-crystal-fissure"
             },
             {
@@ -1745,7 +1779,8 @@
               "genre": "depressive black metal",
               "place": "Sweden",
               "spotify": "https://open.spotify.com/album/25Z26tOdI45z4aHdABiafq",
-              "bandcamp": "https://grishjarta.bandcamp.com/album/for-the-god-bellow"
+              "bandcamp": "https://grishjarta.bandcamp.com/album/for-the-god-bellow",
+              "youtube": "https://www.youtube.com/watch?v=2sZ9YzGJQbY"
             },
             {
               "band": "Heidenangst",
@@ -1753,7 +1788,7 @@
               "date": "11/04",
               "genre": "raw black metal",
               "place": "Russia",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/1SOoESyPWozkP1IhL773bn",
               "bandcamp": "https://sundenfall.bandcamp.com/album/gods-wrath"
             },
             {
@@ -1906,7 +1941,7 @@
               "date": "11/04",
               "genre": "depressive black metal",
               "place": "International",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/5Eqk5fVoJJ7WTxMCmV8McJ",
               "bandcamp": "https://longingdbm.bandcamp.com/album/nostalgic-depression"
             },
             {
@@ -1952,7 +1987,7 @@
               "genre": "raw black metal/dungeon synth",
               "place": "UK",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://tir-na-nog-productions.bandcamp.com/album/ni-hete-promo"
             },
             {
               "band": "Merge",
@@ -1961,7 +1996,8 @@
               "genre": "post-black metal",
               "place": "International",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://mergebloom.bandcamp.com/album/dawn",
+              "youtube": "https://www.youtube.com/watch?v=1Tlc3YgihvY"
             },
             {
               "band": "Molbol",
@@ -1969,7 +2005,7 @@
               "date": "11/07",
               "genre": "raw black metal",
               "place": "Spain",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/3KudpmcOFmqNHvbnLYF07a",
               "bandcamp": null
             },
             {
@@ -1996,7 +2032,7 @@
               "date": "11/03",
               "genre": "atmospheric black metal",
               "place": "USA",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/2wkpDa1R949QhOHIuqAJKZ",
               "bandcamp": "https://nephthys2.bandcamp.com/album/ceremonial-death"
             },
             {
@@ -2059,7 +2095,7 @@
               "date": "11/02",
               "genre": "depressive black metal",
               "place": "UK",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/18P4QQCP9Qeg6IL6awrH0f",
               "bandcamp": "https://porphyria25.bandcamp.com/album/god-machine-demo"
             },
             {
@@ -2069,7 +2105,8 @@
               "genre": "black/sludge metal",
               "place": "Russia",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=2eZkMOU7y04"
             },
             {
               "band": "Raat",
@@ -2105,7 +2142,8 @@
               "genre": "depressive/post-black metal",
               "place": "Canada",
               "spotify": null,
-              "bandcamp": "https://sanglot.bandcamp.com/album/session-automnale"
+              "bandcamp": "https://sanglot.bandcamp.com/album/session-automnale",
+              "youtube": "https://www.youtube.com/watch?v=RwLdkKEgD8w"
             },
             {
               "band": "Satanic Terror",
@@ -2132,7 +2170,8 @@
               "genre": "black metal",
               "place": "Romania",
               "spotify": "https://open.spotify.com/album/64CHlAH17zKlcoCdc6nVkv",
-              "bandcamp": "https://skadin.bandcamp.com/album/hungry-for-blood"
+              "bandcamp": "https://skadin.bandcamp.com/album/hungry-for-blood",
+              "youtube": "https://www.youtube.com/watch?v=BGH7689418Y"
             },
             {
               "band": "Skandalum",
@@ -2149,7 +2188,7 @@
               "date": "11/06",
               "genre": "melodic black metal/metalcore",
               "place": "UK",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/26bVhqkAbfYf27PBv1NdQ5",
               "bandcamp": "https://spider-god.bandcamp.com/album/murder-machine"
             },
             {
@@ -2168,7 +2207,7 @@
               "genre": "black metal",
               "place": "Bosnia and Herzegovina",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://blackplaguecircle.bandcamp.com/album/starving-claws-of-despair"
             },
             {
               "band": "Tardor",
@@ -2177,7 +2216,7 @@
               "genre": "post-black metal",
               "place": "Spain",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://tardor.bandcamp.com/album/la-mort-de-lesperan-a"
             },
             {
               "band": "Terra.",
@@ -2185,7 +2224,7 @@
               "date": "11/01",
               "genre": "gothic/black metal",
               "place": "Japan",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/1A5Av7Cqm5PquvRRxx4Olp",
               "bandcamp": "https://terra666.bandcamp.com/album/return-of-the-dark-l-rd-2nd-strife"
             },
             {
@@ -2195,7 +2234,8 @@
               "genre": "psychedelic black metal",
               "place": "Greece",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=RJSLDJKGDnk"
             },
             {
               "band": "Total Loss",
@@ -2203,7 +2243,7 @@
               "date": "11/01",
               "genre": "black/sludge metal",
               "place": "UK",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/4RcrRP2TE1tKKqWM8eS3VW",
               "bandcamp": "https://totallossofficial.bandcamp.com/album/arcadia-acedia"
             },
             {
@@ -2231,7 +2271,8 @@
               "genre": "black metal",
               "place": "France",
               "spotify": null,
-              "bandcamp": "https://ukuelig.bandcamp.com/album/ukuelig-fortidens-essens-full-album"
+              "bandcamp": "https://ukuelig.bandcamp.com/album/ukuelig-fortidens-essens-full-album",
+              "youtube": "https://www.youtube.com/watch?v=3ZhiCAC9H5s"
             },
             {
               "band": "Unholy Abominations",
@@ -2257,7 +2298,7 @@
               "date": "11/06",
               "genre": "black metal",
               "place": "Belgium",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/60qZRgeOpaQPXwEcC90m1q",
               "bandcamp": "https://valknir.bandcamp.com/album/tales-of-origin-demo"
             },
             {
@@ -2267,7 +2308,8 @@
               "genre": "black metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://deadcoreanonymous1.bandcamp.com/album/true-misanthropy",
+              "youtube": "https://www.youtube.com/watch?v=RQMv3B-RBMw"
             },
             {
               "band": "Veröocktiaz",
@@ -2294,7 +2336,8 @@
               "genre": "black/death metal",
               "place": "Australia",
               "spotify": null,
-              "bandcamp": "https://virulentinvocation.bandcamp.com/album/samsara"
+              "bandcamp": "https://virulentinvocation.bandcamp.com/album/samsara",
+              "youtube": "https://www.youtube.com/watch?v=3zLz3edNXk8"
             },
             {
               "band": "VKNTR",
@@ -2311,8 +2354,9 @@
               "date": "11/02",
               "genre": "atmospheric/raw black metal",
               "place": "Italy",
-              "spotify": null,
-              "bandcamp": "https://velh.bandcamp.com/album/levanescenza-dellessere"
+              "spotify": "https://open.spotify.com/album/6qze9Ivisp6CLyTWeHyTYP",
+              "bandcamp": "https://velh.bandcamp.com/album/levanescenza-dellessere",
+              "youtube": "https://www.youtube.com/watch?v=iZfbe3nMOhA"
             },
             {
               "band": "Warghoul",
@@ -2339,7 +2383,8 @@
               "genre": "melodic black metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/5e8DuAxUXWizCC5LxkCD8x",
-              "bandcamp": "https://winterbloodmusic.bandcamp.com/album/frostbound-inferno"
+              "bandcamp": "https://winterbloodmusic.bandcamp.com/album/frostbound-inferno",
+              "youtube": "https://www.youtube.com/watch?v=kOae9LUFwJM"
             },
             {
               "band": "Xalvorn",
@@ -2357,7 +2402,8 @@
               "genre": "depressive black metal",
               "place": "Ukraine",
               "spotify": "https://open.spotify.com/album/1OSCyFBZ1DT3Nr2W75tcPB",
-              "bandcamp": "https://yarekovich.bandcamp.com/album/cinders"
+              "bandcamp": "https://yarekovich.bandcamp.com/album/cinders",
+              "youtube": "https://www.youtube.com/watch?v=gK1IZpQkrsk"
             },
             {
               "band": "Zarach 'Baal' Tharagh",
@@ -2375,7 +2421,8 @@
               "genre": "black metal",
               "place": "Brazil",
               "spotify": null,
-              "bandcamp": "https://isinku.bandcamp.com/album/caput-capricorn"
+              "bandcamp": "https://isinku.bandcamp.com/album/caput-capricorn",
+              "youtube": "https://www.youtube.com/watch?v=gz05btvXiWM"
             },
             {
               "band": "Ürdüngszentség",
@@ -2425,7 +2472,7 @@
               "genre": "death/doom metal",
               "place": "UK",
               "spotify": "https://open.spotify.com/album/34nVA8fCkbcMsqgOC70i9t",
-              "bandcamp": null
+              "bandcamp": "https://abysmalgrowlsofdespair.bandcamp.com/album/a-house-no-one-could-live-in"
             },
             {
               "band": "Annihilus Mundi",
@@ -2434,7 +2481,8 @@
               "genre": "progressive death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/0M2wMQaJ5LRsBR8lqfsf4x",
-              "bandcamp": "https://annihilusmundi.bandcamp.com/album/the-dead-sea-scrolls"
+              "bandcamp": "https://annihilusmundi.bandcamp.com/album/the-dead-sea-scrolls",
+              "youtube": "https://www.youtube.com/watch?v=3uon7PUCTtI"
             },
             {
               "band": "Architect of Seth",
@@ -2442,7 +2490,7 @@
               "date": "11/06",
               "genre": "technical death metal",
               "place": "France",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/2pZcHYkkoikXlx9BaZreSw",
               "bandcamp": "https://i-voidhangerrecords.bandcamp.com/album/solitude-solaire"
             },
             {
@@ -2469,8 +2517,8 @@
               "date": "11/06",
               "genre": "thrash/death metal",
               "place": "Poland",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/3Fe4ZfV9vOhdVDFoFWV3gS",
+              "bandcamp": "https://grobband.bandcamp.com/album/ikonoklasta"
             },
             {
               "band": "Hannes Grossmann",
@@ -2514,8 +2562,8 @@
               "date": "11/06",
               "genre": "thrash/death metal",
               "place": "UK",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/47h3EFJjHz2MbPoCL7FJ8J",
+              "bandcamp": "https://lethalevil.bandcamp.com/album/unleash-the-apocalypse"
             },
             {
               "band": "Monastery",
@@ -2533,7 +2581,7 @@
               "genre": "technical/progressive death metal",
               "place": "Netherlands",
               "spotify": "https://open.spotify.com/album/3XEN6P3MHeRV0GfMfkwAdA",
-              "bandcamp": null
+              "bandcamp": "https://mysticaldeathrr.bandcamp.com/album/across"
             },
             {
               "band": "Nihilo",
@@ -2551,7 +2599,8 @@
               "genre": "death metal",
               "place": "Italy",
               "spotify": "https://open.spotify.com/album/7kG9nE9taOpryiXE664cyd",
-              "bandcamp": "https://overtheborderrecords.bandcamp.com/album/usurped"
+              "bandcamp": "https://overtheborderrecords.bandcamp.com/album/usurped",
+              "youtube": "https://www.youtube.com/watch?v=EdPjt1nCxiU"
             },
             {
               "band": "Olympus",
@@ -2560,7 +2609,8 @@
               "genre": "melodic death metal",
               "place": "UK",
               "spotify": "https://open.spotify.com/album/5u1E6w7bWsDs28pG9sxkkg",
-              "bandcamp": null
+              "bandcamp": "https://olympusuk.bandcamp.com/album/lappel-du-vide",
+              "youtube": "https://www.youtube.com/watch?v=SI6G26ypGcE"
             },
             {
               "band": "Orbital Gate",
@@ -2577,7 +2627,7 @@
               "date": "11/06",
               "genre": "death metal",
               "place": "Scotland",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/7rL8lkCt3W1HhdYGZJFfEk",
               "bandcamp": "https://pennycoffindeath.bandcamp.com/album/transitory-fragmentation"
             },
             {
@@ -2586,7 +2636,7 @@
               "date": "11/06",
               "genre": "disso-death",
               "place": "Germany",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/1LzrLx7hRupmP1SR8S7Gh6",
               "bandcamp": "https://shithexis.bandcamp.com/album/du-wurdest-noch-nie-geliebt"
             },
             {
@@ -2632,7 +2682,8 @@
               "genre": "melodic death metal",
               "place": "Italy",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://wickedwave.bandcamp.com/album/wicked-wave",
+              "youtube": "https://www.youtube.com/watch?v=uMjsaB5_FWA"
             },
             {
               "band": "Wingless",
@@ -2695,7 +2746,8 @@
               "genre": "death metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": "https://cematarium.bandcamp.com/album/endless-oblivion"
+              "bandcamp": "https://cematarium.bandcamp.com/album/endless-oblivion",
+              "youtube": "https://www.youtube.com/watch?v=VwAbuXct7Fo"
             },
             {
               "band": "Corpse Maggot Crew",
@@ -2722,7 +2774,7 @@
               "genre": "brutal death metal / technical/brutal death metal",
               "place": "Ukraine / Iran",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://pooyanrecordsproductions.bandcamp.com/album/collected-decay-compilation-2026"
             },
             {
               "band": "Dorssa",
@@ -2749,7 +2801,8 @@
               "genre": "thrash/death metal",
               "place": "Greece",
               "spotify": null,
-              "bandcamp": "https://extremityobsessionband.bandcamp.com/album/integration"
+              "bandcamp": "https://extremityobsessionband.bandcamp.com/album/integration",
+              "youtube": "https://www.youtube.com/watch?v=jMhGb4zqS7g"
             },
             {
               "band": "Falsimonian",
@@ -2757,8 +2810,9 @@
               "date": "11/07",
               "genre": "progressive/melodic death metal",
               "place": "International",
-              "spotify": null,
-              "bandcamp": "https://falsimonian.bandcamp.com/album/for-survival"
+              "spotify": "https://open.spotify.com/album/6yJI8JSXytX8PGK0pZkF45",
+              "bandcamp": "https://falsimonian.bandcamp.com/album/for-survival",
+              "youtube": "https://www.youtube.com/watch?v=X7mLskD7s1c"
             },
             {
               "band": "Final Silence",
@@ -2784,7 +2838,7 @@
               "date": "11/01",
               "genre": "death metal/hardcore",
               "place": "Canada",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/3LhYY5DSmO1IyYZUt9h0Eg",
               "bandcamp": "https://greattrouble.bandcamp.com/album/may-no-green-thing-ever-grow-where-you-rot"
             },
             {
@@ -2811,8 +2865,8 @@
               "date": "11/07",
               "genre": "thrash/death metal",
               "place": "Canada",
-              "spotify": null,
-              "bandcamp": null
+              "spotify": "https://open.spotify.com/album/6xlEEu6EqYoqTjFRNLOaf9",
+              "bandcamp": "https://killingtwins.bandcamp.com/album/killing-twins"
             },
             {
               "band": "Legendarium",
@@ -2838,7 +2892,7 @@
               "date": "11/02",
               "genre": "progressive death metal/metalcore",
               "place": "Latvia",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/57HgJgnIoxKmTDRvMh0KFe",
               "bandcamp": null
             },
             {
@@ -2875,7 +2929,7 @@
               "genre": "death metal/hardcore",
               "place": "Indonesia",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://spitbackrecords.bandcamp.com/album/hollow-hands"
             },
             {
               "band": "Termiinus Light",
@@ -2893,7 +2947,7 @@
               "genre": "death metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/6A82uXJgXBTD5BJyu9CufF",
-              "bandcamp": null
+              "bandcamp": "https://theotokosdm.bandcamp.com/album/uncreated-light"
             },
             {
               "band": "Three Knuckles Deep",
@@ -2911,7 +2965,8 @@
               "genre": "death metal",
               "place": "Germany",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": null,
+              "youtube": "https://www.youtube.com/watch?v=rieGuu3rRHU"
             },
             {
               "band": "Upper Decker",
@@ -2920,7 +2975,8 @@
               "genre": "brutal death metal",
               "place": "France",
               "spotify": null,
-              "bandcamp": "https://upperdecker.bandcamp.com/album/demo-promo-2026"
+              "bandcamp": "https://upperdecker.bandcamp.com/album/demo-promo-2026",
+              "youtube": "https://www.youtube.com/watch?v=1DSYl3S7Um4"
             },
             {
               "band": "Veganal",
@@ -2937,7 +2993,7 @@
               "date": "11/06",
               "genre": "technical death metal",
               "place": "Belarus",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/1hLy7wF4yfbnB04tc1uOx7",
               "bandcamp": "https://voidbornsynergy.bandcamp.com/album/promo-2026"
             },
             {
@@ -2956,7 +3012,8 @@
               "genre": "slam/brutal death metal",
               "place": "Germany",
               "spotify": null,
-              "bandcamp": "https://xenomorphicautopsy.bandcamp.com/album/intergalactic-gravitational-dimension"
+              "bandcamp": "https://xenomorphicautopsy.bandcamp.com/album/intergalactic-gravitational-dimension",
+              "youtube": "https://www.youtube.com/watch?v=4pvXldo1St8"
             },
             {
               "band": "Övervåld",
@@ -2964,8 +3021,9 @@
               "date": "11/06",
               "genre": "death metal",
               "place": "Sweden",
-              "spotify": null,
-              "bandcamp": "https://chaos-records.bandcamp.com/album/i-f-rbund-med-omoralen"
+              "spotify": "https://open.spotify.com/album/2aM6UDywY7OnwMD4DWLUbV",
+              "bandcamp": "https://chaos-records.bandcamp.com/album/i-f-rbund-med-omoralen",
+              "youtube": "https://www.youtube.com/watch?v=t-AOJcntrv8"
             }
           ]
         },
@@ -2979,7 +3037,8 @@
               "genre": "progressive/post-metal",
               "place": "France",
               "spotify": "https://open.spotify.com/album/4kGXM3pTwu8EmDFn9MqnTV",
-              "bandcamp": "https://hypno5e.bandcamp.com/album/trame-noire"
+              "bandcamp": "https://hypno5e.bandcamp.com/album/trame-noire",
+              "youtube": "https://www.youtube.com/watch?v=VQiIuHrd5eM"
             },
             {
               "band": "Het Einde der Tijden",
@@ -3020,7 +3079,8 @@
               "genre": "alt/noise sludge",
               "place": "Switzerland",
               "spotify": "https://open.spotify.com/album/2hVz8soLKNDmlbCdZLbBxx",
-              "bandcamp": "https://coilguns.bandcamp.com/album/everything-we-love-we-destroy"
+              "bandcamp": "https://coilguns.bandcamp.com/album/everything-we-love-we-destroy",
+              "youtube": "https://www.youtube.com/watch?v=2MzUDqnCjsI"
             },
             {
               "band": "Cult of Luna",
@@ -3029,7 +3089,8 @@
               "genre": "atmospheric sludge/post-metal",
               "place": "Sweden",
               "spotify": "https://open.spotify.com/album/2jo7MOpWqcaorbFYvAhmZL",
-              "bandcamp": "https://cultofluna.bandcamp.com/album/in-the-shadow-of-your-shadow"
+              "bandcamp": "https://cultofluna.bandcamp.com/album/in-the-shadow-of-your-shadow",
+              "youtube": "https://www.youtube.com/watch?v=-A83MKfSyeQ"
             },
             {
               "band": "E-L-R",
@@ -3056,7 +3117,8 @@
               "genre": "experimental doom",
               "place": "Germany",
               "spotify": "https://open.spotify.com/album/0xQKDzU5puUewy6l315pPY",
-              "bandcamp": "https://kosmoberkh.bandcamp.com/album/troglobiten-in-absonderlicht"
+              "bandcamp": "https://kosmoberkh.bandcamp.com/album/troglobiten-in-absonderlicht",
+              "youtube": "https://www.youtube.com/watch?v=GHIb8pqogOw"
             },
             {
               "band": "Liminal Spirit",
@@ -3065,7 +3127,8 @@
               "genre": "avant-garde doom / industrial / drone",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/27GbRJionFgxttxUdkPJrp",
-              "bandcamp": "https://liminalspirit.bandcamp.com/album/forfeiture-hymns"
+              "bandcamp": "https://liminalspirit.bandcamp.com/album/forfeiture-hymns",
+              "youtube": "https://www.youtube.com/watch?v=uljlYSY-R0I"
             },
             {
               "band": "Melpomene",
@@ -3092,7 +3155,8 @@
               "genre": "experimental doom / drone / post-metal",
               "place": "USA",
               "spotify": null,
-              "bandcamp": "https://slainthought.bandcamp.com/album/the-light-is-a-nail"
+              "bandcamp": "https://slainthought.bandcamp.com/album/the-light-is-a-nail",
+              "youtube": "https://www.youtube.com/watch?v=H-p3C50fuNg"
             },
             {
               "band": "Stricken",
@@ -3101,7 +3165,7 @@
               "genre": "sludge/doom metal",
               "place": "USA",
               "spotify": "https://open.spotify.com/album/7e3iPdCRVYDutfE6gD3tN3",
-              "bandcamp": null
+              "bandcamp": "https://hpgd.bandcamp.com/album/from-dark-dimensions-an-unspeakable-presence-awakens"
             },
             {
               "band": "Sycomore",
@@ -3110,7 +3174,7 @@
               "genre": "sludge metal / hardcore",
               "place": "France",
               "spotify": "https://open.spotify.com/album/2qnksnuDeh2KS3uUZaVBXU",
-              "bandcamp": null
+              "bandcamp": "https://sycomore.bandcamp.com/album/d-grad-album"
             },
             {
               "band": "This Brutal World",
@@ -3163,8 +3227,9 @@
               "date": "11/01",
               "genre": "sludge metal",
               "place": "Poland",
-              "spotify": null,
-              "bandcamp": "https://headofcassandra.bandcamp.com/album/trup"
+              "spotify": "https://open.spotify.com/album/2E2NfTsSTQNxH6NnNdK4Lo",
+              "bandcamp": "https://headofcassandra.bandcamp.com/album/trup",
+              "youtube": "https://www.youtube.com/watch?v=sGIenspNRFE"
             },
             {
               "band": "Ink Fletcher",
@@ -3172,7 +3237,7 @@
               "date": "11/01",
               "genre": "doom/sludge metal",
               "place": "USA",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/6ty82C3uFc3ItIO9ai2bow",
               "bandcamp": "https://inkfletcher.bandcamp.com/album/october-theater-ep"
             },
             {
@@ -3190,7 +3255,7 @@
               "date": "11/06",
               "genre": "sludge metal",
               "place": "Germany",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/7odsebdG11CqGShVnE68Zs",
               "bandcamp": "https://methnweapons.bandcamp.com/album/amok"
             },
             {
@@ -3209,7 +3274,8 @@
               "genre": "sludge/doom metal",
               "place": "Finland",
               "spotify": null,
-              "bandcamp": null
+              "bandcamp": "https://osmic.bandcamp.com/album/i",
+              "youtube": "https://www.youtube.com/watch?v=8XvOhn7minE"
             },
             {
               "band": "Shattered Sigh",
@@ -3276,7 +3342,7 @@
               "date": "11/04",
               "genre": "black metal/grindcore",
               "place": "France",
-              "spotify": null,
+              "spotify": "https://open.spotify.com/album/53bKNqAVxL0QuhhKfOSQxL",
               "bandcamp": "https://crevure.bandcamp.com/album/c"
             },
             {
@@ -3304,7 +3370,8 @@
               "genre": "sludge/death metal/crust",
               "place": "International",
               "spotify": null,
-              "bandcamp": "https://fuckhammer.bandcamp.com/album/curse-of-the-fucking-hammer-e-p"
+              "bandcamp": "https://fuckhammer.bandcamp.com/album/curse-of-the-fucking-hammer-e-p",
+              "youtube": "https://www.youtube.com/watch?v=QcvLOYR8IOg"
             },
             {
               "band": "Maggot Vomit",

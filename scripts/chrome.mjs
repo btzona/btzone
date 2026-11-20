@@ -66,14 +66,14 @@ export function renderOutlinks(release) {
       `<a class="outlink" href="${escapeHtml(release.spotify)}" rel="noopener">Spotify</a>`
     );
   }
-  if (release.youtube) {
-    links.push(
-      `<a class="outlink" href="${escapeHtml(release.youtube)}" rel="noopener">YouTube</a>`
-    );
-  }
   if (release.bandcamp) {
     links.push(
       `<a class="outlink" href="${escapeHtml(release.bandcamp)}" rel="noopener">Bandcamp</a>`
+    );
+  }
+  if (release.youtube) {
+    links.push(
+      `<a class="outlink" href="${escapeHtml(release.youtube)}" rel="noopener">YouTube</a>`
     );
   }
   if (!links.length) return "";
