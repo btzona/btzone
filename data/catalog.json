@@ -5,8 +5,8 @@
       "title": "Week of Nov 15–20, 2026",
       "kind": "friday",
       "sort": "2026-11-20",
-      "blurb": "153 releases · black metal, death metal, grind / crust, sludge / doom",
-      "sources": "Heavy Blog Is Heavy, Metal Injection, Metal Collision, Heavy Music HQ, Ghost Cult, Metal Archives, Bandcamp, Spotify.",
+      "blurb": "167 releases · black metal, death metal, grind / crust, sludge / doom",
+      "sources": "Heavy Blog Is Heavy, Metal Injection, Metal Collision, Heavy Music HQ, Ghost Cult, Metal Archives, Bandcamp, Spotify, releaseMetal, VM-Underground.",
       "sections": [
         {
           "genre": "BLACK METAL",
@@ -721,6 +721,87 @@
               "place": "Austria",
               "spotify": "https://open.spotify.com/album/4KfiINdALxQjVMCTWT94r9",
               "bandcamp": "https://avhedone.bandcamp.com/album/n-vi-d-t"
+            },
+            {
+              "band": "Abadir",
+              "album": "Æneis",
+              "date": "11/21",
+              "genre": "black metal",
+              "place": "Italy",
+              "spotify": null,
+              "bandcamp": "https://abadir1.bandcamp.com/album/neis"
+            },
+            {
+              "band": "Áditus",
+              "album": "Grimoire IV: Cōdex Mūtātor Lūmen",
+              "date": "11/21",
+              "genre": "black/death metal",
+              "place": "Argentina",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "The Almighty Greatsword",
+              "album": "Greatsword (Demo)",
+              "date": "11/20",
+              "genre": "black metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://thealmightygreatsword1.bandcamp.com/album/greatsword"
+            },
+            {
+              "band": "Black Death Cult",
+              "album": "Goonmunion",
+              "date": "11/21",
+              "genre": "black/death/doom metal",
+              "place": "Canada",
+              "spotify": "https://open.spotify.com/album/4YgASHpzjhyragl7pEWzkV",
+              "bandcamp": "https://blackdeathcult.bandcamp.com/album/goonmunion"
+            },
+            {
+              "band": "Carthage",
+              "album": "1838 (EP)",
+              "date": "11/20",
+              "genre": "raw black metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Cysgod",
+              "album": "Cysgod",
+              "date": "11/20",
+              "genre": "raw black metal",
+              "place": "UK",
+              "spotify": null,
+              "bandcamp": "https://cysgod.bandcamp.com/album/cysgod"
+            },
+            {
+              "band": "Innominatam",
+              "album": "Incipit Black Flame",
+              "date": "11/20",
+              "genre": "black metal",
+              "place": "Spain",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "Osculum Serpentis",
+              "album": "Lycanthropia",
+              "date": "11/20",
+              "genre": "raw black metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://osculumserpentis.bandcamp.com/album/lycanthropia"
+            },
+            {
+              "band": "Vindalf",
+              "album": "Through the Black Fires of Ascension",
+              "date": "11/21",
+              "genre": "black metal/dungeon synth",
+              "place": "Chile",
+              "spotify": "https://open.spotify.com/album/1mR2Qtia0PTGnYKibESc9B",
+              "bandcamp": "https://vindalfbm.bandcamp.com/album/through-the-black-fires-of-ascension"
             }
           ]
         },
@@ -1176,6 +1257,42 @@
               "place": "Greece",
               "spotify": null,
               "bandcamp": null
+            },
+            {
+              "band": "Clinical Torturement",
+              "album": "Low Affect Individuals (EP)",
+              "date": "11/20",
+              "genre": "brutal death metal",
+              "place": "Unknown",
+              "spotify": null,
+              "bandcamp": null
+            },
+            {
+              "band": "DeadFall Homocide",
+              "album": "Handover",
+              "date": "11/20",
+              "genre": "black/death metal",
+              "place": "Unknown",
+              "spotify": "https://open.spotify.com/album/0ehcyNWia4bfLsH2uomYiS",
+              "bandcamp": "https://deadfallhomocide.bandcamp.com/album/handover"
+            },
+            {
+              "band": "Dethrone the Necrowizard",
+              "album": "EP 2026 (EP)",
+              "date": "11/21",
+              "genre": "melodic death/black metal",
+              "place": "USA",
+              "spotify": null,
+              "bandcamp": "https://dethronethenecrowizard.bandcamp.com/album/ep-2026"
+            },
+            {
+              "band": "Ynys Wydryn",
+              "album": "Absorbing the Existence",
+              "date": "11/21",
+              "genre": "symphonic death metal",
+              "place": "Brazil",
+              "spotify": "https://open.spotify.com/album/2VQrkuWc4YRX3Pjd2hFHVe",
+              "bandcamp": null
             }
           ]
         },
@@ -1402,6 +1519,15 @@
               "place": "UK",
               "spotify": "https://open.spotify.com/album/1MDeiU7haf922hkmsuWWOJ",
               "bandcamp": "https://sonofboar.bandcamp.com/album/the-hand-that-reigns"
+            },
+            {
+              "band": "Fimir",
+              "album": "Cosmic Heavy Doom",
+              "date": "11/20",
+              "genre": "heavy doom metal",
+              "place": "Finland",
+              "spotify": "https://open.spotify.com/album/5aZydOih5F85TrtUxADawW",
+              "bandcamp": "https://fimir.bandcamp.com/album/cosmic-heavy-doom"
             }
           ]
         }

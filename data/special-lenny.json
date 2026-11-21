@@ -2,6 +2,16 @@
   "2026-11-20": {
     "releases": [
       {
+        "band": "Almagalaxia",
+        "album": "La trilogía del fuego (EP)",
+        "date": "11/21",
+        "genre": "stoner metal",
+        "country": "Argentina",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
         "band": "Bongfist",
         "album": "Bongfist (EP)",
         "date": "11/17",
@@ -50,6 +60,16 @@
         "spotify": "https://open.spotify.com/album/2FT23aDIgmTXXo0o253HEZ",
         "youtube": null,
         "bandcamp": null
+      },
+      {
+        "band": "Fimir",
+        "album": "Cosmic Heavy Doom",
+        "date": "11/20",
+        "genre": "stoner/heavy doom metal",
+        "country": "Finland",
+        "spotify": "https://open.spotify.com/album/5aZydOih5F85TrtUxADawW",
+        "youtube": null,
+        "bandcamp": "https://fimir.bandcamp.com/album/cosmic-heavy-doom"
       },
       {
         "band": "Ghost Pipe",
