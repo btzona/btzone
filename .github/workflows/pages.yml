@@ -55,11 +55,16 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+          # Artifacts stay on the run, so a re-run that uploads another
+          # "github-pages" artifact makes deploy-pages reject the run.
+          name: github-pages-${{ github.run_attempt }}
 
       - name: Deploy to GitHub Pages
         id: deployment
         if: steps.pages.outcome == 'success'
         uses: actions/deploy-pages@v5
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
 
       - name: Pages still needs to be turned on
         if: steps.pages.outcome != 'success'
