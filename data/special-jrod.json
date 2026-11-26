@@ -1,4 +1,38 @@
 {
+  "2026-11-27": {
+    "releases": [
+      {
+        "band": "Celestial Burial",
+        "album": "Oni Bloodbath",
+        "date": "11/26",
+        "genre": "death metal/deathcore",
+        "country": "Australia",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://grindheadrecords.bandcamp.com/album/oni-bloodbath"
+      },
+      {
+        "band": "Enter the Villain",
+        "album": "The Judas Cradle",
+        "date": "11/21",
+        "genre": "deathcore",
+        "country": "Canada",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://enterthevillain.bandcamp.com/album/the-judas-cradle"
+      },
+      {
+        "band": "Jisei",
+        "album": "Gets Worse",
+        "date": "11/21",
+        "genre": "grindcore/deathcore",
+        "country": "Canada",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": "https://jisei.bandcamp.com/album/gets-worse"
+      }
+    ]
+  },
   "2026-11-20": {
     "releases": [
       {

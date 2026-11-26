@@ -80,7 +80,7 @@ node scripts/add-week.mjs --rebuild
 
 ## Side lists
 
-J-Rod Core, Lenny's Stoner Corner, and Deutschrap are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, and `data/special-deutschrap.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
+J-Rod Core, Lenny's Stoner Corner, Deutschrap, and SA Hip-Hop are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, `data/special-deutschrap.json`, and `data/special-sa-hiphop.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
 
 Rebuild the pages from those files:
 
@@ -88,7 +88,7 @@ Rebuild the pages from those files:
 node scripts/build-special.mjs
 ```
 
-Add a week of rows. The JSON file has `jrod`, `lenny`, and `deutschrap` arrays. Each row is `band` (or `artist`), `album` (or `title`), `date` (`MM/DD`), `genre`, `country`, `spotify` (an album or track URL or null), `youtube` (a video URL or null), and `bandcamp` (an album URL or null). A repeated band and album stays one row. A link that was null is filled when the new row has one. Rows are not copied into `data/catalog.json`.
+Add a week of rows. The JSON file has `jrod`, `lenny`, `deutschrap`, and `sahiphop` arrays. Each row is `band` (or `artist`), `album` (or `title`), `date` (`MM/DD`), `genre`, `country`, `spotify` (an album or track URL or null), `youtube` (a video URL or null), and `bandcamp` (an album URL or null). A repeated band and album stays one row. A link that was null is filled when the new row has one. Rows are not copied into `data/catalog.json`. Omit an array to leave that list unchanged for the week.
 
 ```bash
 node scripts/add-special.mjs 2026-10-23 digests/special-2026-10-23.json

@@ -1,5 +1,5 @@
 /**
- * Side lists for J-Rod Core, Lenny's Stoner Corner, and Deutschrap.
+ * Side lists for J-Rod Core, Lenny's Stoner Corner, Deutschrap, and SA Hip-Hop.
  * Stored apart from data/catalog.json, one object per week slug.
  */
 
@@ -48,6 +48,15 @@ export const LISTS = [
     title: "Deutschrap",
     tagline: "German rap and trap, hand-picked for J-Rod.",
     description: "German rap and trap, hand-picked for J-Rod.",
+  },
+  {
+    id: "sahiphop",
+    key: "sahiphop",
+    file: "special-sa-hiphop.json",
+    page: "sa-hiphop.html",
+    title: "SA Hip-Hop",
+    tagline: "South African hip-hop and trap.",
+    description: "South African hip-hop and trap.",
   },
 ];
 
@@ -264,7 +273,7 @@ export function writeSpecialPages() {
 }
 
 /**
- * Merge one compact payload into both side lists for a single week slug.
+ * Merge one compact payload into the side lists for a single week slug.
  * Incoming entries whose `week` is set to something else are skipped.
  * A repeated band + album keeps its row and fills a link that was null.
  */
@@ -273,7 +282,9 @@ export function mergeSpecial(slug, payload) {
     throw new Error(`Week slug must look like 2026-10-23, got ${slug}`);
   }
   if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
-    throw new Error("JSON file must be an object with jrod, lenny, and deutschrap arrays");
+    throw new Error(
+      `JSON file must be an object with ${LISTS.map((list) => list.key).join(", ")} arrays`
+    );
   }
   const summary = [];
   let matched = 0;
