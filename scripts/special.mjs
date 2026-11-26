@@ -55,8 +55,8 @@ export const LISTS = [
     file: "special-sa-hiphop.json",
     page: "sa-hiphop.html",
     title: "SA Hip-Hop",
-    tagline: "South African hip-hop and trap.",
-    description: "South African hip-hop and trap.",
+    tagline: "Hard South African trap, drill, and street rap.",
+    description: "Hard South African trap, drill, and street rap.",
   },
 ];
 
