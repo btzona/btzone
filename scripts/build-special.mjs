@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Rebuild the side-list pages from data/special-jrod.json and
- * data/special-lenny.json. Idempotent: the same files produce the same HTML.
+ * Rebuild the side-list pages from data/special-jrod.json,
+ * data/special-lenny.json, data/special-deutschrap.json, and
+ * data/special-sa-hiphop.json. Idempotent: the same files produce the same HTML.
  *
  *   node scripts/build-special.mjs
  *

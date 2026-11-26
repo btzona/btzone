@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
  * Merge one week of side-list rows into J-Rod Core, Lenny's Stoner Corner,
- * and Deutschrap, then rebuild those pages.
+ * Deutschrap, and SA Hip-Hop, then rebuild those pages.
  *
  *   node scripts/add-special.mjs 2026-10-30 digests/special-2026-10-30.json
  *
- * The JSON file is an object with `jrod`, `lenny`, and `deutschrap` arrays.
+ * The JSON file is an object with `jrod`, `lenny`, `deutschrap`, and `sahiphop` arrays.
  * Each row has band (or artist), album (or title), date (MM/DD), genre,
  * country, spotify (album or track URL or null), youtube (video URL or null),
  * and bandcamp (album URL or null). A `week` field is optional; rows tagged

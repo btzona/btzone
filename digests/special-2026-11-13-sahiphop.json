@@ -1,0 +1,54 @@
+{
+  "sahiphop": [
+    {
+      "band": "BabyDaiz & Tiakola",
+      "album": "El Classico",
+      "date": "11/13",
+      "genre": "SA Trap",
+      "country": "South Africa / France",
+      "spotify": "https://open.spotify.com/album/44Hco6UbPBieEbp0Q8Jl5w",
+      "youtube": "https://www.youtube.com/watch?v=TKpyiJh7BT4",
+      "bandcamp": null
+    },
+    {
+      "band": "Dj Clen & A-Reece",
+      "album": "HOW DO YOU LOVE ME NOW ?",
+      "date": "11/13",
+      "genre": "SA Hip-Hop",
+      "country": "South Africa",
+      "spotify": "https://open.spotify.com/album/4ITze2zGt7S2x9nHHfjeXy",
+      "youtube": "https://www.youtube.com/watch?v=UM3Vz5uFIPA",
+      "bandcamp": null
+    },
+    {
+      "band": "Kane Keid",
+      "album": "Charles I: No Kingz (EP)",
+      "date": "11/13",
+      "genre": "SA Hip-Hop",
+      "country": "South Africa",
+      "spotify": "https://open.spotify.com/album/4WEizItF4j1HXHwZIZMKNC",
+      "youtube": null,
+      "bandcamp": null
+    },
+    {
+      "band": "Sastii & Focalistic",
+      "album": "ihhala",
+      "date": "11/13",
+      "genre": "SA Hip-Hop / Amapiano",
+      "country": "South Africa",
+      "spotify": "https://open.spotify.com/album/2vdLOLnM9OGTmro6HwTEsP",
+      "youtube": "https://www.youtube.com/watch?v=z6jEN0rUJzM",
+      "bandcamp": null
+    },
+    {
+      "band": "Tshego feat. Nasty C",
+      "album": "HARD TO FIND",
+      "date": "11/13",
+      "genre": "SA Hip-Hop",
+      "country": "South Africa",
+      "spotify": "https://open.spotify.com/album/2p4vNYIqggq0BAFhQ478Pf",
+      "youtube": "https://www.youtube.com/watch?v=Td4qXK1RLvo",
+      "bandcamp": null
+    }
+  ]
+}
