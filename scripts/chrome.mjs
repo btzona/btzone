@@ -16,7 +16,7 @@ const BUDDIES = [
   { id: "jrod", href: "jrod-core.html", label: "J-Rod Core", glyph: "skull" },
   { id: "lenny", href: "lennys-stoner-corner.html", label: "Lenny's Stoner Corner", glyph: "amp" },
   { id: "deutschrap", href: "deutschrap.html", label: "Deutschrap", glyph: "flag-de", tone: "tone-silver" },
-  { id: "sahiphop", href: "sa-hiphop.html", label: "SA Hip-Hop", glyph: "flag-za", tone: "tone-silver" },
+  { id: "sahiphop", href: "sa-hiphop.html", label: "Mzansi Drill & Trap", glyph: "flag-za", tone: "tone-silver" },
 ];
 
 const skull = `<svg class="buddy-glyph" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M8 1.15C5.25 1.15 3.05 3.2 3.05 5.75c0 1.48.68 2.72 1.55 3.42V11c0 .5.4.9.9.9h.85v1.35c0 .38.32.7.7.7h1.9c.38 0 .7-.32.7-.7V11.9h.85c.5 0 .9-.4.9-.9V9.17c.87-.7 1.55-1.94 1.55-3.42 0-2.55-2.2-4.6-4.95-4.6zM6.15 5.45a1.12 1.12 0 1 0 .02 2.24 1.12 1.12 0 0 0-.02-2.24zm3.7 0a1.12 1.12 0 1 0 .02 2.24 1.12 1.12 0 0 0-.02-2.24zM7.15 9.05h1.7v.8h-1.7v-.8z"/></svg>`;
@@ -102,7 +102,7 @@ export function buddyNav(prefix, current) {
     const tone = buddy.tone ? ` class="${buddy.tone}"` : "";
     return `<a${tone} href="${escapeHtml(prefix)}${buddy.href}"${here}>${glyphs[buddy.glyph]}<span>${escapeHtml(buddy.label)}</span></a>`;
   }).join("\n    ");
-  return `<nav class="buddy-nav" aria-label="J-Rod, Lenny, Deutschrap, and SA Hip-Hop">
+  return `<nav class="buddy-nav" aria-label="J-Rod, Lenny, Deutschrap, and Mzansi Drill &amp; Trap">
     ${links}
   </nav>`;
 }

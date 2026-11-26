@@ -80,7 +80,7 @@ node scripts/add-week.mjs --rebuild
 
 ## Side lists
 
-J-Rod Core, Lenny's Stoner Corner, Deutschrap, and SA Hip-Hop are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, `data/special-deutschrap.json`, and `data/special-sa-hiphop.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
+J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, `data/special-deutschrap.json`, and `data/special-sa-hiphop.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
 
 Rebuild the pages from those files:
 
