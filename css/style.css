@@ -150,8 +150,10 @@ a:focus {
 .buddy-nav a:focus {
   display: inline-flex;
   align-items: center;
-  gap: 0.32rem;
+  flex-wrap: nowrap;
+  gap: 6px;
   max-width: 100%;
+  white-space: nowrap;
   color: #e6c15a;
   background: transparent;
   text-decoration: none;
@@ -214,9 +216,19 @@ a:focus {
   border-color: #c5c1b8;
 }
 
-.buddy-glyph {
+.buddy-glyph,
+.buddy-flag {
   display: block;
   flex: 0 0 auto;
+  vertical-align: middle;
+}
+
+.buddy-flag {
+  width: 15px;
+  height: 10px;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(215, 208, 196, 0.55);
+  overflow: hidden;
 }
 
 .genre-nav a,

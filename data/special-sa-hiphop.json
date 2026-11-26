@@ -1,14 +1,66 @@
 {
+  "2026-11-27": {
+    "releases": [
+      {
+        "band": "Starboy Zack feat. Luda G & Wally G",
+        "album": "16 Slide Box",
+        "date": "11/21",
+        "genre": "Cape Flats Afrikaans drill",
+        "country": "South Africa",
+        "spotify": null,
+        "youtube": "https://www.youtube.com/watch?v=Z-adM06mWpA",
+        "bandcamp": null
+      }
+    ]
+  },
   "2026-11-20": {
     "releases": [
       {
         "band": "Ziggy4x feat. Luda G & Wally G",
         "album": "Rrrr",
         "date": "11/17",
-        "genre": "SA Drill",
+        "genre": "Cape Flats Afrikaans drill",
         "country": "South Africa",
         "spotify": "https://open.spotify.com/album/6pRg8Z5GAEyeTwOsRrFBaB",
         "youtube": "https://www.youtube.com/watch?v=jAzYUFh3864",
+        "bandcamp": null
+      }
+    ]
+  },
+  "2026-11-13": {
+    "releases": [
+      {
+        "band": "Luda G",
+        "album": "Vir My Slimes",
+        "date": "11/12",
+        "genre": "Cape Flats Afrikaans drill",
+        "country": "South Africa",
+        "spotify": "https://open.spotify.com/album/6e4ZmmYipS4mS9ZRwtmQ6A",
+        "youtube": "https://www.youtube.com/watch?v=j68fhKIdedU",
+        "bandcamp": null
+      },
+      {
+        "band": "WALLY G",
+        "album": "WAYS GECHANGE",
+        "date": "11/13",
+        "genre": "Cape Flats Afrikaans drill",
+        "country": "South Africa",
+        "spotify": "https://open.spotify.com/album/1sGFeBZF75kF9VVqpnYKO1",
+        "youtube": "https://www.youtube.com/watch?v=AfPmU_ygOHs",
+        "bandcamp": null
+      }
+    ]
+  },
+  "2026-11-06": {
+    "releases": [
+      {
+        "band": "illRow feat. Kulture Gang",
+        "album": "SKAG",
+        "date": "11/06",
+        "genre": "Cape Flats street rap",
+        "country": "South Africa",
+        "spotify": "https://open.spotify.com/album/0fCHgk1x0jYKGiCMVXHPDS",
+        "youtube": "https://www.youtube.com/watch?v=WuATdaGCjxA",
         "bandcamp": null
       }
     ]

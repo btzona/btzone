@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Merge one week of side-list rows into J-Rod Core, Lenny's Stoner Corner,
- * Deutschrap, and SA Hip-Hop, then rebuild those pages.
+ * Deutschrap, and Mzansi Drill & Trap, then rebuild those pages.
  *
  *   node scripts/add-special.mjs 2026-10-30 digests/special-2026-10-30.json
  *

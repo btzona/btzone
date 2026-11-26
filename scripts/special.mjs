@@ -1,5 +1,5 @@
 /**
- * Side lists for J-Rod Core, Lenny's Stoner Corner, Deutschrap, and SA Hip-Hop.
+ * Side lists for J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap.
  * Stored apart from data/catalog.json, one object per week slug.
  */
 
@@ -54,7 +54,7 @@ export const LISTS = [
     key: "sahiphop",
     file: "special-sa-hiphop.json",
     page: "sa-hiphop.html",
-    title: "SA Hip-Hop",
+    title: "Mzansi Drill & Trap",
     tagline: "Hard South African trap, drill, and street rap.",
     description: "Hard South African trap, drill, and street rap.",
   },
