@@ -17,6 +17,7 @@ const BUDDIES = [
   { id: "lenny", href: "lennys-stoner-corner.html", label: "Lenny's Stoner Corner", glyph: "amp" },
   { id: "deutschrap", href: "deutschrap.html", label: "Deutschrap", glyph: "flag-de", tone: "tone-silver" },
   { id: "sahiphop", href: "sa-hiphop.html", label: "Mzansi Drill & Trap", glyph: "flag-za", tone: "tone-silver" },
+  { id: "jamaica", href: "jamaica-top40.html", label: "Jamaica Top 40", glyph: "flag-jm", tone: "tone-silver" },
 ];
 
 const skull = `<svg class="buddy-glyph" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M8 1.15C5.25 1.15 3.05 3.2 3.05 5.75c0 1.48.68 2.72 1.55 3.42V11c0 .5.4.9.9.9h.85v1.35c0 .38.32.7.7.7h1.9c.38 0 .7-.32.7-.7V11.9h.85c.5 0 .9-.4.9-.9V9.17c.87-.7 1.55-1.94 1.55-3.42 0-2.55-2.2-4.6-4.95-4.6zM6.15 5.45a1.12 1.12 0 1 0 .02 2.24 1.12 1.12 0 0 0-.02-2.24zm3.7 0a1.12 1.12 0 1 0 .02 2.24 1.12 1.12 0 0 0-.02-2.24zM7.15 9.05h1.7v.8h-1.7v-.8z"/></svg>`;
@@ -27,7 +28,9 @@ const flagDe = `<svg class="buddy-flag" viewBox="0 0 5 3" width="15" height="10"
 
 const flagZa = `<svg class="buddy-flag" viewBox="0 0 90 60" width="15" height="10" aria-hidden="true" focusable="false"><path fill="#E03C31" d="M0 0h90v30H45z"/><path fill="#001489" d="M0 60h90V30H45z"/><path fill="#fff" d="M10.816 60h7.212L48.027 40H90V36H46.816z"/><path fill="#fff" d="M46.816 24H90V20H48.027L18.028 0H10.816z"/><path fill="#000" d="M0 12.018 26.973 30 0 47.982z"/><path fill="#FFB81C" d="M0 7.211v4.807L26.973 30 0 47.982v4.807L34.184 30z"/><path fill="#007749" d="M0 0v7.211L34.184 30 0 52.789V60h10.816L46.816 36H90V24H46.816L10.816 0z"/></svg>`;
 
-const glyphs = { skull, amp, "flag-de": flagDe, "flag-za": flagZa };
+const flagJm = `<svg class="buddy-flag" viewBox="0 0 90 60" width="15" height="10" aria-hidden="true" focusable="false"><path fill="#009B3A" d="M0 0h90v60H0z"/><path fill="#000" d="M0 0 45 30 0 60zM90 0 45 30 90 60z"/><path fill="#FED100" d="M90 0H66L0 44v16h24L90 16z"/><path fill="#FED100" d="M0 0v16l66 44h24V44L24 0z"/></svg>`;
+
+const glyphs = { skull, amp, "flag-de": flagDe, "flag-za": flagZa, "flag-jm": flagJm };
 
 export function escapeHtml(value) {
   return String(value)
@@ -102,7 +105,7 @@ export function buddyNav(prefix, current) {
     const tone = buddy.tone ? ` class="${buddy.tone}"` : "";
     return `<a${tone} href="${escapeHtml(prefix)}${buddy.href}"${here}>${glyphs[buddy.glyph]}<span>${escapeHtml(buddy.label)}</span></a>`;
   }).join("\n    ");
-  return `<nav class="buddy-nav" aria-label="J-Rod, Lenny, Deutschrap, and Mzansi Drill &amp; Trap">
+  return `<nav class="buddy-nav" aria-label="J-Rod, Lenny, Deutschrap, Mzansi Drill &amp; Trap, and Jamaica Top 40">
     ${links}
   </nav>`;
 }

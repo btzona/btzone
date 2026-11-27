@@ -15,8 +15,8 @@
  *   node scripts/add-week.mjs --rebuild
  *
  * `--rebuild` rewrites the index, every week page, and the side lists
- * (J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap). The side lists are not part of
- * data/catalog.json. Their header cluster is the same one used here.
+ * (J-Rod Core, Lenny's Stoner Corner, Deutschrap, Mzansi Drill & Trap, and Jamaica Top 40).
+ * The side lists are not part of data/catalog.json. Their header cluster is the same one used here.
  *
  * `--kind saturday` folds that digest into the Friday (or mid-week) slug in
  * `--slug`. It does not create a Saturday page. Repeat releases already on

@@ -80,7 +80,7 @@ node scripts/add-week.mjs --rebuild
 
 ## Side lists
 
-J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap are separate pages, not part of the weekly counts or the genre filters. Their rows live in `data/special-jrod.json`, `data/special-lenny.json`, `data/special-deutschrap.json`, and `data/special-sa-hiphop.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
+J-Rod Core, Lenny's Stoner Corner, Deutschrap, Mzansi Drill & Trap, and Jamaica Top 40 are separate pages, not part of the weekly counts or the genre filters. The first four live in `data/special-jrod.json`, `data/special-lenny.json`, `data/special-deutschrap.json`, and `data/special-sa-hiphop.json`, one object per week slug. The week heading is the same label the archive already uses for that slug.
 
 Rebuild the pages from those files:
 
@@ -94,7 +94,13 @@ Add a week of rows. The JSON file has `jrod`, `lenny`, `deutschrap`, and `sahiph
 node scripts/add-special.mjs 2026-10-23 digests/special-2026-10-23.json
 ```
 
-`node scripts/add-week.mjs --rebuild` and `node scripts/build-weeks.mjs` rewrite the side-list pages too, and they keep the side-list tags in the header of every page.
+Jamaica Top 40 is the current chart, ranked `#1` through `#40`, not a week-grouped list. `data/special-jamaica-top40.json` is one snapshot: `as_of`, `updated_label`, `source`, and `tracks`. Each track is `rank`, `artist`, `title`, `subgenre`, `spotify` (a track or album URL or null), and `youtube` (a video URL or null). The page shows the chart date, the track count, and each row's rank, artist, title, and subgenre, with a gold Spotify or YouTube label when that URL is set. Replace the snapshot and rebuild the page with:
+
+```bash
+node scripts/update-jamaica-top40.mjs path/to/jamaica-top40.json
+```
+
+`node scripts/build-special.mjs` rewrites that chart page with the other side lists. `node scripts/add-week.mjs --rebuild` and `node scripts/build-weeks.mjs` rewrite the side-list pages too, including Jamaica Top 40, and they keep those tags in the header of every page.
 
 ## Picture
 
