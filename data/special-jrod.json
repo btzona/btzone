@@ -7,7 +7,7 @@
         "date": "11/26",
         "genre": "death metal/deathcore",
         "country": "Australia",
-        "spotify": null,
+        "spotify": "https://open.spotify.com/album/4bGH6HUZNy1w0oADdortiG",
         "youtube": null,
         "bandcamp": "https://grindheadrecords.bandcamp.com/album/oni-bloodbath"
       },
@@ -30,6 +30,36 @@
         "spotify": null,
         "youtube": null,
         "bandcamp": "https://jisei.bandcamp.com/album/gets-worse"
+      },
+      {
+        "band": "PeelingFlesh",
+        "album": "PeelingFlesh",
+        "date": "11/27",
+        "genre": "slam/brutal deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/3QPyiUIOXOLFyolBw7v7cu",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Sister Mary's Anus",
+        "album": "Sister Mary's Anus",
+        "date": "11/27",
+        "genre": "death metal/deathcore",
+        "country": "USA",
+        "spotify": null,
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Tundra",
+        "album": "Eternal: Eclipse (EP)",
+        "date": "11/27",
+        "genre": "deathcore",
+        "country": "USA",
+        "spotify": "https://open.spotify.com/album/09Paj38D1ocHUdu3jXZzv9",
+        "youtube": null,
+        "bandcamp": null
       }
     ]
   },
