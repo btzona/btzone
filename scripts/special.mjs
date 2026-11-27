@@ -1,6 +1,7 @@
 /**
- * Side lists for J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap.
- * Stored apart from data/catalog.json, one object per week slug.
+ * Side lists for J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap,
+ * plus the Jamaica Top 40 chart. Stored apart from data/catalog.json.
+ * The week lists are one object per week slug. The chart is one current snapshot.
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
@@ -57,6 +58,17 @@ export const LISTS = [
     title: "Mzansi Drill & Trap",
     tagline: "Hard South African trap, drill, and street rap.",
     description: "Hard South African trap, drill, and street rap.",
+  },
+];
+
+export const CHARTS = [
+  {
+    id: "jamaica",
+    file: "special-jamaica-top40.json",
+    page: "jamaica-top40.html",
+    title: "Jamaica Top 40",
+    tagline: "Current Top 40 dancehall and reggae in Jamaica, updated weekly.",
+    description: "Current Top 40 dancehall and reggae in Jamaica, updated weekly.",
   },
 ];
 
@@ -260,6 +272,125 @@ export function catalogFamilies(weeks) {
   return familiesIn(annotated);
 }
 
+export function readChart(chart) {
+  try {
+    const data = JSON.parse(readFileSync(listPath(chart), "utf8"));
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      throw new Error(`${chart.file} must be an object`);
+    }
+    if (data.tracks != null && !Array.isArray(data.tracks)) {
+      throw new Error(`${chart.file} tracks must be an array`);
+    }
+    return data;
+  } catch (err) {
+    if (err.code === "ENOENT") return { as_of: "", updated_label: "", tracks: [] };
+    throw err;
+  }
+}
+
+export function normalizeChart(raw) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    throw new Error("Chart JSON must be an object with as_of, updated_label, and tracks");
+  }
+  const asOf = String(raw.as_of || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf)) {
+    throw new Error(`as_of must look like 2026-11-26, got ${raw.as_of == null ? "" : raw.as_of}`);
+  }
+  const updatedLabel = String(raw.updated_label || "").trim();
+  if (!updatedLabel) throw new Error("updated_label is required");
+  if (!Array.isArray(raw.tracks) || !raw.tracks.length) {
+    throw new Error("tracks must be a non-empty array");
+  }
+  const tracks = raw.tracks.map((row, index) => {
+    if (!row || typeof row !== "object" || Array.isArray(row)) {
+      throw new Error(`Track ${index + 1} must be an object`);
+    }
+    const rank = Number(row.rank);
+    const artist = String(row.artist || row.band || "").trim();
+    const title = String(row.title || row.album || "").trim();
+    const subgenre = publicGenre(row.subgenre || row.genre || "");
+    if (!Number.isInteger(rank) || rank < 1) {
+      throw new Error(`Track ${index + 1} needs a rank of 1 or more`);
+    }
+    if (!artist || !title) {
+      throw new Error(`Track #${rank} needs an artist and a title`);
+    }
+    const spotify = cleanUrl(row.spotify, "spotify");
+    const youtube = cleanUrl(row.youtube, "youtube");
+    const label = `#${rank} ${artist} - ${title}`;
+    if (spotify === undefined) console.error(`Dropped a Spotify URL that is not a track or album page: ${label}`);
+    if (youtube === undefined) console.error(`Dropped a YouTube URL that is not a video page: ${label}`);
+    return {
+      rank,
+      artist,
+      title,
+      subgenre,
+      spotify: spotify || null,
+      youtube: youtube || null,
+    };
+  });
+  tracks.sort((a, b) => a.rank - b.rank);
+  const seen = new Set();
+  for (const track of tracks) {
+    if (seen.has(track.rank)) throw new Error(`Duplicate rank #${track.rank}`);
+    seen.add(track.rank);
+  }
+  const source = String(raw.source || "").trim();
+  return {
+    as_of: asOf,
+    updated_label: updatedLabel,
+    ...(source ? { source } : {}),
+    tracks,
+  };
+}
+
+export function replaceChart(chart, payload) {
+  const saved = normalizeChart(payload);
+  writeFileSync(listPath(chart), JSON.stringify(saved, null, 2) + "\n");
+  return saved;
+}
+
+function renderChartTrack(track) {
+  const rank = Number(track.rank);
+  const label = Number.isInteger(rank) && rank > 0 ? `#${rank}` : "#";
+  return `<li class="rel chart-row"><span class="rank">${escapeHtml(label)}</span><span class="chart-line"><span class="band">${escapeHtml(track.artist || "")}</span><span class="sep"> - </span><span class="album">${escapeHtml(track.title || "")}</span><span class="sep"> - </span><span class="style">${escapeHtml(publicGenre(track.subgenre || ""))}</span>${renderOutlinks({ spotify: track.spotify, youtube: track.youtube })}</span></li>`;
+}
+
+function renderChartPage(chart, data, families) {
+  const tracks = [...(Array.isArray(data.tracks) ? data.tracks : [])].sort(
+    (a, b) => Number(a.rank) - Number(b.rank)
+  );
+  const count = tracks.length;
+  const meta = data.updated_label
+    ? `Updated ${data.updated_label} · ${count} track${count === 1 ? "" : "s"}`
+    : `${count} track${count === 1 ? "" : "s"}`;
+  const section = count
+    ? `<p class="chart-meta">${escapeHtml(meta)}</p>
+  <ol class="chart">
+${tracks.map(renderChartTrack).join("\n")}
+  </ol>`
+    : `<p class="empty">No tracks on this chart yet.</p>`;
+  const body = `<header class="mast">
+  <p class="home-row">
+    <a class="wordmark" href="index.html">Extreme Metal Release Report</a>
+    <a class="back" href="index.html">← All weeks</a>
+  </p>
+  <h1 class="side-title">${escapeHtml(chart.title)}</h1>
+</header>
+${navRow(genreNav("index.html", families), "", chart.id)}
+<p class="lede">${escapeHtml(chart.tagline)}</p>
+<main id="content">
+  ${section}
+</main>
+${attributions(`<a href="index.html">All weeks</a>`)}`;
+  return pageShell({
+    title: chart.title,
+    description: chart.description,
+    depth: 0,
+    body,
+  });
+}
+
 export function writeSpecialPages() {
   const families = catalogFamilies(readCatalogWeeks());
   const counts = [];
@@ -268,6 +399,11 @@ export function writeSpecialPages() {
     writeFileSync(join(root, list.page), renderListPage(list, data, families));
     const total = Object.values(data).reduce((sum, week) => sum + ((week && week.releases) || []).length, 0);
     counts.push(`${list.title}: ${total}`);
+  }
+  for (const chart of CHARTS) {
+    const data = readChart(chart);
+    writeFileSync(join(root, chart.page), renderChartPage(chart, data, families));
+    counts.push(`${chart.title}: ${(data.tracks || []).length}`);
   }
   console.log(`Rebuilt side lists (${counts.join("; ")}).`);
 }

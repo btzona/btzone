@@ -14,6 +14,8 @@
  * A band + album already on that list is kept once. A null Spotify, YouTube,
  * or Bandcamp link is filled when the new row has one. Existing links are
  * not replaced. These rows are not added to data/catalog.json.
+ * Jamaica Top 40 is a ranked chart. Replace it with
+ * scripts/update-jamaica-top40.mjs instead of this command.
  */
 
 import { readFileSync } from "node:fs";

@@ -10,7 +10,7 @@
  *   node scripts/build-weeks.mjs
  *
  * The rebuild writes the weekly pages and then the side lists
- * (J-Rod Core, Lenny's Stoner Corner, Deutschrap, and Mzansi Drill & Trap) from their own data files.
+ * (J-Rod Core, Lenny's Stoner Corner, Deutschrap, Mzansi Drill & Trap, and Jamaica Top 40) from their own data files.
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
