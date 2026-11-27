@@ -22,6 +22,16 @@
         "bandcamp": "https://burntwitch.bandcamp.com/album/burnt-witch"
       },
       {
+        "band": "Denimachine",
+        "album": "Perfect Illusion (EP)",
+        "date": "11/27",
+        "genre": "stoner rock",
+        "country": "Canada",
+        "spotify": "https://open.spotify.com/album/68AuP1NUobmu72TAyGGNQw",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
         "band": "Floaters",
         "album": "The Harvest of the Mire (split)",
         "date": "11/25",
@@ -42,12 +52,32 @@
         "bandcamp": null
       },
       {
+        "band": "Mother Morgana",
+        "album": "Reflections of a Sunken Mind",
+        "date": "11/27",
+        "genre": "heavy psych/stoner rock",
+        "country": "Austria",
+        "spotify": "https://open.spotify.com/album/3K7xKQwxaYWUD0b2V3daNz",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
+        "band": "Motorik Road Trip",
+        "album": "Perceptions from a Dark Earth",
+        "date": "11/27",
+        "genre": "stoner/psychedelic doom",
+        "country": "UK",
+        "spotify": "https://open.spotify.com/album/0AhtRCffo1rA3cTUP21NDP",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
         "band": "Oceanlord",
         "album": "Eternal Tragedy",
         "date": "11/23",
         "genre": "psychedelic stoner/doom metal",
         "country": "Australia",
-        "spotify": null,
+        "spotify": "https://open.spotify.com/album/1nZcTuMSoJh42SN8PjlUqU",
         "youtube": null,
         "bandcamp": null
       },
@@ -92,12 +122,22 @@
         "bandcamp": "https://soulers.bandcamp.com/album/desperation-i"
       },
       {
+        "band": "Transonic Science",
+        "album": "Velvet Doom",
+        "date": "11/27",
+        "genre": "stoner/heavy psych rock",
+        "country": "Germany",
+        "spotify": "https://open.spotify.com/album/3nmEnhL3A9Xgk4GBcSagAq",
+        "youtube": null,
+        "bandcamp": null
+      },
+      {
         "band": "Wolf System",
         "album": "Eat the Coward",
         "date": "11/25",
         "genre": "stoner/heavy/doom metal",
         "country": "USA",
-        "spotify": null,
+        "spotify": "https://open.spotify.com/album/5rNEfJceD8S6BPtXHZ3D6b",
         "youtube": null,
         "bandcamp": null
       },
