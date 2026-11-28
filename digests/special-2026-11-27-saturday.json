@@ -1,0 +1,24 @@
+{
+  "deutschrap": [
+    {
+      "band": "Papke",
+      "album": "Gauna Sport",
+      "date": "11/27",
+      "genre": "Deutschrap",
+      "country": "Germany",
+      "spotify": "https://open.spotify.com/album/25MQ4YFTQThMgZQpODXFD7",
+      "youtube": null,
+      "bandcamp": null
+    },
+    {
+      "band": "PaulK",
+      "album": "Bonn Nuit",
+      "date": "11/27",
+      "genre": "Deutschrap",
+      "country": "Germany",
+      "spotify": "https://open.spotify.com/album/01XhLe4adlbjOEwPWYuxDJ",
+      "youtube": null,
+      "bandcamp": null
+    }
+  ]
+}
