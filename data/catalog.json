@@ -5,7 +5,7 @@
       "title": "Week of Nov 21–27, 2026",
       "kind": "friday",
       "sort": "2026-11-27",
-      "blurb": "174 releases · black metal, death metal, grind / crust, sludge / doom",
+      "blurb": "177 releases · black metal, death metal, grind / crust, sludge / doom",
       "sources": "Heavy Blog Is Heavy (11/27 roundup), Metal Injection (Weekly Injection 11/27), Metal Collision (Week 48), Heavy Music HQ release calendar, VM-Underground, Metal Archives, The Razor's Edge, Metal Connect, Bandcamp album pages, Spotify album pages. Metal War, Nine Circles and the To The Teeth playlist had no usable in-window post this week.",
       "sections": [
         {
@@ -955,6 +955,15 @@
               "place": "Russia",
               "spotify": null,
               "bandcamp": null
+            },
+            {
+              "band": "Odiosordo",
+              "album": "Effimera",
+              "date": "11/27",
+              "genre": "black metal/hardcore",
+              "place": "Italy",
+              "spotify": null,
+              "bandcamp": null
             }
           ]
         },
@@ -1383,6 +1392,24 @@
               "place": "Mexico",
               "spotify": null,
               "bandcamp": "https://zokguano.bandcamp.com/album/v-stagos-del-abismo"
+            },
+            {
+              "band": "PeelingFlesh",
+              "album": "PeelingFlesh",
+              "date": "11/27",
+              "genre": "slam/brutal death metal",
+              "place": "USA",
+              "spotify": "https://open.spotify.com/album/3QPyiUIOXOLFyolBw7v7cu",
+              "bandcamp": "https://uniqueleaderrecords.bandcamp.com/album/peeling-flesh"
+            },
+            {
+              "band": "Vile Creation",
+              "album": "Dawn of the Vile",
+              "date": "11/25",
+              "genre": "death metal",
+              "place": "Sweden",
+              "spotify": "https://open.spotify.com/album/4nUZoVzpr9WtKGsARS5hqi",
+              "bandcamp": "https://vilecreation.bandcamp.com/album/dawn-of-the-vile"
             }
           ]
         },
